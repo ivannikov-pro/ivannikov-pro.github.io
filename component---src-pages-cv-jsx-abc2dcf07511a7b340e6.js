@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkivannikov_pro_website=self.webpackChunkivannikov_pro_website||[]).push([[342],{8510:function(e,i,n){n.r(i);var a=n(6208);i.default=a.default}}]);
-//# sourceMappingURL=component---src-pages-cv-jsx-abc2dcf07511a7b340e6.js.map
