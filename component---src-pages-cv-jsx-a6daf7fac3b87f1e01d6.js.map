@@ -1,1 +1,0 @@
-{"version":3,"file":"component---src-pages-cv-jsx-a6daf7fac3b87f1e01d6.js","mappings":"uJAEA,UAAeA,EAAmB,O","sources":["webpack://ivannikov.pro-website/./src/pages/cv.jsx"],"sourcesContent":["//import React from 'react';\nimport CurriculumVitaePage from './curriculum-vitae';\nexport default CurriculumVitaePage;\n"],"names":["CurriculumVitaePage"],"sourceRoot":""}
