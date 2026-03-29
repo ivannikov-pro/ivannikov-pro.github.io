@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
 3:I[97321,["/_next/static/chunks/17m1.hixken2u.js","/_next/static/chunks/0vkp3j2sv_j0l.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":["$L2",null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"C6oBR5Wx9ptB2D7d5DB7T"}
+0:{"rsc":["$","$1","c",{"children":["$L2",null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"DQXJGaoQUhQQsMhjfPLPA"}
 5:null
 2:E{"digest":"NEXT_REDIRECT;replace;/curriculum-vitae;307;"}
