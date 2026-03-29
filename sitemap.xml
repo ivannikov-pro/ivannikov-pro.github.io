@@ -156,6 +156,48 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/" />
   </url>
   <url>
+    <loc>https://ivannikov.pro/legal/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/" />
+  </url>
+  <url>
+    <loc>https://ivannikov.pro/ru/legal/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/" />
+  </url>
+  <url>
+    <loc>https://ivannikov.pro/legal/privacy/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://ivannikov.pro/ru/legal/privacy/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/privacy/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/privacy/" />
+  </url>
+  <url>
+    <loc>https://ivannikov.pro/legal/terms/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/terms/" />
+  </url>
+  <url>
+    <loc>https://ivannikov.pro/ru/legal/terms/</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/terms/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/terms/" />
+  </url>
+  <url>
     <loc>https://ivannikov.pro/links/</loc>
     <lastmod>2026-03-29</lastmod>
     <priority>0.8</priority>
@@ -198,20 +240,6 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/open-source/" />
   </url>
   <url>
-    <loc>https://ivannikov.pro/open-source/ivannikov-pro-blog/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/open-source/ivannikov-pro-blog/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/open-source/ivannikov-pro-blog/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/open-source/ivannikov-pro-blog/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/open-source/ivannikov-pro-blog/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/open-source/ivannikov-pro-blog/" />
-  </url>
-  <url>
     <loc>https://ivannikov.pro/open-source/notcoin-database/</loc>
     <lastmod>2026-03-29</lastmod>
     <priority>0.8</priority>
@@ -224,34 +252,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/open-source/notcoin-database/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/open-source/notcoin-database/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/open-source/thewebmason-inc/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/open-source/thewebmason-inc/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/open-source/thewebmason-inc/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/open-source/thewebmason-inc/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/open-source/thewebmason-inc/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/open-source/thewebmason-inc/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/open-source/webmason-universe/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/open-source/webmason-universe/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/open-source/webmason-universe/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/open-source/webmason-universe/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/open-source/webmason-universe/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/open-source/webmason-universe/" />
   </url>
   <url>
     <loc>https://ivannikov.pro/portfolio/fibonacci-assistant-telegram-bot/</loc>
@@ -352,20 +352,6 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/world-millionaire-challenge/" />
   </url>
   <url>
-    <loc>https://ivannikov.pro/privacy/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/privacy/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/privacy/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/privacy/" />
-  </url>
-  <url>
     <loc>https://ivannikov.pro/products/ai-agent-kit/</loc>
     <lastmod>2026-03-29</lastmod>
     <priority>0.8</priority>
@@ -394,20 +380,6 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/products/" />
   </url>
   <url>
-    <loc>https://ivannikov.pro/products/ivannikov-pro-blog/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/products/ivannikov-pro-blog/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/products/ivannikov-pro-blog/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/products/ivannikov-pro-blog/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/products/ivannikov-pro-blog/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/products/ivannikov-pro-blog/" />
-  </url>
-  <url>
     <loc>https://ivannikov.pro/products/notcoin-database/</loc>
     <lastmod>2026-03-29</lastmod>
     <priority>0.8</priority>
@@ -420,34 +392,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/products/notcoin-database/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/products/notcoin-database/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/products/thewebmason-inc/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/products/thewebmason-inc/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/products/thewebmason-inc/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/products/thewebmason-inc/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/products/thewebmason-inc/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/products/thewebmason-inc/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/products/webmason-universe/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/products/webmason-universe/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/products/webmason-universe/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/products/webmason-universe/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/products/webmason-universe/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/products/webmason-universe/" />
   </url>
   <url>
     <loc>https://ivannikov.pro/projects/ai-agent-kit/</loc>
@@ -658,20 +602,6 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/sitemap/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/sitemap/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/terms/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/terms/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/terms/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/terms/</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/terms/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/terms/" />
   </url>
   <url>
     <loc>https://ivannikov.pro/ai-agent-kit/</loc>
