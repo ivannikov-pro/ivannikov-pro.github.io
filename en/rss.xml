@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aleksandr Ivannikov - Web3 & Blockchain Blog</title>
+    <link>https://ivannikov.pro/en/blog</link>
+    <description>Insights on blockchain engineering, smart contracts, and Web3 development.</description>
+    <language>en</language>
+    <atom:link href="https://ivannikov.pro/en/rss.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title><![CDATA[Blockchain Market Overview 2026]]></title>
+        <link>https://ivannikov.pro/en/blog/blockchain-market-overview</link>
+        <guid isPermaLink="true">https://ivannikov.pro/en/blog/blockchain-market-overview</guid>
+        <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[A comprehensive analysis of the current state of Web3, DeFi, and the blockchain market.]]></description>
+      </item>
+      <item>
+        <title><![CDATA[The Future of Web3 in 2026]]></title>
+        <link>https://ivannikov.pro/en/blog/future-of-web3</link>
+        <guid isPermaLink="true">https://ivannikov.pro/en/blog/future-of-web3</guid>
+        <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[Where blockchain technology is heading and how businesses can adapt.]]></description>
+      </item>
+      <item>
+        <title><![CDATA[Smart Contracts Security Checklist]]></title>
+        <link>https://ivannikov.pro/en/blog/smart-contracts-security</link>
+        <guid isPermaLink="true">https://ivannikov.pro/en/blog/smart-contracts-security</guid>
+        <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[A comprehensive guide on auditing and securing your Solidity smart contracts.]]></description>
+      </item>
+      <item>
+        <title><![CDATA[Telegram Mini Apps Complete Guide]]></title>
+        <link>https://ivannikov.pro/en/blog/telegram-mini-apps-guide</link>
+        <guid isPermaLink="true">https://ivannikov.pro/en/blog/telegram-mini-apps-guide</guid>
+        <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[Everything you need to know about building, launching, and scaling Telegram Mini Apps in 2026.]]></description>
+      </item>
+      <item>
+        <title><![CDATA[Comparing Top DeFi Protocols in 2026]]></title>
+        <link>https://ivannikov.pro/en/blog/defi-protocols-comparison</link>
+        <guid isPermaLink="true">https://ivannikov.pro/en/blog/defi-protocols-comparison</guid>
+        <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[A detailed comparison between Uniswap, Aave, Compound, and new challengers.]]></description>
+      </item>
+  </channel>
+</rss>
