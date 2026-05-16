@@ -8,6 +8,13 @@
     <atom:link href="https://ivannikov.pro/ru/rss.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title><![CDATA[26 критериев AI-Readiness: как я провёл аудит собственного сайта (и обогнал три B2B SaaS-гиганта)]]></title>
+        <link>https://ivannikov.pro/ru/blog/ai-readiness-self-audit</link>
+        <guid isPermaLink="true">https://ivannikov.pro/ru/blog/ai-readiness-self-audit</guid>
+        <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+        <description><![CDATA[Я прогнал 26-критерийный AI-readiness аудит на ivannikov.pro. Score: 42 → 80 за один день. Затем тот же аудит на Stripe (55), Twilio (UNRELIABLE), Linear (UNRELIABLE). Что это значит для B2B SaaS в 2026.]]></description>
+      </item>
+      <item>
         <title><![CDATA[Обзор рынка блокчейн 2026]]></title>
         <link>https://ivannikov.pro/ru/blog/blockchain-market-overview</link>
         <guid isPermaLink="true">https://ivannikov.pro/ru/blog/blockchain-market-overview</guid>

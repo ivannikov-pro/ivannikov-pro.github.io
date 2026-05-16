@@ -18,6 +18,22 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/about/" />
   </url>
   <url>
+    <loc>https://ivannikov.pro/blog/ai-readiness-self-audit/</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/ai-readiness-self-audit/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/ai-readiness-self-audit/" />
+  </url>
+  <url>
+    <loc>https://ivannikov.pro/ru/blog/ai-readiness-self-audit/</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/ai-readiness-self-audit/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/ai-readiness-self-audit/" />
+  </url>
+  <url>
     <loc>https://ivannikov.pro/blog/blockchain-market-overview/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>daily</changefreq>
