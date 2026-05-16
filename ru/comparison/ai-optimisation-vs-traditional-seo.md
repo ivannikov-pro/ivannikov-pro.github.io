@@ -9,6 +9,7 @@ icon: "⚖️"
 
 ## Общая картина
 
+
 | Параметр | Traditional SEO | AI Optimisation (GEO) |
 |---|---|---|
 | **Цель** | Ранжирование в top-10 Google blue links | Цитирование в AI-ответах (ChatGPT, Claude, Perplexity, Google AIO) |
@@ -26,6 +27,7 @@ icon: "⚖️"
 ## Различия в тактиках
 
 ### SEO-тактики, которые ещё работают
+
 - Keyword research → topic clusters
 - Backlinks от authority domains
 - Page speed (Core Web Vitals)
@@ -34,6 +36,7 @@ icon: "⚖️"
 - Sitemap, robots.txt
 
 ### GEO-тактики, которые SEO не покрывает
+
 - **llms.txt + llms-full.txt** — index для LLM-агентов (отдельно от sitemap.xml)
 - **AI crawler policy в robots.txt** — explicit `Allow:` для GPTBot, ClaudeBot, PerplexityBot, Google-Extended и др.
 - **JSON-LD enrichment** — schema.org FAQPage, Service+Offer, TechArticle, Person+Organization, sameAs на 15+ платформах
@@ -48,6 +51,7 @@ icon: "⚖️"
 ## Где SEO и GEO пересекаются
 
 Некоторые элементы работают и там и там:
+
 - Mobile-responsive design (UX для humans + LLM-кроулеров читающих mobile-first)
 - Page speed / SSR (LLM-кроулеры не рендерят JS — same E1 gate как Core Web Vitals favours)
 - Canonical URLs
@@ -58,6 +62,7 @@ icon: "⚖️"
 ## Когда фокусироваться на чём
 
 ### Выбирай Traditional SEO когда…
+
 - У твоего продукта informational long-tail keywords с high volume
 - Конкуренты heavily SEO-invested → защищаться обязательно
 - Аудитория хорошо конвертит с Google organic traffic
@@ -65,6 +70,7 @@ icon: "⚖️"
 - Контент уже имеет хорошие search rankings, нужно их улучшать
 
 ### Выбирай AI Optimisation когда…
+
 - Конкуренты ещё НЕ в AI-ответах → first-mover window (12–18 мес)
 - Аудитория всё чаще использует ChatGPT/Perplexity для research vendors
 - Продукт технический (developer tools, API-first SaaS) — твои buyers спрашивают AI про tech-recommendations
@@ -73,11 +79,13 @@ icon: "⚖️"
 - Категория видит high AI-mode search volume
 
 ### Выбирай оба (рекомендация для B2B SaaS в 2026)
+
 - Используй SEO-фундамент как базу (URLs, sitemap, canonical, mobile-responsive)
 - Накладывай GEO сверху (schema, llms.txt, evidence content, entity authority)
 - Меряй обе: organic Google traffic И AI-attributed traffic (server logs по `*Bot` user agents)
 
 ## Типичные ошибки
+
 
 | Ошибка | Что происходит |
 |---|---|
@@ -92,6 +100,7 @@ icon: "⚖️"
 
 Применили собственную методологию к этому сайту:
 
+
 | Phase | Score | Δ |
 |---|---|---|
 | Утром (no llms.txt, generic robots, JSON-LD partial) | ~42/100 | — |
@@ -101,8 +110,8 @@ icon: "⚖️"
 Один день structured фиксов поднял с «significant gaps» до «AI-ready». Потом прогнали competitors тем же скриптом:
 
 - **Stripe**: 55/100 (нет llms-full.txt, нет AI policy)
-- **Twilio**: 32/100 *UNRELIABLE* (E1 fail — SPA, нет SSR)
-- **Linear**: 40/100 *UNRELIABLE* (E1 fail — SPA, нет SSR)
+- **Twilio**: 32/100 _UNRELIABLE_ (E1 fail — SPA, нет SSR)
+- **Linear**: 40/100 _UNRELIABLE_ (E1 fail — SPA, нет SSR)
 
 Даже популярные B2B SaaS-гиганты проваливают базовый AI-readiness. Это открытое окно.
 

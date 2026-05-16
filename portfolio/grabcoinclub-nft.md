@@ -9,26 +9,28 @@ When building the on-chain infrastructure for a major GameFi ecosystem like Grab
 
 ## Metrics & Scale
 
-*   **Ecosystem Size:** 3 separate NFT collections interacting within a single game economy
-*   **Security Focus:** EIP-712 Signature Whitelists over Merkle Trees
-*   **Data Handling:** Managed millions of high-resolution 3D asset metadata combinations
-*   **Network:** Polygon (Matic)
+- **Ecosystem Size:** 3 separate NFT collections interacting within a single game economy
+- **Security Focus:** EIP-712 Signature Whitelists over Merkle Trees
+- **Data Handling:** Managed millions of high-resolution 3D asset metadata combinations
+- **Network:** Polygon (Matic)
 
 ## Tech Stack Overview
 
-*   **Smart Contracts:** Solidity, Core ERC721/ERC1155, EIP-712
-*   **Backend:** Node.js, Express, Redis, PostgreSQL (Auth & Signatures)
-*   **Frontend Web3 UI:** React, Web3.js, Ethers.js
-*   **Storage Infrastructure:** IPFS via Pinata, AWS S3
+- **Smart Contracts:** Solidity, Core ERC721/ERC1155, EIP-712
+- **Backend:** Node.js, Express, Redis, PostgreSQL (Auth & Signatures)
+- **Frontend Web3 UI:** React, Web3.js, Ethers.js
+- **Storage Infrastructure:** IPFS via Pinata, AWS S3
 
 ## Engineering Challenges
 
 ### 1. Complex Multi-Phase Whitelisting
+
 A GameFi project typically rewards players across multiple events (tournaments, Discord roles, partnerships). Managing a single static Merkle Tree across constantly shifting whitelist data is impossible to maintain and highly vulnerable.
 
 **Solution:** I implemented a decentralized authentication backend linking off-chain user profiles (Discord/Twitter) to their EVM wallet. Using EIP-712, the backend issued cryptographic signatures on-demand strictly during the user's allocated mint window. This decoupled database logic from the smart contract, saving immense amounts of gas and completely zeroing out early-minting bot attacks.
 
 ### 2. Evolving Metadata at Scale
+
 In-game assets level up. Their associated metadata cannot be statically pinned to IPFS and frozen forever without breaking game mechanics, but it also cannot be entirely centralized without sacrificing Web3 ethos.
 
 **Solution:** I engineered a hybrid metadata oracle. The smart contract pointed `tokenURI` to a high-availability Node.js API acting as a dynamic gateway. As assets "leveled up" in-game, the game server emitted events. The Node.js gateway intercepted these events, generated the updated JSON metadata for the asset, pinned the new version immutably to IPFS, and dynamically updated the gateway's cached response. This allowed real-time updates while maintaining decentralized provenance.

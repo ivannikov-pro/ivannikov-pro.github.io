@@ -9,6 +9,7 @@ A direct comparison of AI Optimisation (Generative Engine Optimization — GEO) 
 
 ## At a glance
 
+
 | Dimension | Traditional SEO | AI Optimisation (GEO) |
 |---|---|---|
 | **Goal** | Rank in top-10 Google blue links | Be cited in AI-generated answers (ChatGPT, Claude, Perplexity, Google AIO) |
@@ -26,6 +27,7 @@ A direct comparison of AI Optimisation (Generative Engine Optimization — GEO) 
 ## How they differ in tactics
 
 ### SEO tactics that still work
+
 - Keyword research → topic clusters
 - Backlinks from authority domains
 - Page speed (Core Web Vitals)
@@ -34,6 +36,7 @@ A direct comparison of AI Optimisation (Generative Engine Optimization — GEO) 
 - Sitemap, robots.txt
 
 ### GEO tactics SEO doesn't cover
+
 - **llms.txt + llms-full.txt** — index for LLM agents (covered separately from sitemap.xml)
 - **AI crawler policy in robots.txt** — explicit `Allow:` for GPTBot, ClaudeBot, PerplexityBot, Google-Extended, etc.
 - **JSON-LD enrichment** — schema.org FAQPage, Service+Offer, TechArticle, Person+Organization, sameAs across 15+ platforms
@@ -48,6 +51,7 @@ A direct comparison of AI Optimisation (Generative Engine Optimization — GEO) 
 ## Where SEO and GEO overlap
 
 Some elements serve both:
+
 - Mobile-responsive design (UX for both human + LLM crawlers reading mobile-first)
 - Page speed / SSR (LLM crawlers don't render JS — same E1 gate as Core Web Vitals favours)
 - Canonical URLs
@@ -58,6 +62,7 @@ Some elements serve both:
 ## When to focus on which
 
 ### Choose Traditional SEO when…
+
 - Your product has informational long-tail keywords with high volume
 - Your competitors are heavily SEO-invested → you must defend
 - Your audience converts well from Google organic traffic
@@ -65,6 +70,7 @@ Some elements serve both:
 - Your content already has good search rankings to improve
 
 ### Choose AI Optimisation when…
+
 - Your competitors are NOT yet in AI answers → first-mover window (12–18 mo)
 - Your audience increasingly uses ChatGPT/Perplexity to research vendors
 - Your product is technical (developer tools, API-first SaaS) — your buyers ask AI for tech recommendations
@@ -73,11 +79,13 @@ Some elements serve both:
 - Your category sees high AI-mode search volume
 
 ### Choose both (recommended for B2B SaaS in 2026)
+
 - Use SEO foundations as base (URLs, sitemap, canonical, mobile-responsive)
 - Layer GEO on top (schema, llms.txt, evidence content, entity authority)
 - Measure both: organic Google traffic AND AI-attributed traffic (server logs for `*Bot` user agents)
 
 ## Common mistakes
+
 
 | Mistake | What happens |
 |---|---|
@@ -92,6 +100,7 @@ Some elements serve both:
 
 We applied our own methodology to this site:
 
+
 | Phase | Score | Change |
 |---|---|---|
 | Morning (no llms.txt, generic robots, JSON-LD partial) | ~42/100 | — |
@@ -101,8 +110,8 @@ We applied our own methodology to this site:
 One day of structured fixes lifted us from "significant gaps" to "AI-ready" tier. We then benchmarked competitors with same script:
 
 - **Stripe**: 55/100 (no llms-full.txt, no AI policy)
-- **Twilio**: 32/100 *UNRELIABLE* (E1 fail — SPA, no SSR)
-- **Linear**: 40/100 *UNRELIABLE* (E1 fail — SPA, no SSR)
+- **Twilio**: 32/100 _UNRELIABLE_ (E1 fail — SPA, no SSR)
+- **Linear**: 40/100 _UNRELIABLE_ (E1 fail — SPA, no SSR)
 
 Even popular B2B SaaS giants fail basic AI-readiness. This is the open window.
 

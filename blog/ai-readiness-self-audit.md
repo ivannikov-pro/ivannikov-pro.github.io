@@ -19,17 +19,22 @@ If you run a B2B SaaS and rely on organic traffic, this matters. Discovery has s
 Five categories, 100 points total, plus a hard pre-condition gate:
 
 ### E1 gate (pre-condition)
-**Content accessible without JavaScript execution.** LLM crawlers (`GPTBot`, `ClaudeBot`, `PerplexityBot`) do not run JS. If your site requires it to render content, the whole audit is *UNRELIABLE* — fix this first. This is where SPAs lose, hard.
+
+**Content accessible without JavaScript execution.** LLM crawlers (`GPTBot`, `ClaudeBot`, `PerplexityBot`) do not run JS. If your site requires it to render content, the whole audit is _UNRELIABLE_ — fix this first. This is where SPAs lose, hard.
 
 ### A. Discovery (18 pts)
+
 Can an LLM agent find your content from a cold start? Look for:
+
 - `/llms.txt` — site index in the [llmstxt.org](https://llmstxt.org) format.
 - `/llms-full.txt` — extended version with concatenated content.
 - `/robots.txt` with explicit `Allow:` for AI crawlers (not just `User-agent: *`).
 - `/sitemap.xml` with `<lastmod>` tags.
 
 ### B. Per-page artifacts (22 pts)
+
 On individual pages:
+
 - `.md` mirrors — `/page.md` returns clean Markdown. Single most effective fix for SPAs.
 - JSON-LD `TechArticle` / `Article` / `Person` / `Organization` schema in `<head>`.
 - `<link rel="canonical">` present and accurate.
@@ -37,6 +42,7 @@ On individual pages:
 - OpenGraph + Twitter Card metadata.
 
 ### C. API spec (25 pts) — skip if not an API product
+
 - OpenAPI on a predictable URL (`/openapi.json`).
 - Schema validates clean.
 - Per-endpoint examples (request + response).
@@ -45,6 +51,7 @@ On individual pages:
 - Versioning in spec and URL.
 
 ### D. Content (20 pts)
+
 - `curl` example per endpoint.
 - Realistic payloads (not `{"foo": "bar"}`).
 - Error codes documented.
@@ -54,6 +61,7 @@ On individual pages:
 - SDK code examples alongside REST.
 
 ### E. Hygiene (15 pts)
+
 - No-JS access (the E1 gate above).
 - Stable URLs (no hash-routing).
 - Version in URL for citation stability.
@@ -67,6 +75,7 @@ The full checklist with point allocations and verification methods is in the [op
 
 Before fixes (manual audit, 2026-05-16 morning):
 
+
 | Category | Score |
 |---|---|
 | A. Discovery | 4/18 |
@@ -78,6 +87,7 @@ C and D are partial / N/A for a portfolio site (no API product).
 
 After fixes (same day, evening):
 
+
 | Category | Score |
 |---|---|
 | A. Discovery | 15/18 |
@@ -86,6 +96,7 @@ After fixes (same day, evening):
 | **Total** | **38/55 → ~69/100 normalized; 80/100 by automated script** |
 
 What changed in one day:
+
 1. **Added `/llms.txt`** with proper llmstxt.org structure (+6).
 2. **Added `/llms-full.txt`** with ~3000 words of canonical content (+5).
 3. **Updated `/robots.txt`** with explicit `Allow:` for 20+ AI crawlers including GPTBot, ClaudeBot, PerplexityBot, Google-Extended, anthropic-ai, cohere-ai, meta-externalagent (+3).
@@ -98,12 +109,13 @@ What changed in one day:
 
 I ran the [automated subset of the audit](https://github.com/ivannikov-pro/ai-readiness-audit/blob/main/scripts/check-ai-readiness.sh) against three popular B2B SaaS products:
 
+
 | Site | E1 gate | Score | Notes |
 |---|---|---|---|
 | **ivannikov.pro** | ✅ PASS | **80/100** | After Week 1 fixes — SSG + llms.txt + robots AI policy + sitemap |
 | **Stripe** | ✅ PASS | **55/100** | Has llms.txt (no H1 though), no llms-full.txt, generic robots.txt, no sitemap.xml at root, no OpenGraph |
-| **Twilio** | ❌ FAIL | 32/100 *UNRELIABLE* | SPA — body empty without JS. LLM crawlers cannot read content. |
-| **Linear** | ❌ FAIL | 40/100 *UNRELIABLE* | Has llms.txt (218 lines!) and llms-full.txt, but main site is JS-rendered. |
+| **Twilio** | ❌ FAIL | 32/100 _UNRELIABLE_ | SPA — body empty without JS. LLM crawlers cannot read content. |
+| **Linear** | ❌ FAIL | 40/100 _UNRELIABLE_ | Has llms.txt (218 lines!) and llms-full.txt, but main site is JS-rendered. |
 
 The takeaway: **two of three B2B SaaS giants are invisible to LLM crawlers from their public marketing sites.** They likely get cited via secondary signals (docs subdomains, third-party mentions, training data lag), but they are leaving organic AI visibility on the table.
 
@@ -116,21 +128,25 @@ If your competitors are in similar shape, the **first-mover window in your niche
 Three patterns I see consistently:
 
 ### 1. SPA-by-default (the E1 trap)
+
 Single-page apps render content client-side. To you it looks fine; to a crawler it's an empty `<body>`. Stripe got this right by serving HTML directly. Twilio and Linear are paying the SPA tax. Fixes range from "switch a few key pages to SSR" to "add per-page `.md` mirrors via a route handler". The Markdown mirror is the highest ROI fix.
 
 ### 2. No explicit AI policy in robots.txt
+
 A bare `User-agent: *` is technically permissive, but explicit `Allow:` directives for `GPTBot`, `ClaudeBot`, etc. are a positive signal — and a place where you can also disallow if you want to. Most teams just have neither.
 
 ### 3. JSON-LD missing or stale
-If you have a `<head>` populated with `Person` / `Organization` / `Article` JSON-LD, agents can resolve entity references. If you don't, you are betting on the LLM's own retrieval. With explicit `sameAs` (linking GitHub, LinkedIn, Telegram, X, Upwork), you become *one* entity in the agent's mental model — instead of three handles with a similar name.
+
+If you have a `<head>` populated with `Person` / `Organization` / `Article` JSON-LD, agents can resolve entity references. If you don't, you are betting on the LLM's own retrieval. With explicit `sameAs` (linking GitHub, LinkedIn, Telegram, X, Upwork), you become _one_ entity in the agent's mental model — instead of three handles with a similar name.
 
 ---
 
 ## Why this matters more for founder-led brands
 
-For studios, agencies, and freelancer-led SaaS, there is a second dimension I call **entity authority** — does the LLM recognise *who* you are as one person, or three different ones?
+For studios, agencies, and freelancer-led SaaS, there is a second dimension I call **entity authority** — does the LLM recognise _who_ you are as one person, or three different ones?
 
 If you have:
+
 - GitHub `your-name`
 - LinkedIn `your.name`
 - Twitter `your_name`
@@ -151,6 +167,7 @@ The methodology, prompt, bash script, and example reports are MIT-licensed:
 Three ways to use it:
 
 1. **Bash script** for a 30-second automated subset:
+
    ```bash
    ./scripts/check-ai-readiness.sh https://yourcompany.com
    ```

@@ -9,20 +9,22 @@ Day traders operating in volatile crypto markets cannot always rely on heavy des
 
 ## Technical Architecture
 
-*   **Core Framework:** `grammy.js` (TypeScript)
-*   **Data Aggregation:** Binance WebSocket Streams + REST Fallbacks
-*   **State Management:** Redis (for session data and rate-limiting)
-*   **Infrastructure:** Node.js, Docker, deployed on AWS EC2
-*   **Database:** PostgreSQL (User preferences and subscription tracking)
+- **Core Framework:** `grammy.js` (TypeScript)
+- **Data Aggregation:** Binance WebSocket Streams + REST Fallbacks
+- **State Management:** Redis (for session data and rate-limiting)
+- **Infrastructure:** Node.js, Docker, deployed on AWS EC2
+- **Database:** PostgreSQL (User preferences and subscription tracking)
 
 ## Engineering Challenges
 
 ### 1. Handling High-Frequency Data Streams
+
 Calculating accurate Fibonacci levels requires absolute precision on the high and low points of a specific timeframe. The bot needed to parse hundreds of price ticks per second without blocking the Node.js event loop or lagging behind the live market.
 
 **Solution:** I implemented a specialized WebSocket buffer utilizing a sliding window algorithm. Instead of calculating levels on every single tick, the bot aggregated OHLCV (Open, High, Low, Close, Volume) data into memory and only triggered expensive calculations when a user requested them or when price crossed a pre-calculated critical threshold.
 
 ### 2. Conversational State in Telegram
+
 Calculating complex technical indicators requires user input (e.g., specific asset pairs, timeframes, and anchor points), which is difficult to manage cleanly in a linear chat interface.
 
 **Solution:** I leveraged the advanced conversational capabilities of `grammy.js`. I built a state machine that managed user sessions in Redis, guiding them through interactive inline keyboards rather than forcing them to type rigid text commands. This vastly improved the UX, reducing the average time to get a calculation from 15 seconds down to 2 taps.

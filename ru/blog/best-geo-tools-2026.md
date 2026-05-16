@@ -3,7 +3,19 @@ title: "Лучшие GEO-инструменты 2026: сравнение 10 AI V
 date: "2026-05-16"
 description: "Подробное сравнение 10 лучших инструментов для Generative Engine Optimization (GEO) и AI visibility tracking в 2026: Profound, Athena HQ, Otterly, BrandLight, Peec, Semrush AIO, Ahrefs Brand Radar и других. Цены, фичи, кому подходит."
 image: "/images/blog/3.png"
-tags: ["geo", "ai-visibility", "ai-seo", "profound", "athena-hq", "otterly", "b2b-saas", "инженерия", "research", "сравнение"]
+tags:
+  [
+    "geo",
+    "ai-visibility",
+    "ai-seo",
+    "profound",
+    "athena-hq",
+    "otterly",
+    "b2b-saas",
+    "инженерия",
+    "research",
+    "сравнение",
+  ]
 ---
 
 # Лучшие GEO-инструменты 2026: сравнение 10 AI Visibility платформ
@@ -16,8 +28,9 @@ tags: ["geo", "ai-visibility", "ai-seo", "profound", "athena-hq", "otterly", "b2
 
 ## 10 инструментов одной таблицей
 
+
 | # | Tool | Tier | Цена | Best for |
-|---|------|------|------|----------|
+|---|---|---|---|---|
 | 1 | Profound | Enterprise | $499–$5K+/мес | Established brands, marketing teams |
 | 2 | Conductor | Enterprise | ~$61K/год+ | Large enterprises, global brands |
 | 3 | BrightEdge | Enterprise | Custom | Enterprise SEO teams |
@@ -32,6 +45,7 @@ tags: ["geo", "ai-visibility", "ai-seo", "profound", "athena-hq", "otterly", "b2
 ## Tier 1: Enterprise ($2K–$15K+/мес)
 
 ### Profound (tryprofound.com)
+
 **800-pound горилла**. $155M total funding, $1B оценка Feb 2026 (Series C, Lightspeed). Tracking AI-видимости across 10+ engines (ChatGPT, Claude, Perplexity, Gemini, Google AIO, Copilot). Conversation Explorer для prompt analysis. Agent Analytics для traffic attribution. AI Workflows для content optimization.
 
 - **Цена**: Lite $499/мес, Enterprise $2,000–$5,000+/мес (custom)
@@ -39,6 +53,7 @@ tags: ["geo", "ai-visibility", "ai-seo", "profound", "athena-hq", "otterly", "b2
 - **Gaps**: No open-source / self-host, no implementation, дорого для SMB
 
 ### Conductor
+
 Established SEO-платформа с "Share of Model" tracking и AI Search Performance reports.
 
 - **Цена**: Custom, enterprise-only. Avg контракт ~$61K/год, до $180K+
@@ -46,6 +61,7 @@ Established SEO-платформа с "Share of Model" tracking и AI Search Per
 - **Gaps**: Prohibitively expensive, no self-serve, no technical audit
 
 ### BrightEdge
+
 Enterprise SEO с Generative Parser для декодирования Google AI Overviews.
 
 - **Цена**: Enterprise custom
@@ -54,6 +70,7 @@ Enterprise SEO с Generative Parser для декодирования Google AI 
 ## Tier 2: Mid-Market ($95–$495/мес)
 
 ### AthenaHQ (athenahq.ai)
+
 YC-backed. AI-visibility tracking across ChatGPT, Perplexity, Claude, Gemini, Copilot, Grok. Action Center с AI-agents для content gap analysis. Shopify/GA integration для ROI attribution.
 
 - **Цена**: Self-serve ~$295/мес (credit-based, ~3,500 credits), Enterprise $2,000+/мес
@@ -61,6 +78,7 @@ YC-backed. AI-visibility tracking across ChatGPT, Perplexity, Claude, Gemini, Co
 - **Gaps**: Credit-based = unpredictable costs, overkill для solopreneurs
 
 ### BrandLight (brandlight.ai)
+
 AI Engine Optimization с source attribution. SOC 2 Type II compliant — appeals enterprise security buyers.
 
 - **Цена**: Entry ~$199/мес, enterprise custom
@@ -68,6 +86,7 @@ AI Engine Optimization с source attribution. SOC 2 Type II compliant — appeal
 - **Gaps**: Sales-led pricing, no technical audit
 
 ### Peec AI (peec.ai)
+
 Real-time alerts, share of voice, competitive benchmarking, sentiment scoring.
 
 - **Цена**: Starter $95/мес (50 prompts), Pro $245/мес (150), Advanced $495/мес (350)
@@ -75,6 +94,7 @@ Real-time alerts, share of voice, competitive benchmarking, sentiment scoring.
 - **Gaps**: Limited models per plan (choose 3), add-on fees для extra engines
 
 ### Writesonic (GEO Suite)
+
 Tracking + active content creation, генерирует optimized content in-platform.
 
 - **Best for**: Content marketing teams wanting all-in-one
@@ -82,6 +102,7 @@ Tracking + active content creation, генерирует optimized content in-pl
 ## Tier 3: Budget-Friendly ($29–$99/мес)
 
 ### Otterly.AI (otterly.ai)
+
 Price leader для serious tracking. Prompt-based monitoring across ChatGPT, Perplexity, Google AIO, Copilot, Gemini. Citation/link analysis, GEO audits.
 
 - **Цена**: Lite ~$29/мес (15 prompts), Standard ~$189/мес (100 prompts + GEO audits), Premium ~$489/мес (400+)
@@ -89,6 +110,7 @@ Price leader для serious tracking. Prompt-based monitoring across ChatGPT, Pe
 - **Gaps**: Add-on costs для extra engines (Gemini, Google AI Mode), overage ~$99/100 extra prompts
 
 ### GrackerAI (gracker.ai)
+
 **Purpose-built для B2B SaaS** (cybersec, fintech, dev tools). Automated content engine — articles, listicles, comparison pages, FAQs. pSEO portals (glossaries, CVE hubs).
 
 - **Цена**: Free Seed audit, Starter $99/мес (100 prompts/day, 3 engines, 3 articles/мес), Scale $499/мес (400 prompts/day, 6 engines, 10 articles/мес)
@@ -98,12 +120,14 @@ Price leader для serious tracking. Prompt-based monitoring across ChatGPT, Pe
 ## Tier 4: Traditional SEO + AI Modules (Bundled)
 
 ### Semrush AI Visibility Toolkit
+
 Интегрирован в existing Semrush subscriptions. AI Visibility Score (0-100), prompt tracking across ChatGPT Search/Google AIO/AI Mode/Gemini/Perplexity. Brand performance/sentiment. Competitor gap analysis. AI Search Site Audit.
 
 - **Цена**: Bundled в Semrush One (existing subscription), Enterprise AIO premium add-on
 - **Best for**: SEO teams уже в Semrush ecosystem
 
 ### Ahrefs Brand Radar
+
 AI Share of Voice, citation/sentiment analysis, custom prompt tracking, 370M+ prompts/мес processing.
 
 - **Цена**: Part of existing Ahrefs plans
@@ -113,6 +137,7 @@ AI Share of Voice, citation/sentiment analysis, custom prompt tracking, 370M+ pr
 ## Open-source альтернативы
 
 ### ai-readiness-audit (наша работа)
+
 26 + 13 критериев framework. Bash CLI + comprehensive Markdown checklists + ready-to-paste Claude prompt. MIT-licensed. Companion entity-authority checklist для founder-led brands.
 
 - **Цена**: Free, self-host
@@ -120,24 +145,29 @@ AI Share of Voice, citation/sentiment analysis, custom prompt tracking, 370M+ pr
 - **Best for**: DIY founders, agencies wanting a methodology, devs evaluating before buying SaaS
 
 ### aeo-audit, ai-ready-website, check-ai
+
 Различные GitHub-проекты focused на narrow slices (schema validation, repo configs, API readiness). Все gaps: no comprehensive scoring, no entity authority, no implementation playbook.
 
 ## Как выбирать
 
 ### Шаг 1: Решить audit vs tracking
+
 - **Нужно знать score / gaps**: free audit tools (наш OSS framework или vendor freemium)
 - **Нужен ongoing monitoring**: paid SaaS
 
 ### Шаг 2: Match budget tier к product stage
+
 - **Pre-revenue / bootstrapped**: Otterly.AI Lite ($29/мес) или self-host OSS
 - **$1M–$10M ARR (B2B SaaS)**: AthenaHQ ($295/мес) или GrackerAI Scale ($499/мес) — оба fit ICP
 - **$10M–$50M ARR**: Profound Lite ($499/мес) или Peec AI Pro ($245/мес)
 - **$50M+ ARR**: Profound Enterprise, Conductor, BrightEdge
 
 ### Шаг 3: Decide tracking vs implementation
+
 **Критично**: платить $500/мес чтобы знать что у тебя проблема — не фиксит проблему. Если score 30/100, tracking говорит, что 30/100 каждую неделю. Implementation — отдельно.
 
 Опции для implementation:
+
 - **In-house** (твоя dev команда) — нужно чтобы выучили GEO-методологию
 - **Service** ($8K–$15K project) — мы делаем за тебя ([подробнее](/ru/services/ai-optimisation))
 - **GrackerAI** — генерируют контент но не фиксят technical audit issues
@@ -168,6 +198,7 @@ Total Year 1: ~$15K (one-time) + $1,140–$2,268 (annual tracking) = меньш�
 Когда complete, наш tracker будет единственным solution предлагающим: open-source MIT, self-hostable, bash CLI + Web UI, entity authority companion, Perplexity API integration, и built-in implementation playbook.
 
 ## TL;DR — что покупать
+
 
 | Ситуация | Buy |
 |---|---|

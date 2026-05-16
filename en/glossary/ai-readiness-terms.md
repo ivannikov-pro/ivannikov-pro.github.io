@@ -1,7 +1,18 @@
 ---
 title: "AI Readiness Glossary"
 description: "Definitive glossary of 25+ terms used in AI-readiness, GEO (Generative Engine Optimization), and LLM-visibility for B2B SaaS in 2026."
-keywords: ["AI readiness", "GEO", "Generative Engine Optimization", "LLM visibility", "AI SEO", "llms.txt", "schema.org", "RAG", "AI crawler"]
+keywords:
+  [
+    "AI readiness",
+    "GEO",
+    "Generative Engine Optimization",
+    "LLM visibility",
+    "AI SEO",
+    "llms.txt",
+    "schema.org",
+    "RAG",
+    "AI crawler",
+  ]
 icon: "📖"
 ---
 
@@ -26,6 +37,7 @@ A four-component model for evaluating content's likelihood of being cited by AI:
 ## Citation hook
 
 A specific content element designed to boost AI citation likelihood:
+
 - Verifiable statistic with source attribution: **+22% citation likelihood**
 - Strategic pull quote (aphoristic claim in `<blockquote>`): **+37% citation likelihood**
 - Original research / proprietary data: +30–40%

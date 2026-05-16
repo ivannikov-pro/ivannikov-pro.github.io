@@ -19,17 +19,22 @@ tags: ["ai-readiness", "ai-seo", "geo", "llms-txt", "schema-org", "b2b-saas", "�
 Пять категорий, 100 баллов суммарно, плюс жёсткий pre-condition gate:
 
 ### E1 gate (pre-condition)
-**Контент доступен без выполнения JavaScript.** LLM-кроулеры (`GPTBot`, `ClaudeBot`, `PerplexityBot`) JS не исполняют. Если ваш сайт требует JS для отрисовки контента — весь аудит *UNRELIABLE*, чините это первым. Именно здесь сильно теряют SPA-сайты.
+
+**Контент доступен без выполнения JavaScript.** LLM-кроулеры (`GPTBot`, `ClaudeBot`, `PerplexityBot`) JS не исполняют. Если ваш сайт требует JS для отрисовки контента — весь аудит _UNRELIABLE_, чините это первым. Именно здесь сильно теряют SPA-сайты.
 
 ### A. Discovery (18 баллов)
+
 Может ли AI-агент найти ваш контент с холодного старта? Смотрим:
+
 - `/llms.txt` — индекс сайта в формате [llmstxt.org](https://llmstxt.org).
 - `/llms-full.txt` — расширенная версия с конкатенированным контентом.
 - `/robots.txt` с явным `Allow:` для AI-кроулеров (не только `User-agent: *`).
 - `/sitemap.xml` с тегами `<lastmod>`.
 
 ### B. Per-page артефакты (22 балла)
+
 На отдельных страницах:
+
 - `.md`-зеркала — `/page.md` возвращает чистый Markdown. Самый эффективный single fix для SPA.
 - JSON-LD `TechArticle` / `Article` / `Person` / `Organization` schema в `<head>`.
 - `<link rel="canonical">` присутствует и точен.
@@ -37,6 +42,7 @@ tags: ["ai-readiness", "ai-seo", "geo", "llms-txt", "schema-org", "b2b-saas", "�
 - OpenGraph + Twitter Card метаданные.
 
 ### C. API spec (25 баллов) — skip если у вас не API-продукт
+
 - OpenAPI на предсказуемом URL (`/openapi.json`).
 - Валидная спека.
 - Per-endpoint примеры (request + response).
@@ -45,6 +51,7 @@ tags: ["ai-readiness", "ai-seo", "geo", "llms-txt", "schema-org", "b2b-saas", "�
 - Версионирование в спеке и URL.
 
 ### D. Контент (20 баллов)
+
 - `curl`-пример на каждый endpoint.
 - Реалистичные payloads (не `{"foo": "bar"}`).
 - Error codes документированы.
@@ -54,6 +61,7 @@ tags: ["ai-readiness", "ai-seo", "geo", "llms-txt", "schema-org", "b2b-saas", "�
 - SDK code examples рядом с REST.
 
 ### E. Hygiene (15 баллов)
+
 - No-JS доступ (E1 gate выше).
 - Стабильные URL (без hash-routing).
 - Версия в URL для стабильной цитируемости.
@@ -67,6 +75,7 @@ tags: ["ai-readiness", "ai-seo", "geo", "llms-txt", "schema-org", "b2b-saas", "�
 
 До фиксов (manual audit, 2026-05-16 утром):
 
+
 | Категория | Score |
 |---|---|
 | A. Discovery | 4/18 |
@@ -76,6 +85,7 @@ tags: ["ai-readiness", "ai-seo", "geo", "llms-txt", "schema-org", "b2b-saas", "�
 
 После фиксов (вечер того же дня):
 
+
 | Категория | Score |
 |---|---|
 | A. Discovery | 15/18 |
@@ -84,6 +94,7 @@ tags: ["ai-readiness", "ai-seo", "geo", "llms-txt", "schema-org", "b2b-saas", "�
 | **Total** | **38/55 → ~69/100 manual; 80/100 по автоматическому скрипту** |
 
 Что изменилось за один день:
+
 1. **Добавил `/llms.txt`** в формате llmstxt.org (+6).
 2. **Добавил `/llms-full.txt`** с ~3000 слов canonical-контента (+5).
 3. **Обновил `/robots.txt`** с явным `Allow:` для 20+ AI-кроулеров: GPTBot, ClaudeBot, PerplexityBot, Google-Extended, anthropic-ai, cohere-ai, meta-externalagent (+3).
@@ -96,12 +107,13 @@ tags: ["ai-readiness", "ai-seo", "geo", "llms-txt", "schema-org", "b2b-saas", "�
 
 Прогнал [автоматический subset аудита](https://github.com/ivannikov-pro/ai-readiness-audit/blob/main/scripts/check-ai-readiness.sh) на трёх популярных B2B SaaS:
 
+
 | Сайт | E1 gate | Score | Notes |
 |---|---|---|---|
 | **ivannikov.pro** | ✅ PASS | **80/100** | После Week 1 фиксов — SSG + llms.txt + robots AI policy + sitemap |
 | **Stripe** | ✅ PASS | **55/100** | Есть llms.txt (без H1), нет llms-full.txt, generic robots.txt, нет sitemap.xml в корне, нет OpenGraph |
-| **Twilio** | ❌ FAIL | 32/100 *UNRELIABLE* | SPA — body пустой без JS. LLM-кроулеры не читают контент. |
-| **Linear** | ❌ FAIL | 40/100 *UNRELIABLE* | Есть llms.txt (218 строк!) и llms-full.txt, но основной сайт JS-рендеренный. |
+| **Twilio** | ❌ FAIL | 32/100 _UNRELIABLE_ | SPA — body пустой без JS. LLM-кроулеры не читают контент. |
+| **Linear** | ❌ FAIL | 40/100 _UNRELIABLE_ | Есть llms.txt (218 строк!) и llms-full.txt, но основной сайт JS-рендеренный. |
 
 Вывод: **два из трёх B2B SaaS-гигантов невидимы для LLM-кроулеров со своих публичных маркетинговых сайтов.** Они скорее всего цитируются через вторичные сигналы (docs-поддомены, third-party упоминания, лаг training data), но органическую AI-видимость они оставляют на столе.
 
@@ -114,13 +126,16 @@ tags: ["ai-readiness", "ai-seo", "geo", "llms-txt", "schema-org", "b2b-saas", "�
 Три паттерна, которые я вижу постоянно:
 
 ### 1. SPA по умолчанию (E1 trap)
+
 Single-page приложения рендерят контент на клиенте. Для вас выглядит ОК — для кроулера это пустой `<body>`. Stripe закрыл это правильно, отдавая HTML напрямую. Twilio и Linear платят SPA-tax. Фиксы — от «переключить несколько ключевых страниц на SSR» до «добавить per-page `.md` зеркала через route handler». Markdown-зеркало — fix с самым высоким ROI.
 
 ### 2. Нет явной AI-policy в robots.txt
+
 Голый `User-agent: *` технически разрешительный, но явные `Allow:` для `GPTBot`, `ClaudeBot` и т.д. — позитивный сигнал, плюс ещё возможность тонко запретить если хочется. У большинства команд просто нет ни того, ни другого.
 
 ### 3. JSON-LD отсутствует или устарел
-Если у вас в `<head>` `Person` / `Organization` / `Article` JSON-LD — агенты могут резолвить entity references. Если нет — вы ставите на собственный retrieval LLM. С явным `sameAs` (линковка GitHub, LinkedIn, Telegram, X, Upwork) вы становитесь *одной* сущностью в ментальной модели агента — вместо трёх handles с похожим именем.
+
+Если у вас в `<head>` `Person` / `Organization` / `Article` JSON-LD — агенты могут резолвить entity references. Если нет — вы ставите на собственный retrieval LLM. С явным `sameAs` (линковка GitHub, LinkedIn, Telegram, X, Upwork) вы становитесь _одной_ сущностью в ментальной модели агента — вместо трёх handles с похожим именем.
 
 ---
 
@@ -129,6 +144,7 @@ Single-page приложения рендерят контент на клиен
 Для студий, агентств и freelancer-led SaaS есть второе измерение, которое я называю **entity authority** — узнаёт ли LLM, что вы — один человек, или три разных?
 
 Если у вас:
+
 - GitHub `your-name`
 - LinkedIn `your.name`
 - Twitter `your_name`
@@ -149,6 +165,7 @@ Single-page приложения рендерят контент на клиен
 Три способа использовать:
 
 1. **Bash-скрипт** для 30-секундного автоматического subset:
+
    ```bash
    ./scripts/check-ai-readiness.sh https://yourcompany.com
    ```

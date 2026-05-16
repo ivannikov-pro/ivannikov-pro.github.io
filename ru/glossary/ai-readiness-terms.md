@@ -1,7 +1,8 @@
 ---
 title: "Глоссарий AI Readiness"
 description: "Полный глоссарий 25+ терминов из AI-readiness, GEO (Generative Engine Optimization) и LLM-видимости для B2B SaaS в 2026."
-keywords: ["AI readiness", "GEO", "AI SEO", "llms.txt", "schema.org", "RAG", "AI crawler", "LLM видимость"]
+keywords:
+  ["AI readiness", "GEO", "AI SEO", "llms.txt", "schema.org", "RAG", "AI crawler", "LLM видимость"]
 icon: "📖"
 ---
 
@@ -26,6 +27,7 @@ icon: "📖"
 ## Citation hook
 
 Конкретный контентный элемент, повышающий citation likelihood:
+
 - Verifiable statistic с источником: **+22%**
 - Strategic pull quote: **+37%**
 - Original research / proprietary data: +30–40%
