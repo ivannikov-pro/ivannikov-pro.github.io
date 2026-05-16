@@ -78,9 +78,9 @@ Each case study available with full Problem → Solution → Outcome breakdown a
 
 ## Open-source side projects
 
+- **AI-Readiness Audit** ([github.com/ivannikov-pro/ai-readiness-audit](https://github.com/ivannikov-pro/ai-readiness-audit)) — 26-criterion audit framework for measuring how well a website / API is understood by LLM agents (ChatGPT, Claude, Perplexity, Google AI). Includes ready-to-paste prompt, bash automation script, entity-authority companion checklist. MIT licensed. Companion to the AI Optimisation service.
 - **AI Agent Kit** ([github.com/ivannikov-pro/ai-agent-kit](https://github.com/ivannikov-pro/ai-agent-kit)) — CLI toolkit that installs curated skills, workflows, and MCP configs into your project's `.agents/` directory. 15+ skills available out of the box. Works with Claude, Cursor, Copilot, Windsurf, Gemini.
 - **AI Agent Extender** ([github.com/ivannikov-pro/ai-agent-extender](https://github.com/ivannikov-pro/ai-agent-extender)) — MCP server with Telegram integration for extending AI agent capabilities.
-- **AI-Readiness Audit Skill** (pending Q3 2026 release) — open-source claude-skill implementing the 26-criterion AI-readiness audit. Companion to the AI Optimisation service.
 
 ---
 

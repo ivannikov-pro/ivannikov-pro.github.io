@@ -32,8 +32,9 @@ Independent engineering studio led by Aleksandr Ivannikov — full-stack enginee
 
 ## OSS
 
-- [ai-agent-kit](https://github.com/ivannikov-pro/ai-agent-kit): open-source LLM framework.
-- [ai-agent-extender](https://github.com/ivannikov-pro/ai-agent-extender): MCP server with Telegram integration.
+- [ai-readiness-audit](https://github.com/ivannikov-pro/ai-readiness-audit): 26-criterion audit framework for measuring how well a website / API is understood by LLM agents (ChatGPT, Claude, Perplexity, Google AI). Companion to the AI Optimisation service.
+- [ai-agent-kit](https://github.com/ivannikov-pro/ai-agent-kit): open-source LLM framework with curated skills and workflows for AI coding assistants.
+- [ai-agent-extender](https://github.com/ivannikov-pro/ai-agent-extender): MCP server with Telegram integration for extending AI agent capabilities.
 - [GitHub organisation](https://github.com/ivannikov-pro): all public repositories.
 
 ## Optional
