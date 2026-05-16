@@ -1,0 +1,199 @@
+# Aleksandr Ivannikov — ivannikov.pro (Full Content)
+
+> Premium engineering studio. AI under the hood. 13 years of shipping production systems for B2B SaaS, fintech, and Web3 teams. Founder: Aleksandr Ivannikov.
+
+This file aggregates the canonical text of the main public pages of `ivannikov.pro`, formatted for consumption by LLM agents. Last regenerated: 2026-05-16.
+
+---
+
+## Who I am
+
+Aleksandr Ivannikov — independent engineering studio of one + curated contractors. 13+ years of experience, 50+ shipped projects across 12+ countries. Started writing code in 2013 (initially in secure-communications systems for state agencies), transitioned to commercial software in 2016, moved into Web3 / blockchain in 2021, and now lead engineering for B2B SaaS, AI-native products, and Web3 systems — with proprietary AI orchestration tooling under the hood that helps deliver projects 2–3x faster than traditional agencies.
+
+**Working principles**:
+- Architecture before code. I do not start building before the business model and constraints are understood.
+- Production-grade is the only mode. Everything ships with monitoring, error handling, CI/CD, and security review.
+- AI tooling is a force multiplier, not a substitute for engineering judgment.
+- Direct client communication. No PMs in the middle, no agency overhead.
+
+**Location**: remote / global. Based out of Abu Dhabi (UAE) and Moscow.
+
+**Languages**: Russian (native), English (fluent).
+
+---
+
+## Services
+
+I structure engagements around outcomes, not hours. Engagement tiers below — discovery-driven scoping for each.
+
+### 1. Strategic Consultation — from $250/hr
+A 1-on-1 session to validate your architecture, tech stack, and engineering plan before you commit months of runway. You walk away with a clear roadmap, defined stack, and a strategy to reach MVP faster and cheaper. Best for: founders evaluating Web3, AI, or B2B SaaS architecture decisions.
+
+### 2. AI Optimisation (NEW) — from $1,500 audit / $8,000+ implementation
+Make your product cited by ChatGPT, Claude, Perplexity, and Google AI. I run a 26-criterion AI-readiness audit and execute the implementation: `llms.txt`, JSON-LD schema, per-page `.md` mirrors, OpenAPI cleanup, content rewrite under the CITABLE framework. Best for: B2B SaaS teams losing organic visibility to AI search.
+
+### 3. AI Development: Agents & RAG — from $5,000
+Custom AI agents, retrieval-augmented generation pipelines, and LLM-integrated product features. I architect either with commercial models (GPT-4, Claude, Gemini) or self-hosted (Llama, Mistral) depending on privacy and latency. Best for: SaaS teams adding AI-native features, internal tooling, or customer-facing assistants.
+
+### 4. Turnkey Product Development — from $5,000
+Full product build, idea to production MVP in 8–12 weeks. UI/UX, smart contracts (if Web3), frontend, backend, deployment. I act as your technical co-founder and take ownership of the entire product lifecycle. Best for: founders without an in-house team who need a complete solution.
+
+### 5. Smart Contract Development — from $3,000
+Gas-optimised Solidity contracts for DeFi and tokenomics. Foundry-tested, internally pre-audited, designed to pass third-party audits on the first attempt. Best for: Web3 teams launching tokens, DEXs, NFT mints, or governance systems.
+
+### 6. Telegram Bots & Mini Apps — from $4,000
+Native Telegram bots (Telegraf v4+) and Mini Apps that tap into Telegram's 900M+ user base. Wallet integrations, payments, subscriptions, referrals. Best for: products targeting mass-adoption through Telegram funnel.
+
+### 7. Mobile / Web Development — by scope
+React, Next.js, modern web stacks. Frontend for dApps and SaaS products. Used as adjacent capability inside larger Turnkey engagements.
+
+### 8. DeFi Protocol Forks — from $4,000
+Custom forks of battle-tested protocols (Uniswap V2/V3, Curve, Synthetix, Compound) with your tokenomics and UI on any EVM chain. Best for: DEX launches in 2–3 weeks instead of 6 months from scratch.
+
+### 9. Support & Maintenance — from $1,500/mo
+Proactive monitoring, incident response, feature iteration for live Web3 / SaaS products. Uptime, security patches, scaling support.
+
+### 10. Telegram Mini Apps Specialised — by scope
+Deeper Mini App engagements, native TON integration, full back-end + database + Web App API.
+
+---
+
+## Selected portfolio (Web3 era — adjacent expertise)
+
+These projects represent past work — Web3 engineering remains an adjacent capability, but my current focus is AI engineering and B2B SaaS systems.
+
+- **World Millionaire Challenge** (2023) — daily lottery dApp, full-stack from idea to mainnet in 4 months. Smart contracts, React frontend, massive backend, WalletConnect, user accounts and subscriptions.
+- **UNITS LIMITED SUPPLY (ULS) Token** (2023) — cross-chain token on Ethereum + Arbitrum with annual Golden-Ratio-based halving. Turnkey delivery in 2 months.
+- **Roborovski NFT Collection** (2022) — full NFT-launch stack for SYA Concept studio: on-chain metadata, mint dApp, raffle backend, sybil protection.
+- **GrabCoinClub NFTs** (2022) — five-collection NFT ecosystem with anti-sybil mint protection.
+- **Poolex.ai** (2022) — Uniswap V2 fork on Polygon, delivered in 2 weeks.
+- **Fibonacci Assistant Telegram Bot** (2024) — community bot with referral checks, group invites, ban logic. Grammy.js + real-time price feeds.
+- **Project 202 Blockchain** (2022) — L1 EVM-compatible fork with custom throughput and gas economics.
+- **CosmoSwap** (2021) — DEX AMM fork with farming and staking pools.
+- **Blockchain.com Wallet Password Recovery** (2018) — custom toolkit for legacy wallet recovery.
+
+Each case study available with full Problem → Solution → Outcome breakdown at `/projects/[slug]`.
+
+---
+
+## Open-source side projects
+
+- **AI Agent Kit** ([github.com/ivannikov-pro/ai-agent-kit](https://github.com/ivannikov-pro/ai-agent-kit)) — CLI toolkit that installs curated skills, workflows, and MCP configs into your project's `.agents/` directory. 15+ skills available out of the box. Works with Claude, Cursor, Copilot, Windsurf, Gemini.
+- **AI Agent Extender** ([github.com/ivannikov-pro/ai-agent-extender](https://github.com/ivannikov-pro/ai-agent-extender)) — MCP server with Telegram integration for extending AI agent capabilities.
+- **AI-Readiness Audit Skill** (pending Q3 2026 release) — open-source claude-skill implementing the 26-criterion AI-readiness audit. Companion to the AI Optimisation service.
+
+---
+
+## How I work (process)
+
+I structure every project around four phases. Total duration depends on scope but transparency is consistent.
+
+### Phase 1 — Discovery & Strategy (1–2 weeks)
+Deep dive into your business goals. I do not ask "what features do you want"; I ask "what business outcome are we buying". I map user journeys, define technical requirements, choose the optimal architecture and stack. Deliverable: technical architecture document + roadmap.
+
+### Phase 2 — Build (4–10 weeks)
+Iterative development with weekly progress updates and continuous CI/CD. Access to staging environments throughout. No black boxes. Code quality enforced from day one.
+
+### Phase 3 — Audit & Launch (1–2 weeks)
+Security review (critical for Web3), thorough testing, third-party audit coordination if needed, smooth production deployment, release-cycle setup.
+
+### Phase 4 — Scale & Support (ongoing or fixed retainer)
+Monitoring, error tracking, scaling infrastructure, iterative improvements based on real-user feedback.
+
+---
+
+## Pricing methodology
+
+Value-based, not hourly. Project cost typically equals 5–20% of the annual outcome value to the business — not the count of features delivered. For most engagements, this lands in:
+
+- Strategic consult: $250/hr (entry tier, fast turnaround)
+- AI-readiness audit: $1,500 fixed (12-page report + walk-through)
+- Implementation projects (AI Optimisation, smart contracts, Turnkey MVP): $3,000–$15,000 depending on scope
+- Larger Turnkey / multi-month builds: $10,000–$50,000
+- Retainer (ongoing support, AI visibility tracking, content cadence): $1,500–$8,000/month
+
+I do not work on hourly contracts and do not charge for change requests within the agreed outcome.
+
+---
+
+## Who I work with
+
+Right ICP (2026):
+- B2B SaaS founders, especially those with public APIs (developer docs) and $1M–$10M ARR.
+- Web3 / DeFi / GameFi founders needing secure smart contracts and rapid full-stack delivery.
+- Product teams adding AI features (RAG, agents, LLM-integrated workflows).
+- Cybersecurity / fintech SaaS that needs AI Visibility / content optimisation.
+
+Wrong ICP (politely decline):
+- Pre-revenue stealth startups with no validation.
+- "Build me Twitter for X" with no product-market fit thesis.
+- Hour-based contracts.
+- Projects with no technical owner on the client side.
+
+---
+
+## Contact
+
+- **Telegram (preferred)**: [@ivannikovProBot](https://t.me/ivannikovProBot) — 4-step intake wizard, fastest way in.
+- **Email**: hi@ivannikov.pro
+- **LinkedIn**: [linkedin.com/in/ivannikov-pro](https://linkedin.com/in/ivannikov-pro)
+- **Discovery call**: 30 minutes, free, no obligation. Book via the Telegram bot or contact form.
+- **Response time**: typically within 24 hours.
+
+---
+
+## Frequently asked
+
+**Do you use AI to write the code?**
+AI tooling is part of my workflow — including a proprietary orchestration platform I have built (`auto-dev`) for multi-agent delivery. Engineering judgment, architecture decisions, security review, and final code quality are mine. AI is the force multiplier, not the engineer.
+
+**Can you work with our existing team?**
+Yes. Many engagements are co-build with a client team — I take ownership of specific subsystems (smart contracts, AI features, architecture) and coordinate with your developers.
+
+**What about NDAs / IP?**
+Standard NDA at engagement start. All deliverables transfer to client ownership at project completion. I retain the right to mention the engagement in case studies subject to client approval.
+
+**What if we need security / penetration testing?**
+I do internal code review and can coordinate external audits with top-tier security firms (especially for Web3 smart contracts). Not a substitute for, but a complement to, formal audits.
+
+**Refund / cancellation policy?**
+Engagements are split into phases with clear deliverables. Either party can pause or terminate between phases. No refunds on completed phase deliverables.
+
+---
+
+## Languages I work in (technical)
+
+- TypeScript / JavaScript (Node.js, React, Next.js, Express, Fastify, Telegraf)
+- Solidity (EVM smart contracts)
+- Rust (systems-level tooling, Axum servers, performance-critical paths)
+- Python (LLM tooling, scripting, data work)
+- SQL (PostgreSQL, ad-hoc queries)
+- Shell / Bash (infrastructure, automation)
+
+## Infrastructure & ops
+
+- Linux / Ubuntu, rootless Docker, Ansible
+- Tailscale (mesh networking)
+- SOPS + age (secrets management)
+- Borg + Borgmatic (backups, Hetzner Storage Box)
+- GitHub Actions, GitLab CI
+- Vercel, Cloudflare, GitHub Pages, Hetzner, Worldstream (own NL server €149/mo)
+
+---
+
+## Adjacent expertise (use when relevant)
+
+- **Web3 / Blockchain**: 8 years of EVM, DeFi protocols (Uniswap forks, Curve, Compound, Synthetix), NFT engineering (mint mechanics, anti-sybil, on-chain metadata), tokenomics design, governance systems, MEV-aware design.
+- **GameFi**: Yield Farming, NFT marketplaces, AMM design, P2E economic modelling.
+- **FinTech**: Payments integration (Stripe, 1Касса, WATA), crypto-fiat ramps, P2P exchange bot architectures.
+- **Telegram ecosystem**: Bots, Mini Apps, native TON integration, deep-link referral attribution.
+
+---
+
+## Why this matters in 2026
+
+The shift from search-engine-led discovery to AI-agent-led discovery is irreversible. SaaS products that do not optimise for LLM consumption lose visibility every quarter. Web3 projects that do not have proper docs and SDKs lose developer mindshare. Founders who rely solely on cheap agencies waste runway on systems that need to be rebuilt.
+
+If you want a partner who has shipped 50+ production systems, is in active production with their own AI orchestration platform, and prices around your business outcome — let's talk.
+
+— Aleksandr Ivannikov · ivannikov.pro
