@@ -546,6 +546,22 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/webmason-universe/" />
   </url>
   <url>
+    <loc>https://ivannikov.pro/recommendations/</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/recommendations/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/recommendations/" />
+  </url>
+  <url>
+    <loc>https://ivannikov.pro/ru/recommendations/</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/recommendations/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/recommendations/" />
+  </url>
+  <url>
     <loc>https://ivannikov.pro/resume/</loc>
     <lastmod>2026-05-17</lastmod>
     <changefreq>daily</changefreq>
