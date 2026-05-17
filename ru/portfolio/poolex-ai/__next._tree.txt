@@ -1,4 +1,4 @@
 :HL["/_next/static/chunks/0bauolq6e1a8_.css","style"]
 :HL["/_next/static/chunks/0c94g-0_ak5mt.css","style"]
 :HL["/images/portfolio/poolex-ai.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"portfolio","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"poolex-ai","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"4OgRjgiW5PGVbnmCvHwt-"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"portfolio","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"poolex-ai","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"DvwVWvcxY2DMDfjxff0Fj"}
