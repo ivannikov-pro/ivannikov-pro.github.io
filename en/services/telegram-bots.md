@@ -20,7 +20,7 @@ I create lightning-fast Telegram Mini Apps (TMA) that seamlessly integrate right
 You launch a frictionless, high-converting digital product that lives literally in the user's pocket (inside Telegram). Your TMA has strong viral growth potential through native social sharing mechanics and can actively capture part of Telegram's 900+ million monthly user base.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Launch Your TMA
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

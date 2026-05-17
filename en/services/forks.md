@@ -20,7 +20,7 @@ I provide comprehensive forks of battle-tested, blue-chip DeFi protocols (like U
 You receive a fully functional, highly secure, and uniquely branded DEX or DeFi protocol. It will operate flawlessly on your target EVM-compatible chain and will be fully ready to launch, collect fees, and market to users in 2-3 weeks instead of half a year.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Fork a Native Protocol
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

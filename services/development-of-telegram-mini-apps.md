@@ -20,7 +20,7 @@ I architect intelligent Telegram bots that seamlessly synchronize with your exis
 Your brand gains an incredibly high-converting touchpoint. Customers resolve their inquiries immediately without ever navigating away from their trusted messenger, while you dramatically slash operational costs by running an entirely automated sales and customer support vertical.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Build a Bot
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

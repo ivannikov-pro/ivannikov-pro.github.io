@@ -20,7 +20,7 @@ I architect completely custom AI agents, Retrieval-Augmented Generation (RAG) pi
 Your company gains a scalable AI infrastructure (whether a B2B product or internal tool) that actually "understands" your unique business logic, operates flawlessly on natural language, and handles real-world tasks (support routing, data analysis, sales), dramatically lowering overhead.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Deploy AI Infrastructure
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

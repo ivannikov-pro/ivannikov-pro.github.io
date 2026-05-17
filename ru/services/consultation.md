@@ -20,7 +20,7 @@ price: "$500 / сессия"
 Вы получите четкий технический roadmap, задокументированный обоснованный стек и долгосрочную стратегию для более быстрого и дешевого достижения стадии MVP. Меньше технических рисков, больше прозрачности для команды и инвесторов.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Записаться на сессию
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

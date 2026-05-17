@@ -20,7 +20,7 @@ I take full responsibility for delivering your project from start to finish. Usi
 You receive a polished, high-performing product ready to capture market share, delivered on time and within budget. You can focus entirely on marketing and business growth while I ensure the technical foundation is fast, reliable, and built to scale effortlessly from Day 1.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Start Your Project
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

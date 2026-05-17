@@ -20,7 +20,7 @@ I provide dedicated, ongoing support and maintenance for your software infrastru
 Absolute peace of mind for the founders and a fast, reliable experience for users. Your application remains online and performant 24/7, the source code stays meticulously updated, and new features are organically shipped without jeopardizing the existing ecosystem.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Delegate Maintenance
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

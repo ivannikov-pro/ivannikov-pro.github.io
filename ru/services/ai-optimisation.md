@@ -22,7 +22,7 @@ price: "От $1,500 (аудит) · $8,000+ (внедрение)"
 Ваш продукт становится цитируемым AI-агентами. Конкретные метрики, которые двигаются: AI Visibility Score (типичный лифт с базовых 18–40% до 65%+), prominence в AI-ответах на категорийные запросы (0% → 50–70%), объём лидов из AI (3–5x за 90 дней для типичных B2B SaaS из нашего ICP). Окно first-mover в большинстве ниш закрывается быстро — те, кто двинется сейчас, владеют поверхностью AI-ответа на 12–18 месяцев.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Получить бесплатный AI-аудит
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

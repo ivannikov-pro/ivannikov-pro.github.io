@@ -20,7 +20,7 @@ price: "От $4,000"
 Вы получаете высококонверсионный продукт без лишних барьеров. Он живет прямо в кармане пользователя (Telegram), обладает потенциалом для вирусного роста благодаря встроенным социальным механикам и легко собирает 900+ миллионов активной аудитории на старте.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Создать свое TMA
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

@@ -20,7 +20,7 @@ price: "От $5,000"
 Вы получаете масштабируемый AI-продукт (или защищенный внутренний инструмент), который действительно "понимает" вашу предметную область, общается на естественном языке и выполняет реальные задачи (анализ, поддержка, рекомендации), радикально снижая операционные расходы.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Разработать AI-инструмент
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

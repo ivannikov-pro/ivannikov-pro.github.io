@@ -20,7 +20,7 @@ price: "От $10,000"
 Вы получаете масштабируемый, безопасный и готовый к выходу на рынок (Go-to-Market) Web3 продукт. Никаких перекладываний ответственности между командами — только рабочий код и достижение ваших бизнес-целей в оговоренные сроки.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Оформить заявку
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

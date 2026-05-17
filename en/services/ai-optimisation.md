@@ -22,7 +22,7 @@ For the implementation tier, I execute: `llms.txt` + `llms-full.txt` generation,
 Your product becomes citable by AI agents. Concrete metrics that move: AI Visibility Score (typical lift from 18–40% baseline to 65%+), prominence in AI answers for category queries (0% → 50–70%), AI-attributed lead volume (3–5x in 90 days for typical B2B SaaS in our ICP). First-mover window in most niches is closing fast — competitors who move now own the AI answer surface for 12–18 months.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Get a Free AI-Readiness Sample
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

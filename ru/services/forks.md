@@ -20,7 +20,7 @@ price: "От $4,000"
 Вы получаете полностью функциональный, безопасный и брендированный DEX или сложный DeFi-протокол. Он будет работать в вашей целевой EVM-совместимой сети и будет готов к запуску всего за 2-3 недели, вместо полугода разработки с нуля.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Форкнуть DeFi протокол
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

@@ -20,7 +20,7 @@ price: "От $500 / мес"
 Полное спокойствие для вас и стабильность для ваших пользователей. Продукт остается онлайн в штатном режиме 24/7, база исходного кода актуальна, а новые фичи органично вплетаются в общую концепцию по мере роста аудитории.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Делегировать поддержку
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

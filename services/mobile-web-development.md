@@ -20,7 +20,7 @@ I alleviate founders from the arduous task of managing decentralized software te
 You swiftly obtain a production-ready web and mobile ecosystem built on industry-leading technologies. This cohesive product will rank impressively on search engines, flawlessly convert curious leads into paying users, and possess an agile technical foundation designed to painlessly scale from a lean MVP into a sprawling Enterprise SaaS.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Scale Your App
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

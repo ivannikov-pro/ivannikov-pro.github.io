@@ -20,7 +20,7 @@ price: "От $3,500"
 Вы получаете готовые к production контракты стандарта ERC20, ERC721 или сложные кастомные DeFi-алгоритмы, которые эффективно расходуют газ и успешно проходят сторонний аудит с первой попытки, экономя вам недели или месяцы на доработках.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Обсудить смарт-контракты
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

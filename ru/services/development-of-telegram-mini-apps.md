@@ -20,7 +20,7 @@ price: "От $2,000"
 Дополнительный, высококонверсионный канал взаимодействия с аудиторией. Пользователи решают свои проблемы быстрее, не покидая привычного окружения, а вы — автоматизируете продажи и саппорт.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Разработать бота
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

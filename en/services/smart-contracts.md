@@ -20,7 +20,7 @@ I develop highly secure, optimized, and thoroughly tested smart contracts on Sol
 Your Web3 protocols, NFT drops, or DeFi platforms will run flawlessly on-chain. You get peace of mind knowing the core logic is immutable, heavily tested, gas-optimized to save your users money, and resilient against known attack vectors.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Request Contract Development
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

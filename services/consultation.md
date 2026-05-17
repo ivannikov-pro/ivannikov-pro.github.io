@@ -20,7 +20,7 @@ I provide comprehensive IT and Web3 consulting to bridge the gap between your bu
 You gain absolute clarity and a predictable path forward. You will have a meticulously designed architecture, a clear understanding of costs and timelines, and an actionable roadmap that empowers you to build a secure, scalable product with confidence—whether you hire my team or build it in-house.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Book a Consultation
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>

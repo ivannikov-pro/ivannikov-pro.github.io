@@ -20,7 +20,7 @@ price: "От $6,000"
 Ваша компания получает крайне быстрый, готовый к production-у кроссплатформенный мобильный или веб-продукт. Приложение отлично ранжируется поисковиками (благодаря SSR в Next.js), надежно конвертирует лидов в реальных клиентов и способно безболезненно масштабироваться от скромного MVP до полноценной Enterprise SaaS-системы.
 
 <div className="content-mdx-tags-row" style={{ marginTop: '3rem' }}>
-  <ContactModalTrigger className="btn btn--primary">
+  <ContactModalTabbedTrigger className="btn btn--primary">
     Заказать разработку
-  </ContactModalTrigger>
+  </ContactModalTabbedTrigger>
 </div>
