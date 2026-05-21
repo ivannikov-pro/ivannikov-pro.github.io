@@ -1,7 +1,7 @@
 ---
 title: "UNITS LIMITED SUPPLY (ULS) TOKEN"
 description: "A cross-chain DeFi ecosystem architected from scratch. Features a unique Golden Ratio halving model, cross-chain bridging (Ethereum & Arbitrum), and automated staking mechanics."
-image: "/images/portfolio/uls-token.png"
+image: "/images/portfolio/uls-token.webp"
 outcome: "Engineered and deployed a complex cross-chain tokenomics model to Mainnet in just 8 weeks."
 ---
 

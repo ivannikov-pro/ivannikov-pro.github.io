@@ -1,7 +1,7 @@
 ---
 title: "World Millionaire Challenge"
 description: "A high-frequency daily lottery platform built natively on-chain. Features comprehensive frontend dashboards, fiat/crypto top-ups, and an automated backend orchestrator for daily draws."
-image: "/images/portfolio/world-millionaire-challenge.png"
+image: "/images/portfolio/world-millionaire-challenge.webp"
 outcome: "Architected a scalable, provably fair Web3 lottery system handling massive daily transactions, delivered turnkey in exactly 4 months."
 ---
 

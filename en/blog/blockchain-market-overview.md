@@ -2,7 +2,7 @@
 title: "Blockchain Market Overview 2026"
 date: "2026-03-28"
 description: "A comprehensive analysis of the current state of Web3, DeFi, and the blockchain market."
-image: "/images/blog/1.png"
+image: "/images/blog/1.webp"
 tags: ["blockchain", "market", "defi", "analysis", "crypto"]
 ---
 

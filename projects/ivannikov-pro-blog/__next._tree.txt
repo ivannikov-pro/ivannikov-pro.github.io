@@ -1,4 +1,7 @@
-:HL["/_next/static/chunks/0u1zvtd62~7qd.css","style"]
-:HL["/_next/static/chunks/0c94g-0_ak5mt.css","style"]
-:HL["/images/blog/4.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"en","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"ivannikov-pro-blog","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"lPMjL6I-hFSziwl43BPTn"}
+:HL["/_next/static/chunks/0zw3tqm0_afvt.css","style"]
+:HL["/_next/static/chunks/0tl3ut30zmhfm.css","style"]
+:HL["/_next/static/chunks/146quz5iclz.0.css","style"]
+:HL["/_next/static/chunks/0ia-mhivddcnn.css","style"]
+:HC["/",""]
+:HL["/images/blog/4.webp","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"en","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"ivannikov-pro-blog","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"kMXMXLnjc_npPU5p2fm8I"}

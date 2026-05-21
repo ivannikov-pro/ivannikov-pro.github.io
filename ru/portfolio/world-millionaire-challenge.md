@@ -1,7 +1,7 @@
 ---
 title: "World Millionaire Challenge"
 description: "Высоконагруженная ежедневная блокчейн-лотерея. Комплексный фронтенд с личными кабинетами, подписками и автоматизированным бэкендом для ежедневных розыгрышей."
-image: "/images/portfolio/world-millionaire-challenge.png"
+image: "/images/portfolio/world-millionaire-challenge.webp"
 outcome: "Разработана и запущена масштабируемая Web3-платформа с доказанной честностью (provably fair), обрабатывающая массовые ежедневные транзакции. 4 месяца от старта до релиза."
 ---
 

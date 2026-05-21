@@ -2,7 +2,7 @@
 title: "Лучшие GEO-инструменты 2026: сравнение 10 AI Visibility платформ"
 date: "2026-05-16"
 description: "Подробное сравнение 10 лучших инструментов для Generative Engine Optimization (GEO) и AI visibility tracking в 2026: Profound, Athena HQ, Otterly, BrandLight, Peec, Semrush AIO, Ahrefs Brand Radar и других. Цены, фичи, кому подходит."
-image: "/images/blog/3.png"
+image: "/images/blog/3.webp"
 tags:
   [
     "geo",

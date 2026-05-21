@@ -2,7 +2,7 @@
 title: "26 Criteria for AI-Readiness: How I Audited My Own Site (and Beat Three B2B SaaS Giants)"
 date: "2026-05-16"
 description: "I ran a 26-criterion AI-readiness audit on ivannikov.pro. Score: 42 → 80 in one day. Then I ran the same audit on Stripe (55), Twilio (UNRELIABLE), and Linear (UNRELIABLE). Here's the methodology and what it means for B2B SaaS in 2026."
-image: "/images/blog/1.png"
+image: "/images/blog/1.webp"
 tags: ["ai-readiness", "ai-seo", "geo", "llms-txt", "schema-org", "b2b-saas", "engineering"]
 ---
 

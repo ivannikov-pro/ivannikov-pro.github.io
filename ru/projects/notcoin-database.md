@@ -1,7 +1,7 @@
 ---
 title: "NotCoin База Пользователей"
 description: "База пользователей NotCoin с верифицированными адресами кошельков и балансами, готовая для ретаргетинга и аирдропов."
-image: "/images/products/notcoin-database.png"
+image: "/images/products/notcoin-database.webp"
 ---
 
 База пользователей NotCoin с верифицированными адресами кошельков и балансами, готовая для ретаргетинга и аирдропов.

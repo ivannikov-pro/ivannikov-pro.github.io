@@ -1,7 +1,7 @@
 ---
 title: "AI Agent Extender"
 description: "Расширьте ваш ИИ-ассистент Telegram-уведомлениями"
-image: "/images/ai-agent-extender.png"
+image: "/images/ai-agent-extender.webp"
 ---
 
 <div className="content-mdx-highlight">

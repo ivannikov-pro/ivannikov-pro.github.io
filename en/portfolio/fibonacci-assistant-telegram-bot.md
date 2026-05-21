@@ -1,7 +1,7 @@
 ---
 title: "Fibonacci Assistant Telegram Bot"
 description: "A high-performance algorithmic trading assistant embedded directly into Telegram. Delivers real-time Fibonacci retracement calculations and market alerts."
-image: "/images/portfolio/fibonacci-assistant-telegram-bot.png"
+image: "/images/portfolio/fibonacci-assistant-telegram-bot.webp"
 outcome: "Engineered a low-latency Telegram bot capable of processing high-frequency data streams, widely adopted by active trading communities."
 ---
 

@@ -2,7 +2,7 @@
 title: "Smart Contracts Security Checklist"
 date: "2026-03-26"
 description: "A comprehensive guide on auditing and securing your Solidity smart contracts."
-image: "/images/blog/3.png"
+image: "/images/blog/3.webp"
 tags: ["solidity", "security", "smart contracts"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "GrabCoinClub NFTs infrastructure"
 description: "Architected the complete NFT minting infrastructure for a massively-multiplayer GameFi project. Included multi-collection smart contracts, dynamic metadata engines, and backend Sybil-attack protection."
-image: "/images/portfolio/grabcoinclub-nft.png"
+image: "/images/portfolio/grabcoinclub-nft.webp"
 outcome: "Seamlessly managed multiple minting phases processing terabytes of metadata while mitigating millions of automated bot requests."
 ---
 

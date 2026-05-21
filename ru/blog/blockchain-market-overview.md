@@ -2,7 +2,7 @@
 title: "Обзор рынка блокчейн 2026"
 date: "2026-03-28"
 description: "Глубокий анализ текущего состояния Web3, DeFi и рынка смарт-контрактов."
-image: "/images/blog/1.png"
+image: "/images/blog/1.webp"
 tags: ["blockchain", "market", "defi", "analysis", "crypto"]
 ---
 

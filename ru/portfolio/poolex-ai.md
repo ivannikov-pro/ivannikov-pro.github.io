@@ -1,7 +1,7 @@
 ---
 title: "Poolex.ai DEX (AMM)"
 description: "Высокопроизводительный протокол Automated Market Maker (AMM), разработанный как защищенный форк Uniswap V2 в сети Polygon (Matic)."
-image: "/images/portfolio/poolex-ai.png"
+image: "/images/portfolio/poolex-ai.webp"
 outcome: "Развернут проприетарный DEX в сети Polygon с полностью верифицированными пулами ликвидности. Срок реализации составил ровно 2 недели."
 ---
 

@@ -2,7 +2,7 @@
 title: "Чеклист безопасности смарт-контрактов"
 date: "2026-03-26"
 description: "Детальное руководство по аудиту и безопасности ваших смарт-контрактов на Solidity."
-image: "/images/blog/3.png"
+image: "/images/blog/3.webp"
 tags: ["solidity", "security", "smart contracts"]
 ---
 

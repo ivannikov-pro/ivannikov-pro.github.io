@@ -1,7 +1,7 @@
 ---
 title: "Fibonacci Assistant Telegram Bot"
 description: "Высокопроизводительный алгоритмический торговый ассистент, встроенный в Telegram. Рассчитывает уровни коррекции Фибоначчи и отправляет рыночные алерты в реальном времени."
-image: "/images/portfolio/fibonacci-assistant-telegram-bot.png"
+image: "/images/portfolio/fibonacci-assistant-telegram-bot.webp"
 outcome: "Разработан Telegram-бот с минимальными задержками (low-latency), способный обрабатывать высокочастотные потоки данных. Широко применяется в активных трейдерских комьюнити."
 ---
 
