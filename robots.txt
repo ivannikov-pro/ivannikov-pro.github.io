@@ -1,60 +1,55 @@
 # https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Allow: /
+#
+# tg.ivannikov.pro hosts a Telegram Mini App. It is not a public site
+# and is not designed for direct browser traffic — Telegram WebView
+# is the only supported runtime. Search engines do not need to index
+# anything here; the studio's primary surface is ivannikov.pro.
+#
+# AI / LLM crawlers may fetch llms.txt and llms-full.txt — those
+# files explain what this URL is and point at the main site for
+# canonical content.
 
-# AI / LLM crawlers — explicit policy: crawl welcome
+User-agent: *
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
 User-agent: GPTBot
-Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /
 
 User-agent: ChatGPT-User
-Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /
 
 User-agent: OAI-SearchBot
-Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /
 
 User-agent: ClaudeBot
-Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /
 
 User-agent: anthropic-ai
-Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /
 
 User-agent: Claude-Web
-Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /
 
 User-agent: PerplexityBot
-Allow: /
-
-User-agent: Perplexity-User
-Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /
 
 User-agent: Google-Extended
-Allow: /
-
-User-agent: GoogleOther
-Allow: /
-
-User-agent: cohere-ai
-Allow: /
-
-User-agent: cohere-training-data-crawler
-Allow: /
-
-User-agent: meta-externalagent
-Allow: /
-
-User-agent: Meta-ExternalFetcher
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
-User-agent: Bytespider
-Allow: /
-
-User-agent: Diffbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
-Sitemap: https://ivannikov.pro/sitemap.xml
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /
