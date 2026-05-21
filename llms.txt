@@ -1,0 +1,43 @@
+# Aleksandr Ivannikov — ivannikov.pro
+
+> Premium engineering studio. AI under the hood. 13 years of shipping production systems for SaaS, fintech, and web3 teams. Founder: Aleksandr Ivannikov.
+
+Independent engineering studio led by Aleksandr Ivannikov — full-stack engineer with 13 years of experience, 50+ projects shipped. Specialises in AI-era product engineering: building AI-native features (agents, RAG, tooling), AI-optimisation of existing products (docs, API, content for LLM consumption), and complex full-stack delivery for B2B SaaS. Long-standing web3 / blockchain expertise as adjacent capability.
+
+## Services
+
+- [Services overview](https://ivannikov.pro/en/services): full list of engagements offered.
+- [AI Development: Agents & RAG](https://ivannikov.pro/en/services/ai-development): autonomous agent systems, retrieval-augmented generation, LLM-integrated product features.
+- [AI Optimisation for product teams](https://ivannikov.pro/en/services/ai-optimisation): docs/API/content audit and improvement for LLM agent visibility (ChatGPT, Claude, Perplexity, Google AI Overview).
+- [Smart contract development](https://ivannikov.pro/en/services/smart-contracts): Solidity, EVM, DeFi, NFT — adjacent expertise.
+- [Telegram bots & Mini Apps](https://ivannikov.pro/en/services/telegram-bots): Telegraf bots, native Telegram Mini Apps.
+- [Technical consulting](https://ivannikov.pro/en/services/consulting): architecture review, technical co-founder engagements.
+
+## Projects
+
+- [Portfolio](https://ivannikov.pro/en/portfolio): full project portfolio.
+- [Project case studies](https://ivannikov.pro/en/projects): individual project deep-dives with problem / solution / outcome.
+
+## Knowledge base
+
+- [Blog](https://ivannikov.pro/en/blog): articles on engineering, AI, web3, project case studies.
+- [Process / methodology](https://ivannikov.pro/en/process): discovery, proposal, outcome-pricing methodology.
+
+## About and contact
+
+- [About](https://ivannikov.pro/en/about): background, experience, working principles.
+- [Resume / CV](https://ivannikov.pro/en/resume): detailed work history.
+- [Contact](https://ivannikov.pro/en/contact): Telegram bot, email, LinkedIn.
+- [Sitemap](https://ivannikov.pro/en/sitemap): all pages and resources.
+
+## OSS
+
+- [ai-readiness-audit](https://github.com/ivannikov-pro/ai-readiness-audit): 26-criterion audit framework for measuring how well a website / API is understood by LLM agents (ChatGPT, Claude, Perplexity, Google AI). Companion to the AI Optimisation service.
+- [ai-agent-kit](https://github.com/ivannikov-pro/ai-agent-kit): open-source LLM framework with curated skills and workflows for AI coding assistants.
+- [ai-agent-extender](https://github.com/ivannikov-pro/ai-agent-extender): MCP server with Telegram integration for extending AI agent capabilities.
+- [GitHub organisation](https://github.com/ivannikov-pro): all public repositories.
+
+## Optional
+
+- [Russian version](https://ivannikov.pro/ru): same content in Russian.
+- [Privacy / Terms](https://ivannikov.pro/en/legal): legal information.

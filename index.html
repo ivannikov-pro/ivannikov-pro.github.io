@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" data-surface="telegram-mini-app">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+
+    <title>IVANNIKOV.PRO | Telegram Mini App</title>
+    <meta
+      name="description"
+      content="Premium engineering — AI, B2B SaaS, Web3. Active projects, briefs, files, invoices and a direct line to Aleksandr, all in one place."
+    />
+    <meta name="author" content="Aleksandr Ivannikov" />
+    <meta
+      name="keywords"
+      content="IVANNIKOV.PRO, Telegram Mini App, premium engineering, AI, B2B SaaS, Web3, Aleksandr Ivannikov"
+    />
+
+    <!-- TMA opens only inside the Telegram client; no Google indexing needed. -->
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    <meta name="msapplication-TileColor" content="#17212b" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+
+    <!-- Telegram WebView background hint (matches surface --tg-bg dark canonical). -->
+    <meta name="theme-color" content="#17212b" />
+
+    <link rel="canonical" href="https://tg.ivannikov.pro/" />
+
+    <!-- OpenGraph / Twitter — for link previews when someone shares
+         https://t.me/ivannikovProBot/app or https://tg.ivannikov.pro. -->
+    <meta property="og:title" content="IVANNIKOV.PRO | Telegram Mini App" />
+    <meta
+      property="og:description"
+      content="Premium engineering — AI, B2B SaaS, Web3. Briefs, projects, invoices and a direct line — in one place."
+    />
+    <meta property="og:url" content="https://tg.ivannikov.pro/" />
+    <meta property="og:site_name" content="IVANNIKOV.PRO | Telegram Mini App" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://tg.ivannikov.pro/opengraph-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="640" />
+    <meta property="og:image:height" content="360" />
+    <meta property="og:image:alt" content="IVANNIKOV.PRO | Telegram Mini App" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@ivannikov_pro" />
+    <meta name="twitter:title" content="IVANNIKOV.PRO | Telegram Mini App" />
+    <meta
+      name="twitter:description"
+      content="Premium engineering — AI, B2B SaaS, Web3. Briefs, projects, invoices and a direct line — in one place."
+    />
+    <meta name="twitter:image" content="https://tg.ivannikov.pro/opengraph-image.jpg" />
+    <meta name="twitter:image:alt" content="IVANNIKOV.PRO | Telegram Mini App" />
+
+    <!-- Favicons (same set as ivannikov.pro). The mini-app itself runs
+         inside Telegram chrome where these aren't rendered, but a
+         direct-browser hit (e.g. someone testing tg.ivannikov.pro)
+         picks them up. -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png" />
+    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/favicon-96x96.png" sizes="96x96" type="image/png" />
+    <link rel="icon" href="/android-icon-192x192.png" sizes="192x192" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-icon-180x180.png" sizes="180x180" />
+
+    <!-- Telegram WebApp SDK. Loaded synchronously before our bundle so
+         `window.Telegram.WebApp` exists at React mount time — no race.
+         Mini app loads only inside a Telegram client; if you somehow
+         open this URL directly, the script no-ops gracefully. -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <!-- <script src="https://tg.ivannikov.pro/js/telegram-web-app.js"></script> -->
+
+    <!-- Anti-flash theme bootstrap. Surface CSS keys off `data-theme`
+         on <html>; if the SDK is here, lift colour scheme from it
+         before first paint. Outside Telegram we fall back to system
+         preference, then to dark. -->
+    <script>
+      (function () {
+        try {
+          var tg = window.Telegram && window.Telegram.WebApp;
+          var theme;
+          if (tg && tg.colorScheme) {
+            theme = tg.colorScheme;
+          } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            theme = "dark";
+          } else {
+            theme = "light";
+          }
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-CwwaZStx.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BtiVlGK3.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
