@@ -1,43 +1,77 @@
 # Aleksandr Ivannikov — ivannikov.pro
 
-> Premium engineering studio. AI under the hood. 13 years of shipping production systems for SaaS, fintech, and web3 teams. Founder: Aleksandr Ivannikov.
+> Premium engineering studio. AI tooling under the hood. Production systems for B2B SaaS and Web3 teams. 13+ years of engineering, 50+ projects shipped.
 
-Independent engineering studio led by Aleksandr Ivannikov — full-stack engineer with 13 years of experience, 50+ projects shipped. Specialises in AI-era product engineering: building AI-native features (agents, RAG, tooling), AI-optimisation of existing products (docs, API, content for LLM consumption), and complex full-stack delivery for B2B SaaS. Long-standing web3 / blockchain expertise as adjacent capability.
+Independent premium engineering studio led by Aleksandr Ivannikov. Specialises in AI engineering (agents, RAG, LLM tooling), B2B SaaS architecture, and deep Web3 expertise as adjacent capability. Operating under Abu Dhabi freelance license CN-5980378.
 
 ## Services
 
-- [Services overview](https://ivannikov.pro/en/services): full list of engagements offered.
-- [AI Development: Agents & RAG](https://ivannikov.pro/en/services/ai-development): autonomous agent systems, retrieval-augmented generation, LLM-integrated product features.
-- [AI Optimisation for product teams](https://ivannikov.pro/en/services/ai-optimisation): docs/API/content audit and improvement for LLM agent visibility (ChatGPT, Claude, Perplexity, Google AI Overview).
-- [Smart contract development](https://ivannikov.pro/en/services/smart-contracts): Solidity, EVM, DeFi, NFT — adjacent expertise.
-- [Telegram bots & Mini Apps](https://ivannikov.pro/en/services/telegram-bots): Telegraf bots, native Telegram Mini Apps.
-- [Technical consulting](https://ivannikov.pro/en/services/consulting): architecture review, technical co-founder engagements.
+- [AI Optimisation](https://ivannikov.pro/services/ai-optimisation): Make your product cited by ChatGPT, Claude, Perplexity, and Google AI. Audit + implementation of llms.txt, schema.org, and per-page artifacts.
+- [AI Development: Agents & RAG](https://ivannikov.pro/services/ai-development): Custom AI agents, RAG pipelines, and deep LLM products to automate corporate workflows and monetize your context.
+- [End-to-End Product Development](https://ivannikov.pro/services/turnkey): Turnkey development of custom software, SaaS, Web3 DApps, and enterprise platforms from concept to launch.
+- [React, Next.js & Mobile Dev](https://ivannikov.pro/services/mobile-web): Ultra-fast Next.js web apps and cross-platform React Native mobile apps built to scale effortlessly.
+- [Expert Web3 IT Consulting](https://ivannikov.pro/services/consultation): Strategic consulting for Web3 and enterprise IT projects: architecture, security, and scalable roadmaps.
+- [Build Within Telegram](https://ivannikov.pro/services/telegram-bots): Multi-functional automated Telegram bots for fast onboarding, AI customer support, and direct e-commerce.
+- [High-Conversion TMA](https://ivannikov.pro/services/tma): High-converting Telegram Mini Apps (TMA) to organically engage the massive TON ecosystem.
+- [Secure Smart Contract Development](https://ivannikov.pro/services/smart-contracts): Custom Solidity smart contracts for DeFi, NFT collections, DAOs, and complex tokenomics with maximum security.
+- [Launch a DEX in 2 Weeks](https://ivannikov.pro/services/forks): Forking and heavy customization of battle-tested DeFi protocols (Uniswap, Curve) for speed and security.
+- [Zero Downtime Guaranteed](https://ivannikov.pro/services/support): Proactive round-the-clock monitoring, fast incident response, and rapid delivery of new features.
 
-## Projects
+## Portfolio (production case studies)
 
-- [Portfolio](https://ivannikov.pro/en/portfolio): full project portfolio.
-- [Project case studies](https://ivannikov.pro/en/projects): individual project deep-dives with problem / solution / outcome.
+- [Portfolio index](https://ivannikov.pro/portfolio): all case studies.
+- [Roborovski NFT Collection by SYA Concept](https://ivannikov.pro/portfolio/roborovski-nft): End-to-end NFT ecosystem architecture including gas-optimized smart contracts, robust anti-bot minting backend, and custom React.js frontend interface.
+- [UNITS LIMITED SUPPLY (ULS) TOKEN](https://ivannikov.pro/portfolio/uls-token): A cross-chain DeFi ecosystem architected from scratch. Features a unique Golden Ratio halving model, cross-chain bridging (Ethereum & Arbitrum), and automated staking mechanics.
+- [World Millionaire Challenge](https://ivannikov.pro/portfolio/world-millionaire-challenge): A high-frequency daily lottery platform built natively on-chain. Features comprehensive frontend dashboards, fiat/crypto top-ups, and an automated backend orchestrator for daily draws.
+- [Poolex.ai DEX (AMM)](https://ivannikov.pro/portfolio/poolex-ai): A high-performance Automated Market Maker (AMM) protocol built as a hardened Uniswap V2 fork on the Polygon (Matic) network.
+- [GrabCoinClub NFTs infrastructure](https://ivannikov.pro/portfolio/grabcoinclub-nft): Architected the complete NFT minting infrastructure for a massively-multiplayer GameFi project. Included multi-collection smart contracts, dynamic metadata engines, and backend Sybil-attack protection.
+- [Fibonacci Assistant Telegram Bot](https://ivannikov.pro/portfolio/fibonacci-assistant-telegram-bot): A high-performance algorithmic trading assistant embedded directly into Telegram. Delivers real-time Fibonacci retracement calculations and market alerts.
 
-## Knowledge base
+## Projects (open-source + studio products)
 
-- [Blog](https://ivannikov.pro/en/blog): articles on engineering, AI, web3, project case studies.
-- [Process / methodology](https://ivannikov.pro/en/process): discovery, proposal, outcome-pricing methodology.
+- [Projects index](https://ivannikov.pro/projects): all studio-built products.
+- [AI Agent Extender](https://ivannikov.pro/projects/ai-agent-extender): Extend Your AI Coding Assistant with Telegram Notifications
+- [AI Agent Kit](https://ivannikov.pro/projects/ai-agent-kit): Supercharge Your AI Coding Assistants with Actionable Context
+- [NotCoin Database](https://ivannikov.pro/projects/notcoin-database): Database of NotCoin users with verified wallet addresses and balances, ready for retargeting and airdrops.
+- [IVANNIKOV.PRO Blog](https://ivannikov.pro/projects/ivannikov-pro-blog): Personal blog about blockchain, cryptocurrencies, programming, and Web3 development. Built with Next.js, featuring bilingual content and modern design.
+- [TheWebMason, Inc.](https://ivannikov.pro/projects/thewebmason-inc): International IT company registered in Delaware, US. Development of IT products in the blockchain space — smart contracts, DeFi, NFT platforms.
+- [WebMason Universe](https://ivannikov.pro/projects/webmason-universe): Gaming Metaverse on a custom Ethereum L2 PoS Sidechain. DeFi, Yield Farming, affiliate program, and NFTs — a complete Web3 gaming ecosystem.
+
+## Blog (engineering field notes)
+
+- [Blog index](https://ivannikov.pro/blog): engineering deep-dives on AI, B2B SaaS architecture, and EVM smart contracts.
+- [Best GEO Tools 2026: Comparison of 10 AI Visibility Platforms](https://ivannikov.pro/blog/best-geo-tools-2026): Comprehensive comparison of 10 leading Generative Engine Optimization (GEO) and AI visibility tracking tools in 2026 — Profound, Athena HQ, Otterly, BrandLight, Peec, Semrush AIO, Ahrefs Brand Radar, and more. Pricing, features, who they fit.
+- [26 Criteria for AI-Readiness: How I Audited My Own Site (and Beat Three B2B SaaS Giants)](https://ivannikov.pro/blog/ai-readiness-self-audit): I ran a 26-criterion AI-readiness audit on ivannikov.pro. Score: 42 → 80 in one day. Then I ran the same audit on Stripe (55), Twilio (UNRELIABLE), and Linear (UNRELIABLE). Here's the methodology and what it means for B2B SaaS in 2026.
+- [Blockchain Market Overview 2026](https://ivannikov.pro/blog/blockchain-market-overview): A comprehensive analysis of the current state of Web3, DeFi, and the blockchain market.
+- [The Future of Web3 in 2026](https://ivannikov.pro/blog/future-of-web3): Where blockchain technology is heading and how businesses can adapt.
+- [Smart Contracts Security Checklist](https://ivannikov.pro/blog/smart-contracts-security): A comprehensive guide on auditing and securing your Solidity smart contracts.
+- [Telegram Mini Apps Complete Guide](https://ivannikov.pro/blog/telegram-mini-apps-guide): Everything you need to know about building, launching, and scaling Telegram Mini Apps in 2026.
+- [Comparing Top DeFi Protocols in 2026](https://ivannikov.pro/blog/defi-protocols-comparison): A detailed comparison between Uniswap, Aave, Compound, and new challengers.
 
 ## About and contact
 
-- [About](https://ivannikov.pro/en/about): background, experience, working principles.
-- [Resume / CV](https://ivannikov.pro/en/resume): detailed work history.
-- [Contact](https://ivannikov.pro/en/contact): Telegram bot, email, LinkedIn.
-- [Sitemap](https://ivannikov.pro/en/sitemap): all pages and resources.
+- [About](https://ivannikov.pro/about): background, ICP, engineering philosophy.
+- [Process](https://ivannikov.pro/process): discovery, build, audit, scale.
+- [CV / Resume](https://ivannikov.pro/cv): 13+ years of engineering experience.
+- [Contact](https://ivannikov.pro/contact): Telegram, Email, Calendly, structured brief.
+- [Recommendations](https://ivannikov.pro/recommendations): partners I ship with (design, marketing).
+- [Sitemap](https://ivannikov.pro/sitemap): every page on the site.
 
-## OSS
+## AI Optimisation references
 
-- [ai-readiness-audit](https://github.com/ivannikov-pro/ai-readiness-audit): 26-criterion audit framework for measuring how well a website / API is understood by LLM agents (ChatGPT, Claude, Perplexity, Google AI). Companion to the AI Optimisation service.
-- [ai-agent-kit](https://github.com/ivannikov-pro/ai-agent-kit): open-source LLM framework with curated skills and workflows for AI coding assistants.
-- [ai-agent-extender](https://github.com/ivannikov-pro/ai-agent-extender): MCP server with Telegram integration for extending AI agent capabilities.
-- [GitHub organisation](https://github.com/ivannikov-pro): all public repositories.
+- [Glossary](https://ivannikov.pro/glossary): AI-readiness terminology (GEO, RAG, llms.txt, JSON-LD, etc).
+- [Comparison: AI Optimisation vs Traditional SEO](https://ivannikov.pro/comparison): when each applies, and how they overlap.
+
+## Locations
+
+- [Abu Dhabi](https://ivannikov.pro/locations/abu-dhabi): current HQ — UAE freelance license CN-5980378.
+- [Dubai](https://ivannikov.pro/locations/dubai): three years on the ground (2022–2024).
+- [Moscow](https://ivannikov.pro/locations/moscow): pre-UAE engineering roots.
+- [Krasnoyarsk](https://ivannikov.pro/locations/krasnoyarsk): early full-stack years (2013–2020).
 
 ## Optional
 
-- [Russian version](https://ivannikov.pro/ru): same content in Russian.
-- [Privacy / Terms](https://ivannikov.pro/en/legal): legal information.
+- [Russian version](https://ivannikov.pro/ru): same site, RU locale.
+- [Privacy](https://ivannikov.pro/legal/privacy)
+- [Terms](https://ivannikov.pro/legal/terms)
+- [Full content (llms-full.txt)](https://ivannikov.pro/llms-full.txt): aggregated page bodies.

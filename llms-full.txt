@@ -1,199 +1,967 @@
 # Aleksandr Ivannikov — ivannikov.pro (Full Content)
 
-> Premium engineering studio. AI under the hood. 13 years of shipping production systems for B2B SaaS, fintech, and Web3 teams. Founder: Aleksandr Ivannikov.
+> Premium engineering studio. AI tooling under the hood. Production systems for B2B SaaS and Web3 teams. 13+ years of engineering, 50+ projects shipped.
 
-This file aggregates the canonical text of the main public pages of `ivannikov.pro`, formatted for consumption by LLM agents. Last regenerated: 2026-05-16.
+This file aggregates the canonical text of the main public pages of `ivannikov.pro`, formatted for consumption by LLM agents. Generated 2026-05-22 from the same content tree the site renders.
 
 ---
 
 ## Who I am
 
-Aleksandr Ivannikov — independent engineering studio of one + curated contractors. 13+ years of experience, 50+ shipped projects across 12+ countries. Started writing code in 2013 (initially in secure-communications systems for state agencies), transitioned to commercial software in 2016, moved into Web3 / blockchain in 2021, and now lead engineering for B2B SaaS, AI-native products, and Web3 systems — with proprietary AI orchestration tooling under the hood that helps deliver projects 2–3x faster than traditional agencies.
+Aleksandr Ivannikov (Александр Иванников) — founder of IVANNIKOV.PRO, a one-person premium engineering studio based in Abu Dhabi, UAE. Operating under freelance license CN-5980378 (Abu Dhabi Commercial Registration). Studio founded 2025.
+
+13+ years of engineering experience starting in 2013, 50+ projects shipped across 12+ countries. Transitioned from full-stack JavaScript / React / Node into Web3 / smart contracts in 2021; pivoted positioning to AI-first in 2026 while keeping 8+ years of Web3 depth as adjacent capability.
 
 **Working principles**:
-- Architecture before code. I do not start building before the business model and constraints are understood.
-- Production-grade is the only mode. Everything ships with monitoring, error handling, CI/CD, and security review.
+- Architecture before code. No build starts before business model and constraints are understood.
+- Production-grade is the only mode — monitoring, error handling, CI/CD, security review by default.
 - AI tooling is a force multiplier, not a substitute for engineering judgment.
 - Direct client communication. No PMs in the middle, no agency overhead.
 
-**Location**: remote / global. Based out of Abu Dhabi (UAE) and Moscow.
+**ICP**: B2B SaaS with an API (founder-led, post-MVP, ARR $100K–$10M) and AI-native product teams that need someone who can ship — not just consult.
 
-**Languages**: Russian (native), English (fluent).
+**Contact**: hi@ivannikov.pro, @ivannikov_pro on Telegram.
 
 ---
 
 ## Services
 
-I structure engagements around outcomes, not hours. Engagement tiers below — discovery-driven scoping for each.
+Engagements are structured around outcomes, not hours. Discovery-driven scoping for each.
 
-### 1. Strategic Consultation — from $250/hr
-A 1-on-1 session to validate your architecture, tech stack, and engineering plan before you commit months of runway. You walk away with a clear roadmap, defined stack, and a strategy to reach MVP faster and cheaper. Best for: founders evaluating Web3, AI, or B2B SaaS architecture decisions.
+### AI Optimisation — From $1,500 (audit)
 
-### 2. AI Optimisation (NEW) — from $1,500 audit / $8,000+ implementation
-Make your product cited by ChatGPT, Claude, Perplexity, and Google AI. I run a 26-criterion AI-readiness audit and execute the implementation: `llms.txt`, JSON-LD schema, per-page `.md` mirrors, OpenAPI cleanup, content rewrite under the CITABLE framework. Best for: B2B SaaS teams losing organic visibility to AI search.
+Make your product cited by ChatGPT, Claude, Perplexity, and Google AI. Audit + implementation of llms.txt, schema.org, and per-page artifacts.
 
-### 3. AI Development: Agents & RAG — from $5,000
-Custom AI agents, retrieval-augmented generation pipelines, and LLM-integrated product features. I architect either with commercial models (GPT-4, Claude, Gemini) or self-hosted (Llama, Mistral) depending on privacy and latency. Best for: SaaS teams adding AI-native features, internal tooling, or customer-facing assistants.
+Detail page: https://ivannikov.pro/services/ai-optimisation
 
-### 4. Turnkey Product Development — from $5,000
-Full product build, idea to production MVP in 8–12 weeks. UI/UX, smart contracts (if Web3), frontend, backend, deployment. I act as your technical co-founder and take ownership of the entire product lifecycle. Best for: founders without an in-house team who need a complete solution.
+### AI Development: Agents & RAG — From $5,000
 
-### 5. Smart Contract Development — from $3,000
-Gas-optimised Solidity contracts for DeFi and tokenomics. Foundry-tested, internally pre-audited, designed to pass third-party audits on the first attempt. Best for: Web3 teams launching tokens, DEXs, NFT mints, or governance systems.
+Custom AI agents, RAG pipelines, and deep LLM products to automate corporate workflows and monetize your context.
 
-### 6. Telegram Bots & Mini Apps — from $4,000
-Native Telegram bots (Telegraf v4+) and Mini Apps that tap into Telegram's 900M+ user base. Wallet integrations, payments, subscriptions, referrals. Best for: products targeting mass-adoption through Telegram funnel.
+Detail page: https://ivannikov.pro/services/ai-development
 
-### 7. Mobile / Web Development — by scope
-React, Next.js, modern web stacks. Frontend for dApps and SaaS products. Used as adjacent capability inside larger Turnkey engagements.
+### End-to-End Product Development — From $10,000
 
-### 8. DeFi Protocol Forks — from $4,000
-Custom forks of battle-tested protocols (Uniswap V2/V3, Curve, Synthetix, Compound) with your tokenomics and UI on any EVM chain. Best for: DEX launches in 2–3 weeks instead of 6 months from scratch.
+Turnkey development of custom software, SaaS, Web3 DApps, and enterprise platforms from concept to launch.
 
-### 9. Support & Maintenance — from $1,500/mo
-Proactive monitoring, incident response, feature iteration for live Web3 / SaaS products. Uptime, security patches, scaling support.
+Detail page: https://ivannikov.pro/services/turnkey
 
-### 10. Telegram Mini Apps Specialised — by scope
-Deeper Mini App engagements, native TON integration, full back-end + database + Web App API.
+### React, Next.js & Mobile Dev — From $6,000
 
----
+Ultra-fast Next.js web apps and cross-platform React Native mobile apps built to scale effortlessly.
 
-## Selected portfolio (Web3 era — adjacent expertise)
+Detail page: https://ivannikov.pro/services/mobile-web
 
-These projects represent past work — Web3 engineering remains an adjacent capability, but my current focus is AI engineering and B2B SaaS systems.
+### Expert Web3 IT Consulting — From $1,500
 
-- **World Millionaire Challenge** (2023) — daily lottery dApp, full-stack from idea to mainnet in 4 months. Smart contracts, React frontend, massive backend, WalletConnect, user accounts and subscriptions.
-- **UNITS LIMITED SUPPLY (ULS) Token** (2023) — cross-chain token on Ethereum + Arbitrum with annual Golden-Ratio-based halving. Turnkey delivery in 2 months.
-- **Roborovski NFT Collection** (2022) — full NFT-launch stack for SYA Concept studio: on-chain metadata, mint dApp, raffle backend, sybil protection.
-- **GrabCoinClub NFTs** (2022) — five-collection NFT ecosystem with anti-sybil mint protection.
-- **Poolex.ai** (2022) — Uniswap V2 fork on Polygon, delivered in 2 weeks.
-- **Fibonacci Assistant Telegram Bot** (2024) — community bot with referral checks, group invites, ban logic. Grammy.js + real-time price feeds.
-- **Project 202 Blockchain** (2022) — L1 EVM-compatible fork with custom throughput and gas economics.
-- **CosmoSwap** (2021) — DEX AMM fork with farming and staking pools.
-- **Blockchain.com Wallet Password Recovery** (2018) — custom toolkit for legacy wallet recovery.
+Strategic consulting for Web3 and enterprise IT projects: architecture, security, and scalable roadmaps.
 
-Each case study available with full Problem → Solution → Outcome breakdown at `/projects/[slug]`.
+Detail page: https://ivannikov.pro/services/consultation
 
----
+### Build Within Telegram — From $2,000
 
-## Open-source side projects
+Multi-functional automated Telegram bots for fast onboarding, AI customer support, and direct e-commerce.
 
-- **AI-Readiness Audit** ([github.com/ivannikov-pro/ai-readiness-audit](https://github.com/ivannikov-pro/ai-readiness-audit)) — 26-criterion audit framework for measuring how well a website / API is understood by LLM agents (ChatGPT, Claude, Perplexity, Google AI). Includes ready-to-paste prompt, bash automation script, entity-authority companion checklist. MIT licensed. Companion to the AI Optimisation service.
-- **AI Agent Kit** ([github.com/ivannikov-pro/ai-agent-kit](https://github.com/ivannikov-pro/ai-agent-kit)) — CLI toolkit that installs curated skills, workflows, and MCP configs into your project's `.agents/` directory. 15+ skills available out of the box. Works with Claude, Cursor, Copilot, Windsurf, Gemini.
-- **AI Agent Extender** ([github.com/ivannikov-pro/ai-agent-extender](https://github.com/ivannikov-pro/ai-agent-extender)) — MCP server with Telegram integration for extending AI agent capabilities.
+Detail page: https://ivannikov.pro/services/telegram-bots
 
----
+### High-Conversion TMA — From $4,000
 
-## How I work (process)
+High-converting Telegram Mini Apps (TMA) to organically engage the massive TON ecosystem.
 
-I structure every project around four phases. Total duration depends on scope but transparency is consistent.
+Detail page: https://ivannikov.pro/services/tma
 
-### Phase 1 — Discovery & Strategy (1–2 weeks)
-Deep dive into your business goals. I do not ask "what features do you want"; I ask "what business outcome are we buying". I map user journeys, define technical requirements, choose the optimal architecture and stack. Deliverable: technical architecture document + roadmap.
+### Secure Smart Contract Development — From $3,000
 
-### Phase 2 — Build (4–10 weeks)
-Iterative development with weekly progress updates and continuous CI/CD. Access to staging environments throughout. No black boxes. Code quality enforced from day one.
+Custom Solidity smart contracts for DeFi, NFT collections, DAOs, and complex tokenomics with maximum security.
 
-### Phase 3 — Audit & Launch (1–2 weeks)
-Security review (critical for Web3), thorough testing, third-party audit coordination if needed, smooth production deployment, release-cycle setup.
+Detail page: https://ivannikov.pro/services/smart-contracts
 
-### Phase 4 — Scale & Support (ongoing or fixed retainer)
-Monitoring, error tracking, scaling infrastructure, iterative improvements based on real-user feedback.
+### Launch a DEX in 2 Weeks — From $4,000
+
+Forking and heavy customization of battle-tested DeFi protocols (Uniswap, Curve) for speed and security.
+
+Detail page: https://ivannikov.pro/services/forks
+
+### Zero Downtime Guaranteed — From $500/mo
+
+Proactive round-the-clock monitoring, fast incident response, and rapid delivery of new features.
+
+Detail page: https://ivannikov.pro/services/support
 
 ---
 
-## Pricing methodology
+## Portfolio (case studies)
 
-Value-based, not hourly. Project cost typically equals 5–20% of the annual outcome value to the business — not the count of features delivered. For most engagements, this lands in:
+### Roborovski NFT Collection by SYA Concept
 
-- Strategic consult: $250/hr (entry tier, fast turnaround)
-- AI-readiness audit: $1,500 fixed (12-page report + walk-through)
-- Implementation projects (AI Optimisation, smart contracts, Turnkey MVP): $3,000–$15,000 depending on scope
-- Larger Turnkey / multi-month builds: $10,000–$50,000
-- Retainer (ongoing support, AI visibility tracking, content cadence): $1,500–$8,000/month
+Source: https://ivannikov.pro/portfolio/roborovski-nft
 
-I do not work on hourly contracts and do not charge for change requests within the agreed outcome.
+When SYA Concept, a renowned European design studio, approached me, they needed more than just a smart contract—they needed a fully protected technical infrastructure to handle a massive, highly-anticipated NFT drop.
 
----
+## Fast Facts & Metrics
 
-## Who I work with
+- **Peak Load:** 15,000+ concurrent users during mint phrase
+- **Bot Attacks Prevented:** 100% mitigation of automated Sybil attacks
+- **Gas Optimization:** ~35% lower gas costs compared to standard ERC721A implementations
+- **Time to Market:** 6 Weeks from technical spec to Mainnet deployment
 
-Right ICP (2026):
-- B2B SaaS founders, especially those with public APIs (developer docs) and $1M–$10M ARR.
-- Web3 / DeFi / GameFi founders needing secure smart contracts and rapid full-stack delivery.
-- Product teams adding AI features (RAG, agents, LLM-integrated workflows).
-- Cybersecurity / fintech SaaS that needs AI Visibility / content optimisation.
+## Tech Stack Overview
 
-Wrong ICP (politely decline):
-- Pre-revenue stealth startups with no validation.
-- "Build me Twitter for X" with no product-market fit thesis.
-- Hour-based contracts.
-- Projects with no technical owner on the client side.
+- **Smart Contracts:** Solidity, Hardhat, ERC721A, Chainlink VRF
+- **Backend & Security:** Node.js, Express, Redis (Rate Limiting), PostgreSQL
+- **Frontend:** React.js, Web3.js, WalletConnect v2
 
----
+## Engineering Challenges
 
-## Contact
+### 1. The Bot Menace
 
-- **Telegram (preferred)**: [@ivannikovProBot](https://t.me/ivannikovProBot) — 4-step intake wizard, fastest way in.
-- **Email**: hi@ivannikov.pro
-- **LinkedIn**: [linkedin.com/in/ivannikov-pro](https://linkedin.com/in/ivannikov-pro)
-- **Discovery call**: 30 minutes, free, no obligation. Book via the Telegram bot or contact form.
-- **Response time**: typically within 24 hours.
+A major concern was automated sniper bots draining the whitelist allocation. Traditional on-chain whitelists (using Merkle Trees) are exposed and predictable.
 
----
+**Solution:** I engineered a hybrid backend-signer architecture. Users had to authenticate their Twitter and Discord via OAuth. The backend verified their eligibility and generated a time-stamped, highly-secure cryptographic signature (EIP-712). The smart contract only accepted mint transactions carrying this unique signature, rendering bot scripts utterly useless.
 
-## Frequently asked
+### 2. Gas Wars During Public Mint
 
-**Do you use AI to write the code?**
-AI tooling is part of my workflow — including a proprietary orchestration platform I have built (`auto-dev`) for multi-agent delivery. Engineering judgment, architecture decisions, security review, and final code quality are mine. AI is the force multiplier, not the engineer.
+During a hyped public mint, network congestion can cause users to lose thousands in failed transactions.
 
-**Can you work with our existing team?**
-Yes. Many engagements are co-build with a client team — I take ownership of specific subsystems (smart contracts, AI features, architecture) and coordinate with your developers.
+**Solution:** I implemented a specialized, batch-friendly adaptation of ERC721A. This allowed users to mint multiple NFTs in a single transaction with O(1) gas complexity, saving the community thousands of dollars in aggregate gas fees.
 
-**What about NDAs / IP?**
-Standard NDA at engagement start. All deliverables transfer to client ownership at project completion. I retain the right to mention the engagement in case studies subject to client approval.
+## The Outcome
 
-**What if we need security / penetration testing?**
-I do internal code review and can coordinate external audits with top-tier security firms (especially for Web3 smart contracts). Not a substitute for, but a complement to, formal audits.
+The technical execution matched the high quality of the artwork. The collection sold out smoothly within hours of the public phase opening. Not a single bot successfully bypassed the signature protection, ensuring fair distribution directly to the community.
 
-**Refund / cancellation policy?**
-Engagements are split into phases with clear deliverables. Either party can pause or terminate between phases. No refunds on completed phase deliverables.
+<div className="content-mdx-tags-row" style={{ marginTop: '2rem' }}>
+  <PrimaryButton as="a" href="https://ivannikov.pro/roborovski-nft/" target="_blank" rel="noopener noreferrer">
+    <IconLink width={16} height={16} />
+    View Live Demo
+  </PrimaryButton>
+  <SecondaryButton as="a" href="https://github.com/ivannikov-pro/roborovski-nft/" target="_blank" rel="noopener noreferrer">
+    <IconGithub width={16} height={16} />
+    Review Architecture
+  </SecondaryButton>
+</div>
 
 ---
 
-## Languages I work in (technical)
+### UNITS LIMITED SUPPLY (ULS) TOKEN
 
-- TypeScript / JavaScript (Node.js, React, Next.js, Express, Fastify, Telegraf)
-- Solidity (EVM smart contracts)
-- Rust (systems-level tooling, Axum servers, performance-critical paths)
-- Python (LLM tooling, scripting, data work)
-- SQL (PostgreSQL, ad-hoc queries)
-- Shell / Bash (infrastructure, automation)
+Source: https://ivannikov.pro/portfolio/uls-token
 
-## Infrastructure & ops
+ULS Token is a prime example of turnkey Web3 execution. The founders approached me with nothing but an ambitious tokenomics spreadsheet based on the Golden Ratio sequence. My task was to turn that mathematical concept into an unhackable, gas-optimized, production-ready protocol spanning two major EVM networks.
 
-- Linux / Ubuntu, rootless Docker, Ansible
-- Tailscale (mesh networking)
-- SOPS + age (secrets management)
-- Borg + Borgmatic (backups, Hetzner Storage Box)
-- GitHub Actions, GitLab CI
-- Vercel, Cloudflare, GitHub Pages, Hetzner, Worldstream (own NL server €149/mo)
+## Metrics & Scope
+
+- **Turnaround Time:** 8 weeks (from spreadsheet to Mainnet launch)
+- **Chains Deployed:** Ethereum (L1) & Arbitrum (L2)
+- **Core Mechanics:** Golden Ratio halving, Staking, Cross-chain Bridge
+- **Role:** Technical Co-Founder (Smart Contracts + Frontend + Architecture)
+
+## Tech Stack Overview
+
+- **Smart Contracts:** Solidity, Hardhat, OpenZeppelin, LayerZero (Bridging)
+- **Web DApp:** React.js, Web3.js, WalletConnect v2, Ethers.js
+- **Infrastructure:** The Graph (Indexing), Vercel
+
+## Engineering Challenges
+
+### 1. The Golden Ratio Halving Sequence
+
+Standard Bitcoin-like halvings are simple step-functions (e.g. dividing rewards by 2 every X blocks). ULS required a dynamic, continuous curve modeled around the mathematical Golden Ratio (1.618...), meaning rewards and emissions needed to calculate fractionally at a protocol level.
+
+**Solution:** EVM does not support native floating-point math. I engineered a highly-optimized fixed-point math library inside Solidity to compute the Golden Ratio emissions accurately and safely. This ensured mathematically perfect deflation over time without risking rounding errors that could drain the staking pool.
+
+### 2. Cross-Chain State Synchronization
+
+Deploying on both Ethereum and Arbitrum meant users needed a secure way to bridge tokens and synchronize staking states across an L1 and an L2 seamlessly.
+
+**Solution:** I implemented an Omnichain Fungible Token (OFT) standard utilizing a secure cross-chain messaging protocol. This allowed users to natively transfer their ULS tokens between Ethereum and Arbitrum without wrapping or relying on vulnerable liquidity pools. State channels were built to ensure emissions rates matched perfectly on both networks regardless of local block times.
+
+## The Business Outcome
+
+The project went from a conceptual PDF to a fully-deployed, audited Mainnet launch in exactly 2 months. The clean UI allowed non-crypto natives to easily bridge and stake their tokens. The deflationary mechanics functioned precisely as simulated, proving that complex, non-standard math can be executed safely on-chain.
+
+<div className="content-mdx-tags-row" style={{ marginTop: '2rem' }}>
+  <PrimaryButton as="a" href="https://ivannikov.pro/uls/" target="_blank" rel="noopener noreferrer">
+    <IconLink width={16} height={16} />
+    View Live Demo
+  </PrimaryButton>
+</div>
 
 ---
 
-## Adjacent expertise (use when relevant)
+### World Millionaire Challenge
 
-- **Web3 / Blockchain**: 8 years of EVM, DeFi protocols (Uniswap forks, Curve, Compound, Synthetix), NFT engineering (mint mechanics, anti-sybil, on-chain metadata), tokenomics design, governance systems, MEV-aware design.
-- **GameFi**: Yield Farming, NFT marketplaces, AMM design, P2E economic modelling.
-- **FinTech**: Payments integration (Stripe, 1Касса, WATA), crypto-fiat ramps, P2P exchange bot architectures.
-- **Telegram ecosystem**: Bots, Mini Apps, native TON integration, deep-link referral attribution.
+Source: https://ivannikov.pro/portfolio/world-millionaire-challenge
+
+World Millionaire Challenge (WMC) required a robust, high-volume environment where users could seamlessly participate in daily algorithmic lotteries. The core requirement was uncompromised trust: the random number generation and payout mechanisms had to be mathematically verifiable on-chain, while the UX had to feel as fluid as a modern Web2 application.
+
+## Core Metrics
+
+- **Turnkey Execution:** From concept formulation to production in 4 months
+- **Infrastructure:** Scalable Node.js microservices + PostgreSQL database
+- **Blockchain Integration:** Custom Web3 orchestration, WalletConnect v2
+- **Smart Contracts:** Chainlink VRF integration, automated payout routing
+
+## Tech Stack Overview
+
+- **Frontend End-User App:** React.js, Redux Toolkit, Framer Motion
+- **Backend & DB:** Express.js, PostgreSQL, Prisma ORM, Redis
+- **Web3 Layer:** Ethers.js, Solidity (EVM), Chainlink Keepers
+
+## Engineering Challenges
+
+### 1. Provably Fair Randomness
+
+Any lottery system lives or dies by the mathematical integrity of its draws. Standard pseudo-random number generators (PRNGs) or block-hash reliant randomization on the EVM can be manipulated by miners.
+
+**Solution:** I integrated Chainlink Verifiable Random Function (VRF) directly into the smart contract logic. This allowed the protocol to consume mathematically proven, cryptographically secure randomness generated off-chain, ensuring that neither the platform operators nor malicious miners could predict or tamper with the daily draw results.
+
+### 2. High-Frequency State Syncing
+
+The platform needed to handle thousands of users buying tickets simultaneously before a tight daily deadline, requiring real-time updates across the user dashboard, the central database, and the blockchain.
+
+**Solution:** I built an asynchronous event-driven backend. Instead of forcing the user to endure slow blockchain transaction times on the frontend, the system utilized an optimistic update model backed by Redis queues. The backend listened for smart contract events via WebSockets, instantly reflecting ticket purchases and win distributions on the user's personal dashboard without manual refreshes.
+
+## The Business Outcome
+
+I delivered the entire Web3 dApp, Smart Contracts, and Backend infrastructure in 4 months. The platform successfully merged complex GameFi mechanics with consumer-grade UI, facilitating high-volume daily transactions while giving users the cryptographic transparency they demand from a blockchain lottery.
+
+<div className="content-mdx-tags-row" style={{ marginTop: '2rem' }}>
+  <SecondaryButton as="a" href="https://github.com/ivannikov-pro" target="_blank" rel="noopener noreferrer">
+    <IconGithub width={16} height={16} />
+    View Snippets
+  </SecondaryButton>
+</div>
 
 ---
 
-## Why this matters in 2026
+### Poolex.ai DEX (AMM)
 
-The shift from search-engine-led discovery to AI-agent-led discovery is irreversible. SaaS products that do not optimise for LLM consumption lose visibility every quarter. Web3 projects that do not have proper docs and SDKs lose developer mindshare. Founders who rely solely on cheap agencies waste runway on systems that need to be rebuilt.
+Source: https://ivannikov.pro/portfolio/poolex-ai
 
-If you want a partner who has shipped 50+ production systems, is in active production with their own AI orchestration platform, and prices around your business outcome — let's talk.
+The challenge for Poolex.ai was speed to market without compromising on security. The client required a standalone Decentralized Exchange (DEX) functioning identically to Uniswap V2 but fully customized and deployed to the Polygon network to capitalize on a specific market opportunity.
 
-— Aleksandr Ivannikov · ivannikov.pro
+## Key Metrics
+
+- **Turnaround Time:** 2 weeks (from initial spec to Mainnet deployment)
+- **Infrastructure:** Polygon (Matic) Network
+- **Protocol Core:** Uniswap V2 Fork (Factory, Router, Core, Periphery)
+- **Frontend:** React.js, Web3-React, GraphQL
+
+## Tech Stack Overview
+
+- **Smart Contracts:** Solidity, Hardhat, WETH9, UniswapV2Core/Periphery
+- **Web App:** React.js, Redux, Ethers.js, The Graph
+- **Deployment & CI/CD:** Vercel, GitHub Actions
+
+## Engineering Execution
+
+### 1. Smart Contract Architecture & Deployment
+
+Forking an AMM is not just copying code—it requires precise redeployment of immutable factory and router contracts, managing initialization hashes (init code hash) that dictate how pair addresses are calculated predictably.
+
+**Solution:** I configured the Hardhat deployment scripts to calculate the new `INIT_CODE_HASH` necessary for the Router to discover liquidity pairs dynamically. I deployed the Core, Periphery, and a custom Multicall contract on Polygon Mainnet, rigorously verifying source codes on PolygonScan to ensure public transparency.
+
+### 2. Frontend State Management and Graph Sync
+
+The Uniswap open-source interface is notoriously heavy, carrying a massive amount of historical state and legacy logic.
+
+**Solution:** I stripped down the heavy React interface to its core swap/pool functionality and rebuilt the UI components to align with the Poolex.ai branding. I then re-pointed the subgraph endpoints and optimized the `web3-react` connectors to parse Polygon's block intervals smoothly, ensuring real-time price impact and slippage calculations were perfectly accurate on the frontend.
+
+## The Business Outcome
+
+In exactly two weeks, Poolex.ai was live. Users could permissionlessly create liquidity pools, swap ERC-20 tokens with negligible gas fees on Polygon, and track their liquidity metrics. The architectural choices ensured that any existing trading bot or aggregator could easily route trades through Poolex using standard AMM interfaces.
+
+<div className="content-mdx-tags-row" style={{ marginTop: '2rem' }}>
+  <SecondaryButton as="a" href="https://github.com/ivannikov-pro" target="_blank" rel="noopener noreferrer">
+    <IconGithub width={16} height={16} />
+    View Snippets
+  </SecondaryButton>
+</div>
+
+---
+
+### GrabCoinClub NFTs infrastructure
+
+Source: https://ivannikov.pro/portfolio/grabcoinclub-nft
+
+When building the on-chain infrastructure for a major GameFi ecosystem like GrabCoinClub, standard NFT drop templates fail under load. The project required handling multiple interconnected NFT collections (characters, land plots, items), each with unique minting phases, aggressive anti-bot measures, and dynamic metadata tied to in-game progression.
+
+## Metrics & Scale
+
+- **Ecosystem Size:** 3 separate NFT collections interacting within a single game economy
+- **Security Focus:** EIP-712 Signature Whitelists over Merkle Trees
+- **Data Handling:** Managed millions of high-resolution 3D asset metadata combinations
+- **Network:** Polygon (Matic)
+
+## Tech Stack Overview
+
+- **Smart Contracts:** Solidity, Core ERC721/ERC1155, EIP-712
+- **Backend:** Node.js, Express, Redis, PostgreSQL (Auth & Signatures)
+- **Frontend Web3 UI:** React, Web3.js, Ethers.js
+- **Storage Infrastructure:** IPFS via Pinata, AWS S3
+
+## Engineering Challenges
+
+### 1. Complex Multi-Phase Whitelisting
+
+A GameFi project typically rewards players across multiple events (tournaments, Discord roles, partnerships). Managing a single static Merkle Tree across constantly shifting whitelist data is impossible to maintain and highly vulnerable.
+
+**Solution:** I implemented a decentralized authentication backend linking off-chain user profiles (Discord/Twitter) to their EVM wallet. Using EIP-712, the backend issued cryptographic signatures on-demand strictly during the user's allocated mint window. This decoupled database logic from the smart contract, saving immense amounts of gas and completely zeroing out early-minting bot attacks.
+
+### 2. Evolving Metadata at Scale
+
+In-game assets level up. Their associated metadata cannot be statically pinned to IPFS and frozen forever without breaking game mechanics, but it also cannot be entirely centralized without sacrificing Web3 ethos.
+
+**Solution:** I engineered a hybrid metadata oracle. The smart contract pointed `tokenURI` to a high-availability Node.js API acting as a dynamic gateway. As assets "leveled up" in-game, the game server emitted events. The Node.js gateway intercepted these events, generated the updated JSON metadata for the asset, pinned the new version immutably to IPFS, and dynamically updated the gateway's cached response. This allowed real-time updates while maintaining decentralized provenance.
+
+## The Business Outcome
+
+The technical infrastructure scaled effortlessly. Real players were able to seamlessly acquire their assets through a highly polished React UI, while automated bots trying to drain the contract via direct node RPC calls were blocked by the invalid state of their signatures.
+
+<div className="content-mdx-tags-row" style={{ marginTop: '2rem' }}>
+  <PrimaryButton as="a" href="https://grabcoinclub.com" target="_blank" rel="noopener noreferrer">
+    <IconLink width={16} height={16} />
+    View Game Ecosystem
+  </PrimaryButton>
+</div>
+
+---
+
+### Fibonacci Assistant Telegram Bot
+
+Source: https://ivannikov.pro/portfolio/fibonacci-assistant-telegram-bot
+
+Day traders operating in volatile crypto markets cannot always rely on heavy desktop charting software like TradingView when on the move. The client needed a lightning-fast, mobile-first solution to calculate actionable mathematical levels based on real-time price action, directly within the messenger they use for community discussions.
+
+## Technical Architecture
+
+- **Core Framework:** `grammy.js` (TypeScript)
+- **Data Aggregation:** Binance WebSocket Streams + REST Fallbacks
+- **State Management:** Redis (for session data and rate-limiting)
+- **Infrastructure:** Node.js, Docker, deployed on AWS EC2
+- **Database:** PostgreSQL (User preferences and subscription tracking)
+
+## Engineering Challenges
+
+### 1. Handling High-Frequency Data Streams
+
+Calculating accurate Fibonacci levels requires absolute precision on the high and low points of a specific timeframe. The bot needed to parse hundreds of price ticks per second without blocking the Node.js event loop or lagging behind the live market.
+
+**Solution:** I implemented a specialized WebSocket buffer utilizing a sliding window algorithm. Instead of calculating levels on every single tick, the bot aggregated OHLCV (Open, High, Low, Close, Volume) data into memory and only triggered expensive calculations when a user requested them or when price crossed a pre-calculated critical threshold.
+
+### 2. Conversational State in Telegram
+
+Calculating complex technical indicators requires user input (e.g., specific asset pairs, timeframes, and anchor points), which is difficult to manage cleanly in a linear chat interface.
+
+**Solution:** I leveraged the advanced conversational capabilities of `grammy.js`. I built a state machine that managed user sessions in Redis, guiding them through interactive inline keyboards rather than forcing them to type rigid text commands. This vastly improved the UX, reducing the average time to get a calculation from 15 seconds down to 2 taps.
+
+## The Business Outcome
+
+The bot transformed how the client's trading community executed trades on the go. By reducing the friction required to acquire complex mathematical targets, engagement in the client's premium channels spiked. The infrastructure easily scaled to handle thousands of concurrent users executing commands during high-volatility market events without any degraded response times.
+
+<div className="content-mdx-tags-row" style={{ marginTop: '2rem' }}>
+  <SecondaryButton as="a" href="https://github.com/ivannikov-pro" target="_blank" rel="noopener noreferrer">
+    <IconGithub width={16} height={16} />
+    View Architecture
+  </SecondaryButton>
+</div>
+
+---
+
+## Projects (open-source + studio products)
+
+### AI Agent Extender
+
+Source: https://ivannikov.pro/projects/ai-agent-extender
+
+<div className="content-mdx-highlight">
+Get notified when your AI is done or needs your input — without watching the screen. An MCP server that connects any AI coding assistant to Telegram.
+</div>
+
+## The Problem
+
+You kick off a complex task in your AI coding assistant, switch to something else, and miss the moment the AI finishes, crashes, or asks a critical question — wasting minutes or hours of productivity.
+
+## The Solution
+
+AI Agent Extender is an open-source MCP (Model Context Protocol) server that connects your AI coding assistant to Telegram. It works with any MCP-compatible IDE — Antigravity, Cursor, Claude Desktop, Windsurf, and others. With one JSON config block, your AI gains 11 powerful Telegram tools.
+
+## The Outcome
+
+<ul>
+  <li><strong>Never Miss a Moment:</strong> Get instant Telegram notifications when tasks complete, fail, or need your input.</li>
+  <li><strong>Interactive Control:</strong> Answer your AI's questions with text, yes/no buttons, or multiple choice — all from Telegram.</li>
+  <li><strong>Zero Friction:</strong> One-line npx setup, no backend required. Works with any MCP-compatible IDE out of the box.</li>
+</ul>
+
+## How It Works
+
+### 1. Create a Telegram Bot
+
+Open @BotFather in Telegram, create a bot, and copy the token.
+
+### 2. One-Line IDE Configuration
+
+Add a single JSON block to your MCP settings:
+
+<br />
+<CopyableCommand command="npx -y @ivannikov-pro/ai-agent-extender-mcp@latest" />
+<br />
+
+### 3. Full Telegram Toolkit
+
+Your AI assistant now has 11 tools: send notifications, ask questions, send files, read messages, store state, and more.
+
+<div className="content-mdx-tags-row">
+  <SecondaryButton as="a" href="https://github.com/ivannikov-pro/ai-agent-extender" target="_blank" rel="noopener noreferrer">
+    <IconGithub width={16} height={16} />
+    View on GitHub
+  </SecondaryButton>
+  <SecondaryButton as="a" href="https://www.npmjs.com/package/@ivannikov-pro/ai-agent-extender-mcp" target="_blank" rel="noopener noreferrer">
+    View on NPM
+  </SecondaryButton>
+</div>
+
+---
+
+### AI Agent Kit
+
+Source: https://ivannikov.pro/projects/ai-agent-kit
+
+<div className="content-mdx-highlight">
+Stop wasting hours on repetitive prompts. Instantly inject expert skills, workflows, and infrastructure directly into your codebase to standardize your AI agent's output.
+</div>
+
+## The Problem
+
+Standard AI coding assistants (Cursor, Copilot, Windsurf) are powerful, but they lack your project's specific architectural context. Without standard instructions, you are forced to constantly explain your tech stack, rewrite bad AI code, and repeatedly enforce best practices.
+
+## The Solution
+
+AI Agent Kit is an open-source CLI toolkit that installs a curated, battle-tested collection of specialized skills, workflows, and MCP configs directly into your project's \`.agents/\` directory. With one simple command, your AI instantly learns how to work inside your repository.
+
+## The Outcome
+
+<ul>
+  <li><strong>Faster Execution:</strong> Write expert-level Web3, Backend, and Frontend code without repetitive explanations.</li>
+  <li><strong>Standardized Architecture:</strong> Ensure every chunk of generated code precisely follows your team's internal conventions.</li>
+  <li><strong>Zero Configuration:</strong> Seamless, out-of-the-box integration with Claude, Cursor, Copilot, Windsurf, and Gemini.</li>
+</ul>
+
+## How It Works
+
+### 1. One-Command Initialization
+
+Prepare your workspace instantly.
+
+<br />
+<CopyableCommand command="npx @ivannikov-pro/ai-agent-kit@latest init" />
+<br />
+
+### 2. Inject Specialized Skills
+
+Over 15+ curated skills available. Teach your AI how to handle Express v5, deploy Solidity contracts, implement Figma API extractions, or use pnpm workspaces efficiently.
+
+<br />
+<CopyableCommand command="npx @ivannikov-pro/ai-agent-kit@latest add solidity-contracts" />
+<br />
+
+### 3. Run Automated Workflows
+
+Transform your AI into specific team roles. Execute ready-to-use workflows, prompting your assistant to act as a CTO (for code reviews), a Security Engineer (for vulnerability audits), or a Blockchain Dev.
+
+<div className="content-mdx-tags-row">
+  <PrimaryButton as="a" href="https://ivannikov.pro/ai-agent-kit/" target="_blank" rel="noopener noreferrer">
+    View on Official Website
+  </PrimaryButton>
+  <SecondaryButton as="a" href="https://github.com/ivannikov-pro/ai-agent-kit" target="_blank" rel="noopener noreferrer">
+    <IconGithub width={16} height={16} />
+    View on GitHub
+  </SecondaryButton>
+  <SecondaryButton as="a" href="https://www.npmjs.com/package/@ivannikov-pro/ai-agent-kit" target="_blank" rel="noopener noreferrer">
+    View on NPM
+  </SecondaryButton>
+</div>
+
+---
+
+### NotCoin Database
+
+Source: https://ivannikov.pro/projects/notcoin-database
+
+Database of NotCoin users with verified wallet addresses and balances, ready for retargeting and airdrops.
+
+---
+
+### IVANNIKOV.PRO Blog
+
+Source: https://ivannikov.pro/projects/ivannikov-pro-blog
+
+
+
+---
+
+### TheWebMason, Inc.
+
+Source: https://ivannikov.pro/projects/thewebmason-inc
+
+
+
+---
+
+### WebMason Universe
+
+Source: https://ivannikov.pro/projects/webmason-universe
+
+
+
+---
+
+## Blog (engineering field notes)
+
+### Blockchain Market Overview 2026 — 2026-03-28
+
+Source: https://ivannikov.pro/blog/blockchain-market-overview
+
+# Blockchain Market Overview
+
+The blockchain landscape has evolved significantly over the past few years. We are now seeing mature DeFi protocols, robust L2 infrastructure, and massive adoption of specific use cases like Telegram Mini Apps.
+
+## Key Trends
+
+- **L2 Dominance**: Ethereum L2s have taken over the majority of transaction volume.
+- **DeFi Maturation**: Institutional adoption of DeFi is bridging the gap between TradFi and Web3.
+- **Micro-apps**: Platforms like Telegram and Farcaster are driving mass consumer adoption of crypto through embedded wallets and mini-apps.
+
+## Conclusion
+
+The infrastructure phase is largely behind us. The market now rewards actual end-user applications that solve real problems.
+
+---
+
+### The Future of Web3 in 2026 — 2026-03-27
+
+Source: https://ivannikov.pro/blog/future-of-web3
+
+# The Future of Web3
+
+Content coming soon.
+
+---
+
+### Smart Contracts Security Checklist — 2026-03-26
+
+Source: https://ivannikov.pro/blog/smart-contracts-security
+
+# Smart Contracts Security
+
+Content coming soon.
+
+---
+
+### Telegram Mini Apps Complete Guide — 2026-03-25
+
+Source: https://ivannikov.pro/blog/telegram-mini-apps-guide
+
+# Telegram Mini Apps
+
+Content coming soon.
+
+---
+
+### Comparing Top DeFi Protocols in 2026 — 2026-03-24
+
+Source: https://ivannikov.pro/blog/defi-protocols-comparison
+
+# DeFi Protocols Comparison
+
+Content coming soon.
+
+---
+
+### 26 Criteria for AI-Readiness: How I Audited My Own Site (and Beat Three B2B SaaS Giants) — 2026-05-16
+
+Source: https://ivannikov.pro/blog/ai-readiness-self-audit
+
+# 26 Criteria for AI-Readiness: How I Audited My Own Site (and Beat Three B2B SaaS Giants)
+
+In May 2026 I ran a structured 26-criterion AI-readiness audit on my own site `ivannikov.pro`. Starting score: ~42/100. One day of fixes later: **80/100**. Then I ran the same audit on Stripe, Twilio, and Linear. **Twilio and Linear failed the E1 pre-condition gate** — their public sites cannot be parsed by LLM crawlers without JavaScript. Stripe scored **55/100**, missing fundamentals like `llms-full.txt` and explicit AI-policy in `robots.txt`.
+
+If you run a B2B SaaS and rely on organic traffic, this matters. Discovery has shifted from Google to AI agents — ChatGPT, Claude, Perplexity, Google AI Overview. Sites that are not optimised for LLM consumption lose visibility every quarter. Most "AI SEO" advice is generic; this post gives you the concrete checklist.
+
+---
+
+## The 26-criterion framework
+
+Five categories, 100 points total, plus a hard pre-condition gate:
+
+### E1 gate (pre-condition)
+
+**Content accessible without JavaScript execution.** LLM crawlers (`GPTBot`, `ClaudeBot`, `PerplexityBot`) do not run JS. If your site requires it to render content, the whole audit is _UNRELIABLE_ — fix this first. This is where SPAs lose, hard.
+
+### A. Discovery (18 pts)
+
+Can an LLM agent find your content from a cold start? Look for:
+
+- `/llms.txt` — site index in the [llmstxt.org](https://llmstxt.org) format.
+- `/llms-full.txt` — extended version with concatenated content.
+- `/robots.txt` with explicit `Allow:` for AI crawlers (not just `User-agent: *`).
+- `/sitemap.xml` with `<lastmod>` tags.
+
+### B. Per-page artifacts (22 pts)
+
+On individual pages:
+
+- `.md` mirrors — `/page.md` returns clean Markdown. Single most effective fix for SPAs.
+- JSON-LD `TechArticle` / `Article` / `Person` / `Organization` schema in `<head>`.
+- `<link rel="canonical">` present and accurate.
+- `Last-Modified` HTTP header or `dateModified` in JSON-LD.
+- OpenGraph + Twitter Card metadata.
+
+### C. API spec (25 pts) — skip if not an API product
+
+- OpenAPI on a predictable URL (`/openapi.json`).
+- Schema validates clean.
+- Per-endpoint examples (request + response).
+- Postman / Insomnia / Bruno collection linked.
+- SDK references near the docs.
+- Versioning in spec and URL.
+
+### D. Content (20 pts)
+
+- `curl` example per endpoint.
+- Realistic payloads (not `{"foo": "bar"}`).
+- Error codes documented.
+- Auth method clearly described.
+- Rate limits documented.
+- Glossary for domain-specific terms.
+- SDK code examples alongside REST.
+
+### E. Hygiene (15 pts)
+
+- No-JS access (the E1 gate above).
+- Stable URLs (no hash-routing).
+- Version in URL for citation stability.
+- TOS / AUP / AI policy published.
+
+The full checklist with point allocations and verification methods is in the [open-source repo](https://github.com/ivannikov-pro/ai-readiness-audit).
+
+---
+
+## Self-audit: ivannikov.pro
+
+Before fixes (manual audit, 2026-05-16 morning):
+
+| Category                   | Score                          |
+| -------------------------- | ------------------------------ |
+| A. Discovery               | 4/18                           |
+| B. Per-page                | 9/22                           |
+| E. Hygiene                 | 10/15                          |
+| **Total (A+B+E, partial)** | **23/55 → ~42/100 normalized** |
+
+C and D are partial / N/A for a portfolio site (no API product).
+
+After fixes (same day, evening):
+
+| Category     | Score                                                      |
+| ------------ | ---------------------------------------------------------- |
+| A. Discovery | 15/18                                                      |
+| B. Per-page  | 12/22                                                      |
+| E. Hygiene   | 11/15                                                      |
+| **Total**    | **38/55 → ~69/100 normalized; 80/100 by automated script** |
+
+What changed in one day:
+
+1. **Added `/llms.txt`** with proper llmstxt.org structure (+6).
+2. **Added `/llms-full.txt`** with ~3000 words of canonical content (+5).
+3. **Updated `/robots.txt`** with explicit `Allow:` for 20+ AI crawlers including GPTBot, ClaudeBot, PerplexityBot, Google-Extended, anthropic-ai, cohere-ai, meta-externalagent (+3).
+4. **Enriched JSON-LD `Person` schema** with `alternateName` (handle variants), `givenName`/`familyName`, `worksFor` Organization schema, expanded `knowsAbout` to include AI/RAG/LLM/GEO (+2).
+5. **Reordered services** — AI-first (`ai-optimisation`, `ai-development` as top 2), Web3 demoted to adjacent capability.
+
+---
+
+## Benchmark: B2B SaaS giants
+
+I ran the [automated subset of the audit](https://github.com/ivannikov-pro/ai-readiness-audit/blob/main/scripts/check-ai-readiness.sh) against three popular B2B SaaS products:
+
+| Site              | E1 gate | Score               | Notes                                                                                                   |
+| ----------------- | ------- | ------------------- | ------------------------------------------------------------------------------------------------------- |
+| **ivannikov.pro** | ✅ PASS | **80/100**          | After Week 1 fixes — SSG + llms.txt + robots AI policy + sitemap                                        |
+| **Stripe**        | ✅ PASS | **55/100**          | Has llms.txt (no H1 though), no llms-full.txt, generic robots.txt, no sitemap.xml at root, no OpenGraph |
+| **Twilio**        | ❌ FAIL | 32/100 _UNRELIABLE_ | SPA — body empty without JS. LLM crawlers cannot read content.                                          |
+| **Linear**        | ❌ FAIL | 40/100 _UNRELIABLE_ | Has llms.txt (218 lines!) and llms-full.txt, but main site is JS-rendered.                              |
+
+The takeaway: **two of three B2B SaaS giants are invisible to LLM crawlers from their public marketing sites.** They likely get cited via secondary signals (docs subdomains, third-party mentions, training data lag), but they are leaving organic AI visibility on the table.
+
+If your competitors are in similar shape, the **first-mover window in your niche is wide open** for 12–18 months.
+
+---
+
+## Where most teams lose
+
+Three patterns I see consistently:
+
+### 1. SPA-by-default (the E1 trap)
+
+Single-page apps render content client-side. To you it looks fine; to a crawler it's an empty `<body>`. Stripe got this right by serving HTML directly. Twilio and Linear are paying the SPA tax. Fixes range from "switch a few key pages to SSR" to "add per-page `.md` mirrors via a route handler". The Markdown mirror is the highest ROI fix.
+
+### 2. No explicit AI policy in robots.txt
+
+A bare `User-agent: *` is technically permissive, but explicit `Allow:` directives for `GPTBot`, `ClaudeBot`, etc. are a positive signal — and a place where you can also disallow if you want to. Most teams just have neither.
+
+### 3. JSON-LD missing or stale
+
+If you have a `<head>` populated with `Person` / `Organization` / `Article` JSON-LD, agents can resolve entity references. If you don't, you are betting on the LLM's own retrieval. With explicit `sameAs` (linking GitHub, LinkedIn, Telegram, X, Upwork), you become _one_ entity in the agent's mental model — instead of three handles with a similar name.
+
+---
+
+## Why this matters more for founder-led brands
+
+For studios, agencies, and freelancer-led SaaS, there is a second dimension I call **entity authority** — does the LLM recognise _who_ you are as one person, or three different ones?
+
+If you have:
+
+- GitHub `your-name`
+- LinkedIn `your.name`
+- Twitter `your_name`
+- Telegram `yourname`
+
+…that's potentially four separate entities. `Schema.org` `alternateName` is a starting point, but the long-term fix is **bio consistency** (the same one-liner everywhere) + **linkback discipline** (every profile links back to your domain) + a steady drip of **technical writing** under your name.
+
+This is a separate companion checklist — 13 criteria, 50 points, covering platform footprint, schema signals, consistency, and external mentions. Same [open-source repo](https://github.com/ivannikov-pro/ai-readiness-audit/blob/main/entity-authority-checklist.md).
+
+---
+
+## Try it on your site
+
+The methodology, prompt, bash script, and example reports are MIT-licensed:
+
+[**github.com/ivannikov-pro/ai-readiness-audit**](https://github.com/ivannikov-pro/ai-readiness-audit)
+
+Three ways to use it:
+
+1. **Bash script** for a 30-second automated subset:
+
+   ```bash
+   ./scripts/check-ai-readiness.sh https://yourcompany.com
+   ```
+
+2. **Claude / ChatGPT prompt** — paste [`prompts/audit-prompt.md`](https://github.com/ivannikov-pro/ai-readiness-audit/blob/main/prompts/audit-prompt.md) into your LLM with your URL.
+
+3. **Manual checklist** — work through [`audit-checklist.md`](https://github.com/ivannikov-pro/ai-readiness-audit/blob/main/audit-checklist.md) for the full 26 criteria with point allocations.
+
+If you want someone to actually do the audit, prioritise fixes, and track your AI Visibility Score over time — that's [the paid service](/en/services/ai-optimisation).
+
+---
+
+## TL;DR
+
+- AI agents are increasingly how customers discover B2B SaaS.
+- Most popular B2B SaaS sites fail basic AI-readiness — SPAs that need JS, no `llms.txt`, no explicit AI policy.
+- The fix is a known, scoreable list of 26 criteria.
+- I shipped my own site from 42 to 80 in one day. The tools are open source.
+- First-mover window in most niches is open for the next 12–18 months.
+
+If you found this useful: [follow me on X](https://x.com/ivannikov_pro), [Telegram](https://t.me/ivannikov_pro), or [the channel](https://t.me/ivannikov_pro). The full strategy and methodology will be documented as the methodology evolves.
+
+— Aleksandr Ivannikov / [IVANNIKOV.PRO](https://ivannikov.pro)
+
+---
+
+### Best GEO Tools 2026: Comparison of 10 AI Visibility Platforms — 2026-05-16
+
+Source: https://ivannikov.pro/blog/best-geo-tools-2026
+
+# Best GEO Tools 2026: Comparison of 10 AI Visibility Platforms
+
+The Generative Engine Optimization (GEO) tooling market matured fast in 2025–2026. Profound hit $1B valuation. Semrush and Ahrefs added AI Visibility modules. Dozens of startups occupy tiers from $29/mo budget monitoring to $5K/mo enterprise tracking.
+
+This is a researched comparison of 10 tools — all data verified directly from vendor sites. If you're a B2B SaaS founder wondering where to spend your GEO budget, this is the cheat sheet.
+
+**TL;DR**: If you need just tracking, **Otterly.AI** ($29/mo) is the cheapest serious option. If you need implementation help (not just tracking), use [our open-source audit](https://github.com/ivannikov-pro/ai-readiness-audit) free, then hire [implementation](/services/ai-optimisation).
+
+## The 10 tools at a glance
+
+| #   | Tool                             | Tier       | Price                  | Best for                                |
+| --- | -------------------------------- | ---------- | ---------------------- | --------------------------------------- |
+| 1   | Profound                         | Enterprise | $499–$5K+/mo           | Established brands, marketing teams     |
+| 2   | Conductor                        | Enterprise | ~$61K/year+            | Large enterprises, global brands        |
+| 3   | BrightEdge                       | Enterprise | Custom                 | Enterprise SEO teams                    |
+| 4   | AthenaHQ                         | Mid        | ~$295/mo               | High-growth SaaS, e-commerce            |
+| 5   | BrandLight                       | Mid        | ~$199/mo+              | Enterprise marketing/PR                 |
+| 6   | Peec AI                          | Mid        | $95–$495/mo            | Marketing teams, SEO agencies           |
+| 7   | Writesonic                       | Mid        | Bundled                | Content marketing teams                 |
+| 8   | Otterly.AI                       | Budget     | $29–$489/mo            | SMB, solo marketers, agencies           |
+| 9   | GrackerAI                        | Budget     | $99–$499/mo            | B2B SaaS (cybersec, fintech, dev tools) |
+| 10  | Semrush AIO + Ahrefs Brand Radar | Bundled    | Part of existing plans | SEO teams already in those ecosystems   |
+
+## Tier 1: Enterprise ($2K–$15K+/mo)
+
+### Profound (tryprofound.com)
+
+**The 800-pound gorilla.** $155M total funding, $1B valuation as of Feb 2026 (Series C, Lightspeed). Tracks AI visibility across 10+ engines (ChatGPT, Claude, Perplexity, Gemini, Google AIO, Copilot). Conversation Explorer for prompt analysis. Agent Analytics for traffic attribution. AI Workflows for content optimization.
+
+- **Pricing**: Lite $499/mo, Enterprise $2,000–$5,000+/mo (custom)
+- **Best for**: Established brands with mature marketing teams, willing to pay enterprise SaaS premium
+- **Gaps**: No open-source / self-host, no implementation, expensive for SMB
+
+### Conductor
+
+Established SEO platform now offering "Share of Model" tracking and AI Search Performance reports.
+
+- **Pricing**: Custom, enterprise-only. Avg contract ~$61K/year, up to $180K+
+- **Best for**: Large enterprises, global brands
+- **Gaps**: Prohibitively expensive, no self-serve, no technical audit
+
+### BrightEdge
+
+Enterprise SEO with Generative Parser for decoding Google AI Overviews.
+
+- **Pricing**: Enterprise custom
+- **Best for**: Large enterprise SEO teams already on BrightEdge
+
+## Tier 2: Mid-Market ($95–$495/mo)
+
+### AthenaHQ (athenahq.ai)
+
+YC-backed. AI visibility tracking across ChatGPT, Perplexity, Claude, Gemini, Copilot, Grok. Action Center with AI-agents for content gap analysis. Shopify/GA integration for ROI attribution.
+
+- **Pricing**: Self-serve ~$295/mo (credit-based, ~3,500 credits), Enterprise $2,000+/mo
+- **Best for**: High-growth SaaS, e-commerce
+- **Gaps**: Credit-based = unpredictable costs, overkill for solopreneurs
+
+### BrandLight (brandlight.ai)
+
+AI Engine Optimization with source attribution. SOC 2 Type II compliant — appeals to enterprise security buyers.
+
+- **Pricing**: Entry ~$199/mo, enterprise custom
+- **Best for**: Enterprise marketing/PR teams
+- **Gaps**: Sales-led pricing, no technical audit
+
+### Peec AI (peec.ai)
+
+Real-time alerts, share of voice, competitive benchmarking, sentiment scoring.
+
+- **Pricing**: Starter $95/mo (50 prompts), Pro $245/mo (150), Advanced $495/mo (350)
+- **Best for**: Marketing teams, SEO agencies
+- **Gaps**: Limited models per plan (choose 3), add-on fees for extra engines
+
+### Writesonic (GEO Suite)
+
+Tracking + active content creation, generates optimized content in-platform.
+
+- **Best for**: Content marketing teams wanting all-in-one
+
+## Tier 3: Budget-Friendly ($29–$99/mo)
+
+### Otterly.AI (otterly.ai)
+
+The price leader for serious tracking. Prompt-based monitoring across ChatGPT, Perplexity, Google AIO, Copilot, Gemini. Citation/link analysis, GEO audits.
+
+- **Pricing**: Lite ~$29/mo (15 prompts), Standard ~$189/mo (100 prompts + GEO audits), Premium ~$489/mo (400+)
+- **Best for**: SMB, solo marketers, agencies on tight budget
+- **Gaps**: Add-on costs for extra engines (Gemini, Google AI Mode), overage ~$99/100 extra prompts
+
+### GrackerAI (gracker.ai)
+
+**Purpose-built for B2B SaaS** (cybersecurity, fintech, dev tools). Automated content engine — articles, listicles, comparison pages, FAQs. pSEO portals (glossaries, CVE hubs).
+
+- **Pricing**: Free Seed audit, Starter $99/mo (100 prompts/day, 3 engines, 3 articles/mo), Scale $499/mo (400 prompts/day, 6 engines, 10 articles/mo)
+- **Best for**: B2B SaaS teams that want content + tracking from one vendor
+- **Gaps**: No technical site audit, focused on content generation not implementation
+
+## Tier 4: Traditional SEO + AI Modules (Bundled)
+
+### Semrush AI Visibility Toolkit
+
+Integrated into existing Semrush subscriptions. AI Visibility Score (0-100), prompt tracking across ChatGPT Search/Google AIO/AI Mode/Gemini/Perplexity. Brand performance/sentiment. Competitor gap analysis. AI Search Site Audit.
+
+- **Pricing**: Bundled into Semrush One (existing subscription), Enterprise AIO premium add-on
+- **Best for**: SEO teams already in Semrush ecosystem
+
+### Ahrefs Brand Radar
+
+AI Share of Voice, citation/sentiment analysis, custom prompt tracking, 370M+ prompts/month processing.
+
+- **Pricing**: Part of existing Ahrefs plans
+- **Best for**: SEO professionals
+- **Note**: Ahrefs explicitly states data is for **directional** tracking, not exact AI ranking
+
+## Open-source alternatives
+
+### ai-readiness-audit (our work)
+
+26 + 13 criteria framework. Bash CLI + comprehensive Markdown checklists + ready-to-paste Claude prompt. MIT-licensed. Companion entity-authority checklist for founder-led brands.
+
+- **Pricing**: Free, self-host
+- **GitHub**: [github.com/ivannikov-pro/ai-readiness-audit](https://github.com/ivannikov-pro/ai-readiness-audit)
+- **Best for**: DIY founders, agencies wanting a methodology, devs evaluating before buying SaaS
+
+### aeo-audit, ai-ready-website, check-ai
+
+Various GitHub projects focused on narrow slices (schema validation, repo configs, API readiness). All gaps: no comprehensive scoring, no entity authority, no implementation playbook.
+
+## How to choose
+
+### Step 1: Decide audit vs tracking
+
+- **Need to know your score / gaps**: free audit tools (our OSS framework or vendor freemium)
+- **Need ongoing monitoring**: paid SaaS
+
+### Step 2: Match budget tier to product stage
+
+- **Pre-revenue / bootstrapped**: Otterly.AI Lite ($29/mo) or self-host OSS
+- **$1M–$10M ARR (B2B SaaS)**: AthenaHQ ($295/mo) or GrackerAI Scale ($499/mo) — both fit ICP
+- **$10M–$50M ARR**: Profound Lite ($499/mo) or Peec AI Pro ($245/mo)
+- **$50M+ ARR**: Profound Enterprise, Conductor, BrightEdge
+
+### Step 3: Decide tracking vs implementation
+
+**Critical**: paying $500/mo to know you have a problem doesn't fix the problem. If your score is 30/100, tracking tells you it's 30/100 every week. Implementation is separate.
+
+For implementation, options are:
+
+- **In-house** (your dev team) — requires they learn GEO methodology
+- **Service** ($8K–$15K project) — we do it for you ([details](/services/ai-optimisation))
+- **GrackerAI** — they generate content but don't fix technical audit issues
+- **Profound AI Workflows** — limited to content suggestions, not technical fixes
+
+## Recommended stack for B2B SaaS
+
+Based on our research and engagements, our recommended stack for a $1M–$10M ARR B2B SaaS in 2026:
+
+1. **Implementation phase (one-time, 6–8 weeks)**: $8K–$15K — full technical AI-optimisation (llms.txt, schema enrichment, per-page Markdown mirrors, content restructure)
+2. **Ongoing tracking (monthly)**: Otterly.AI Standard ($189/mo) or Peec AI Starter ($95/mo) — cheap but functional
+3. **Quarterly re-audit**: free, via our open-source script
+
+Total Year 1: ~$15K (one-time) + $1,140–$2,268 (annual tracking) = under $20K. Compare to Profound Lite alone: $499 × 12 = $5,988 (tracking only, no implementation).
+
+## Where the market is heading
+
+Three trends to watch:
+
+1. **Consolidation**: Smaller tools likely acquired by Semrush, Ahrefs, or HubSpot within 12–18 months. Profound, with $96M Series C, could be acquirer.
+2. **Convergence**: SEO + GEO tooling merging into unified platforms (Semrush One already doing this). Stand-alone GEO tools have a 1–2 year window before pressure.
+3. **Open-source pressure**: As methodology becomes public (this article + others), gap between $499/mo tools and $0 self-host narrows. SaaS will differentiate via tracking automation and beautiful UX, not methodology.
+
+## How we use this research
+
+We built our own [open-source tracker](https://github.com/ivannikov-pro/ai-visibility-tracker) (in development, pre-MVP at time of writing) precisely because no open-source AI visibility tracker existed at the time of our research. Hosted version at [ai-visibility.ivannikov.pro](https://ai-visibility.ivannikov.pro) (coming soon).
+
+When complete, our tracker will be the only solution offering: open-source MIT, self-hostable, bash CLI + Web UI, entity authority companion, Perplexity API integration, and built-in implementation playbook.
+
+## TL;DR — what to buy
+
+| Situation                        | Buy                                                                   |
+| -------------------------------- | --------------------------------------------------------------------- |
+| Tight budget, just want tracking | Otterly.AI Lite ($29/mo)                                              |
+| B2B SaaS, $1M–$10M ARR           | AthenaHQ ($295/mo) OR GrackerAI Scale ($499/mo)                       |
+| Need content + tracking          | GrackerAI                                                             |
+| Already in Semrush/Ahrefs        | Just enable AI module — bundled                                       |
+| Mature brand, enterprise         | Profound, Conductor, BrightEdge                                       |
+| DIY, methodology-focused         | [Our OSS](https://github.com/ivannikov-pro/ai-readiness-audit) (free) |
+| Need implementation help         | [Our service](/services/ai-optimisation) ($8K–$15K)                   |
+
+— Aleksandr Ivannikov / [IVANNIKOV.PRO](https://ivannikov.pro)
+
+---

@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[51691,["/_next/static/chunks/0lkeoqamx-yps.js","/_next/static/chunks/0mwesxhhsvcmk.js","/_next/static/chunks/0jm8_pyek1ws..js","/_next/static/chunks/0_70t4knwpb0k.js","/_next/static/chunks/0f7yk34rtxewu.js","/_next/static/chunks/09c1th1rf60pk.js","/_next/static/chunks/0vj8xppcebkve.js"],"UnsubscribeClient"]
-3:I[81109,["/_next/static/chunks/0lkeoqamx-yps.js","/_next/static/chunks/0mwesxhhsvcmk.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","section",null,{"className":"section","children":["$","div",null,{"className":"container","children":[["$","h1",null,{"className":"section-title section-title--center","children":"Manage your subscriptions"}],["$","p",null,{"className":"section-subtitle","children":"Pick which topics you want to hear about. Or turn everything off — your call."}],["$","$L2",null,{"locale":"en"}]]}]}],[["$","script","script-0",{"src":"/_next/static/chunks/0vj8xppcebkve.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"hFFnZmj4PH_K6kgetc9nx"}
-5:null

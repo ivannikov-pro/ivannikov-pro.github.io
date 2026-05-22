@@ -1,816 +1,381 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://ivannikov.pro/about/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/about/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/about/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/about/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/about/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/about/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/blog/ai-readiness-self-audit/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/ai-readiness-self-audit/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/ai-readiness-self-audit/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/blog/ai-readiness-self-audit/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/ai-readiness-self-audit/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/ai-readiness-self-audit/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/blog/best-geo-tools-2026/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/best-geo-tools-2026/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/best-geo-tools-2026/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/blog/best-geo-tools-2026/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/best-geo-tools-2026/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/best-geo-tools-2026/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/blog/blockchain-market-overview/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/blockchain-market-overview/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/blockchain-market-overview/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/blog/blockchain-market-overview/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/blockchain-market-overview/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/blockchain-market-overview/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/blog/defi-protocols-comparison/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/defi-protocols-comparison/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/defi-protocols-comparison/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/blog/defi-protocols-comparison/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/defi-protocols-comparison/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/defi-protocols-comparison/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/blog/future-of-web3/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/future-of-web3/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/future-of-web3/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/blog/future-of-web3/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/future-of-web3/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/future-of-web3/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/blog/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/blog/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/blog/smart-contracts-security/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/smart-contracts-security/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/smart-contracts-security/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/blog/smart-contracts-security/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/smart-contracts-security/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/smart-contracts-security/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/blog/telegram-mini-apps-guide/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/telegram-mini-apps-guide/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/telegram-mini-apps-guide/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/blog/telegram-mini-apps-guide/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/telegram-mini-apps-guide/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/telegram-mini-apps-guide/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/comparison/ai-optimisation-vs-traditional-seo/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/comparison/ai-optimisation-vs-traditional-seo/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/comparison/ai-optimisation-vs-traditional-seo/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/comparison/ai-optimisation-vs-traditional-seo/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/comparison/ai-optimisation-vs-traditional-seo/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/comparison/ai-optimisation-vs-traditional-seo/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/contact/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/contact/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/contact/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/contact/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/contact/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/contact/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/curriculum-vitae/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/curriculum-vitae/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/curriculum-vitae/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/curriculum-vitae/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/curriculum-vitae/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/curriculum-vitae/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/cv/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/cv/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/cv/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/cv/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/cv/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/cv/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/glossary/ai-readiness-terms/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/glossary/ai-readiness-terms/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/glossary/ai-readiness-terms/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/glossary/ai-readiness-terms/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/glossary/ai-readiness-terms/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/glossary/ai-readiness-terms/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/legal/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/legal/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/legal/privacy/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/privacy/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/legal/privacy/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/privacy/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/privacy/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/legal/terms/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/terms/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/terms/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/legal/terms/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/terms/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/terms/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/links/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/links/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/links/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/links/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/links/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/links/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/portfolio/fibonacci-assistant-telegram-bot/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/fibonacci-assistant-telegram-bot/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/fibonacci-assistant-telegram-bot/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/portfolio/fibonacci-assistant-telegram-bot/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/fibonacci-assistant-telegram-bot/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/fibonacci-assistant-telegram-bot/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/portfolio/grabcoinclub-nft/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/grabcoinclub-nft/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/grabcoinclub-nft/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/portfolio/grabcoinclub-nft/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/grabcoinclub-nft/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/grabcoinclub-nft/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/portfolio/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/portfolio/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/portfolio/poolex-ai/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/poolex-ai/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/poolex-ai/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/portfolio/poolex-ai/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/poolex-ai/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/poolex-ai/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/portfolio/roborovski-nft/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/roborovski-nft/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/roborovski-nft/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/portfolio/roborovski-nft/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/roborovski-nft/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/roborovski-nft/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/portfolio/uls-token/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/uls-token/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/uls-token/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/portfolio/uls-token/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/uls-token/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/uls-token/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/portfolio/world-millionaire-challenge/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/world-millionaire-challenge/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/world-millionaire-challenge/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/portfolio/world-millionaire-challenge/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio/world-millionaire-challenge/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio/world-millionaire-challenge/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/process/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/process/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/process/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/process/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/process/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/process/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/projects/ai-agent-extender/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/ai-agent-extender/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/ai-agent-extender/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/projects/ai-agent-extender/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/ai-agent-extender/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/ai-agent-extender/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/projects/ai-agent-kit/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/ai-agent-kit/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/ai-agent-kit/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/projects/ai-agent-kit/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/ai-agent-kit/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/ai-agent-kit/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/projects/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/projects/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/projects/ivannikov-pro-blog/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/ivannikov-pro-blog/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/ivannikov-pro-blog/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/projects/ivannikov-pro-blog/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/ivannikov-pro-blog/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/ivannikov-pro-blog/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/projects/notcoin-database/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/notcoin-database/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/notcoin-database/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/projects/notcoin-database/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/notcoin-database/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/notcoin-database/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/projects/thewebmason-inc/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/thewebmason-inc/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/thewebmason-inc/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/projects/thewebmason-inc/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/thewebmason-inc/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/thewebmason-inc/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/projects/webmason-universe/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/webmason-universe/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/webmason-universe/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/projects/webmason-universe/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects/webmason-universe/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects/webmason-universe/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/recommendations/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/recommendations/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/recommendations/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/recommendations/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/recommendations/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/recommendations/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/refer/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/refer/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/refer/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/refer/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/refer/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/refer/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/resume/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/resume/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/resume/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/resume/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/resume/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/resume/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/services/ai-development/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/ai-development/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/ai-development/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/services/ai-development/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/ai-development/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/ai-development/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/services/ai-optimisation/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/ai-optimisation/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/ai-optimisation/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/services/ai-optimisation/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/ai-optimisation/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/ai-optimisation/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/services/consultation/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/consultation/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/consultation/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/services/consultation/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/consultation/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/consultation/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/services/forks/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/forks/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/forks/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/services/forks/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/forks/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/forks/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/services/high-conversion-tma/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/high-conversion-tma/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/high-conversion-tma/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/services/high-conversion-tma/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/high-conversion-tma/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/high-conversion-tma/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/services/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/services/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/services/mobile-web-development/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/mobile-web-development/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/mobile-web-development/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/services/mobile-web-development/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/mobile-web-development/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/mobile-web-development/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/services/smart-contracts/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/smart-contracts/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/smart-contracts/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/services/smart-contracts/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/smart-contracts/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/smart-contracts/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/services/support/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/support/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/services/support/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/support/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/support/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/services/telegram-bots/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/telegram-bots/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/telegram-bots/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/services/telegram-bots/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/telegram-bots/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/telegram-bots/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/services/turnkey/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/turnkey/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/turnkey/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/services/turnkey/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services/turnkey/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services/turnkey/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/sitemap/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/sitemap/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/sitemap/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/sitemap/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/sitemap/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/sitemap/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/unsubscribe/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/unsubscribe/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/unsubscribe/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ru/unsubscribe/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/unsubscribe/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/unsubscribe/" />
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/ai-agent-kit/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ivannikov.pro/roborovski-nft/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.1</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://ivannikov.pro</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/about</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/about" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/about" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/about" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/about</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/about" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/about" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/about" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/services</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/services" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/services</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/services" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/services" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/services" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/portfolio</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/portfolio" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/portfolio</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/portfolio" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/portfolio" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/portfolio" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/projects</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/projects" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/projects</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/projects" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/projects" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/projects" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/process</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/process" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/process" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/process" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/process</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/process" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/process" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/process" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/recommendations</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/recommendations" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/recommendations" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/recommendations" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/recommendations</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/recommendations" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/recommendations" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/recommendations" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/contact</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/contact" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/contact" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/contact" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/contact</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/contact" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/contact" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/contact" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/blog</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/blog" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/blog</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/blog" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/blog/post</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/post" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/post" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/blog/post" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/blog/post</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/blog/post" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/blog/post" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/blog/post" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/cv</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/cv" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/cv" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/cv" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/cv</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/cv" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/cv" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/cv" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/glossary</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/glossary" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/glossary" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/glossary" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/glossary</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/glossary" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/glossary" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/glossary" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/comparison</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/comparison" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/comparison" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/comparison" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/comparison</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/comparison" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/comparison" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/comparison" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/links</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/links" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/links" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/links" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/links</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/links" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/links" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/links" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/sitemap</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/sitemap" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/sitemap" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/sitemap" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/sitemap</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/sitemap" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/sitemap" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/sitemap" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/legal/privacy</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/privacy" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/privacy" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/legal/privacy" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/legal/privacy</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/privacy" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/privacy" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/legal/privacy" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/legal/terms</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/terms" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/terms" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/legal/terms" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/legal/terms</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/legal/terms" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/legal/terms" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/legal/terms" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/locations/dubai</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/locations/dubai" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/locations/dubai" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/locations/dubai" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/locations/dubai</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/locations/dubai" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/locations/dubai" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/locations/dubai" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/locations/abu-dhabi</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/locations/abu-dhabi" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/locations/abu-dhabi" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/locations/abu-dhabi" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/locations/abu-dhabi</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/locations/abu-dhabi" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/locations/abu-dhabi" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/locations/abu-dhabi" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/locations/moscow</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/locations/moscow" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/locations/moscow" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/locations/moscow" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/locations/moscow</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/locations/moscow" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/locations/moscow" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/locations/moscow" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/locations/krasnoyarsk</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/locations/krasnoyarsk" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/locations/krasnoyarsk" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/locations/krasnoyarsk" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://ivannikov.pro/ru/locations/krasnoyarsk</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://ivannikov.pro/locations/krasnoyarsk" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://ivannikov.pro/ru/locations/krasnoyarsk" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://ivannikov.pro/locations/krasnoyarsk" />
+<lastmod>2026-05-22T17:11:19.146Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 </urlset>
