@@ -88,7 +88,7 @@ Companion to llms.txt: the **full text** of key pages concatenated into a single
 
 ## .md mirror
 
-A per-page Markdown version served at `<url>.md` (e.g., `/services/ai-optimisation.md`). The single highest-ROI fix for SPAs that cannot retrofit SSR. Provides AI crawlers a clean, unstyled, JS-free version of any page. Implemented in our [post-build script](https://github.com/ivannikov-pro/ivannikov-pro-platform/blob/develop/apps/web-app/scripts/post-build.sh).
+A per-page Markdown version served at `<url>.md` (e.g., `/services/ai-optimisation.md`). The single highest-ROI fix for SPAs that cannot retrofit SSR. Provides AI crawlers a clean, unstyled, JS-free version of any page. Implemented in our [post-build script](https://github.com/ivannikov-pro/ivannikov-pro-platform/blob/develop/apps/landing/scripts/post-build.sh).
 
 ## Perplexity-User
 
