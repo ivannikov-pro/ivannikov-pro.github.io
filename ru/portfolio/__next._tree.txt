@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/0y57.x4uoeegv.css","style"]
+:HL["/_next/static/chunks/0zxw98ji8.-v5.css","style"]
 :HL["/_next/static/chunks/0~~fsa.28z~w4.css","style"]
 :HC["/",""]
 :HL["/assets/portfolio/roborovski.jpeg","image"]
@@ -7,4 +7,4 @@
 :HL["/assets/portfolio/poolex.png","image"]
 :HL["/assets/portfolio/grabcoin.png","image"]
 :HL["/assets/portfolio/fibonacci.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"portfolio","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"zFvT6vwZvkpQNMW5tbJMj"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"portfolio","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"OIGBhHURoX4OLb5QUMMPF"}
