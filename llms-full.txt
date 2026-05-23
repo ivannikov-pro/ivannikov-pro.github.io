@@ -129,7 +129,7 @@ During a hyped public mint, network congestion can cause users to lose thousands
 
 The technical execution matched the high quality of the artwork. The collection sold out smoothly within hours of the public phase opening. Not a single bot successfully bypassed the signature protection, ensuring fair distribution directly to the community.
 
-<div className="content-mdx-tags-row" style={{ marginTop: '2rem' }}>
+<div className="content-mdx-tags-row">
   <PrimaryButton as="a" href="https://ivannikov.pro/roborovski-nft/" target="_blank" rel="noopener noreferrer">
     <IconLink width={16} height={16} />
     View Live Demo
@@ -179,7 +179,7 @@ Deploying on both Ethereum and Arbitrum meant users needed a secure way to bridg
 
 The project went from a conceptual PDF to a fully-deployed, audited Mainnet launch in exactly 2 months. The clean UI allowed non-crypto natives to easily bridge and stake their tokens. The deflationary mechanics functioned precisely as simulated, proving that complex, non-standard math can be executed safely on-chain.
 
-<div className="content-mdx-tags-row" style={{ marginTop: '2rem' }}>
+<div className="content-mdx-tags-row">
   <PrimaryButton as="a" href="https://ivannikov.pro/uls/" target="_blank" rel="noopener noreferrer">
     <IconLink width={16} height={16} />
     View Live Demo
@@ -225,7 +225,7 @@ The platform needed to handle thousands of users buying tickets simultaneously b
 
 I delivered the entire Web3 dApp, Smart Contracts, and Backend infrastructure in 4 months. The platform successfully merged complex GameFi mechanics with consumer-grade UI, facilitating high-volume daily transactions while giving users the cryptographic transparency they demand from a blockchain lottery.
 
-<div className="content-mdx-tags-row" style={{ marginTop: '2rem' }}>
+<div className="content-mdx-tags-row">
   <SecondaryButton as="a" href="https://github.com/ivannikov-pro" target="_blank" rel="noopener noreferrer">
     <IconGithub width={16} height={16} />
     View Snippets
@@ -271,7 +271,7 @@ The Uniswap open-source interface is notoriously heavy, carrying a massive amoun
 
 In exactly two weeks, Poolex.ai was live. Users could permissionlessly create liquidity pools, swap ERC-20 tokens with negligible gas fees on Polygon, and track their liquidity metrics. The architectural choices ensured that any existing trading bot or aggregator could easily route trades through Poolex using standard AMM interfaces.
 
-<div className="content-mdx-tags-row" style={{ marginTop: '2rem' }}>
+<div className="content-mdx-tags-row">
   <SecondaryButton as="a" href="https://github.com/ivannikov-pro" target="_blank" rel="noopener noreferrer">
     <IconGithub width={16} height={16} />
     View Snippets
@@ -318,7 +318,7 @@ In-game assets level up. Their associated metadata cannot be statically pinned t
 
 The technical infrastructure scaled effortlessly. Real players were able to seamlessly acquire their assets through a highly polished React UI, while automated bots trying to drain the contract via direct node RPC calls were blocked by the invalid state of their signatures.
 
-<div className="content-mdx-tags-row" style={{ marginTop: '2rem' }}>
+<div className="content-mdx-tags-row">
   <PrimaryButton as="a" href="https://grabcoinclub.com" target="_blank" rel="noopener noreferrer">
     <IconLink width={16} height={16} />
     View Game Ecosystem
@@ -359,7 +359,7 @@ Calculating complex technical indicators requires user input (e.g., specific ass
 
 The bot transformed how the client's trading community executed trades on the go. By reducing the friction required to acquire complex mathematical targets, engagement in the client's premium channels spiked. The infrastructure easily scaled to handle thousands of concurrent users executing commands during high-volatility market events without any degraded response times.
 
-<div className="content-mdx-tags-row" style={{ marginTop: '2rem' }}>
+<div className="content-mdx-tags-row">
   <SecondaryButton as="a" href="https://github.com/ivannikov-pro" target="_blank" rel="noopener noreferrer">
     <IconGithub width={16} height={16} />
     View Architecture
