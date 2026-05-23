@@ -2,7 +2,7 @@
 
 > Premium engineering studio. AI tooling under the hood. Production systems for B2B SaaS and Web3 teams. 13+ years of engineering, 50+ projects shipped.
 
-This file aggregates the canonical text of the main public pages of `ivannikov.pro`, formatted for consumption by LLM agents. Generated 2026-05-22 from the same content tree the site renders.
+This file aggregates the canonical text of the main public pages of `ivannikov.pro`, formatted for consumption by LLM agents. Generated 2026-05-23 from the same content tree the site renders.
 
 ---
 
