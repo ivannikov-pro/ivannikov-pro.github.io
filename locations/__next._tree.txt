@@ -1,0 +1,8 @@
+:HL["/_next/static/chunks/0zxw98ji8.-v5.css","style"]
+:HL["/_next/static/chunks/0~~fsa.28z~w4.css","style"]
+:HC["/",""]
+:HL["/assets/locations/dubai-anime.png","image"]
+:HL["/assets/locations/abu-dhabi.jpg","image"]
+:HL["/assets/locations/moscow.png","image"]
+:HL["/assets/locations/krasnoyarsk.png","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"en","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"locations","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"-NLnahfjRgO6YyPgdLPXb"}
