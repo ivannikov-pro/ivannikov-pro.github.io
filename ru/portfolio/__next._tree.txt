@@ -1,10 +1,10 @@
 :HL["/_next/static/chunks/0zapqkyyjmwtv.css","style"]
 :HL["/_next/static/chunks/09nk_-q02grqk.css","style"]
 :HC["/",""]
-:HL["/assets/portfolio/roborovski.jpeg","image"]
-:HL["/assets/portfolio/uls.png","image"]
-:HL["/assets/portfolio/millionaire.png","image"]
-:HL["/assets/portfolio/poolex.png","image"]
-:HL["/assets/portfolio/grabcoin.png","image"]
-:HL["/assets/portfolio/fibonacci.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"portfolio","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"JQnXHyTFSQCOwxzLaL9Kf"}
+:HL["/assets/portfolio/roborovski.webp","image"]
+:HL["/assets/portfolio/uls.webp","image"]
+:HL["/assets/portfolio/millionaire.webp","image"]
+:HL["/assets/portfolio/poolex.webp","image"]
+:HL["/assets/portfolio/grabcoin.webp","image"]
+:HL["/assets/portfolio/fibonacci.webp","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"portfolio","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"9NJfcyMb2d1Asqowkv3a4"}
