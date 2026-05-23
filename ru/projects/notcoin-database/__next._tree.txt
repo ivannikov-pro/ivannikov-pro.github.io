@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/0j0jnje26y6y6.css","style"]
-:HL["/_next/static/chunks/0f2e0ki~yvshh.css","style"]
+:HL["/_next/static/chunks/0mm86-3tcwo04.css","style"]
+:HL["/_next/static/chunks/09nk_-q02grqk.css","style"]
 :HC["/",""]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"notcoin-database","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"ZIFq1-1Rj599mQmurYMEr"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"notcoin-database","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"M51bBDQ2vRhrmMsZDRkN1"}
