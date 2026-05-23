@@ -1,5 +1,5 @@
-:HL["/_next/static/chunks/0oqq3d.m_~51x.css","style"]
+:HL["/_next/static/chunks/0vaqzmu~64gke.css","style"]
 :HL["/_next/static/chunks/0~~fsa.28z~w4.css","style"]
 :HC["/",""]
 :HL["/assets/portraits/cartoon.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"links","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"gaOJMNVJXAjk7XPoNGQlY"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"links","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"oBvWmJGFiNSoqPkmqi-vy"}
