@@ -2,7 +2,7 @@
 
 > Premium engineering with AI under the hood. Production systems for B2B SaaS and Web3 teams — solo engineer, direct line, no agency layer. 13+ years of engineering, 50+ projects shipped.
 
-This file aggregates the canonical text of the main public pages of `ivannikov.pro`, formatted for consumption by LLM agents. Generated 2026-05-24 from the same content tree the site renders.
+This file aggregates the canonical text of the main public pages of `ivannikov.pro`, formatted for consumption by LLM agents. Generated 2026-08-10 from the same content tree the site renders.
 
 ---
 
@@ -517,6 +517,79 @@ Source: https://ivannikov.pro/projects/webmason-universe
 
 ---
 
+### Hilum Tools
+
+Source: https://ivannikov.pro/projects/hilum-tools
+
+> An AI coding agent spends most of its budget rediscovering a repository it has already read. Hilum replaces that rediscovery with one index it attaches to — resolved structure instead of grep-and-guess.
+
+## The problem
+
+Every session starts from zero. The agent greps for a symbol, opens whole files to find out what they contain, follows imports by hand, and reconstructs conventions it was told about yesterday. Then the session ends and all of it evaporates. The next task pays for the same investigation again.
+
+This is not a weak-model problem. It is a missing-substrate problem: the agent has a language model and a filesystem, and nothing in between that knows what the code actually *is*. So it guesses, and you pay for the guessing in tokens, in latency, and in the regressions that follow a confident wrong answer.
+
+## The solution
+
+Hilum Tools is an MCP platform that gives agents structured access to a codebase instead of raw text. One server exposes nine tool domains over the Model Context Protocol; any MCP host — Claude Code, Cursor, Cline, Continue, or your own SDK consumer — connects to the same index.
+
+It is written in Rust: roughly 358,000 lines across ~4,700 source files, on the official Rust MCP SDK, with stdio and streamable-HTTP transports and per-session runtime tool filtering. I designed and built all of it, and it runs daily against a multi-repository workspace — including the one this website lives in.
+
+## Nine domains, one server
+
+| Domain | What an agent asks it |
+| --- | --- |
+| **Code** | Project structure, go-to-definition, references, call hierarchy — hybrid LSP + tree-sitter, not regex |
+| **Find** | Budget-aware retrieval: "return exactly enough material to answer X in N tokens" |
+| **Docs** | Current, version-pinned documentation for the libraries actually in the lockfile — private APIs included |
+| **Memory** | One briefing call returns conventions, recent decisions, last-green state, and known pitfalls |
+| **Graph** | The decision graph: why a component works this way, and what an edit puts at risk |
+| **Lineage** | Provenance for a symbol — the pain that created it, the specs it satisfies, how it evolved |
+| **Setup** | Repository onboarding: navigation indexes, marker validation, generated maps |
+| **Audit** | Standing checks over the repo, surfaced as findings rather than a wall of output |
+| **Agent** | Coordination: work queue, claim arbitration, durable mailbox, worker dispatch |
+
+## What it changes
+
+- **Fewer tokens per task.** Retrieval answers to a budget instead of returning the top ten matches and letting the model pay for whatever they weigh.
+- **Context that survives the session.** Decisions, pitfalls and conventions are read automatically and written deliberately; a stale record is archived, not silently deleted.
+- **Answers that state their own reliability.** An empty result distinguishes "nothing matched" from "nothing was searched" — an agent acting unsupervised cannot tell those apart otherwise.
+- **Parallel agents that do not collide.** Ownership is arbitrated where work is handed out, each worker gets an isolated tree, and output outlives the process that produced it.
+
+## Built with its own discipline
+
+The architecture is not documented after the fact — it is the input. 191 decision records form a validated graph where a dangling reference fails the build rather than printing a warning, and a change puts its dependants in question automatically.
+
+Underneath sits a normative model of fifteen areas describing how a service should behave when its consumer is an autonomous agent rather than a human: an answer is a claim about its own reliability, and the service is accountable for that claim as much as for the content. The model names no language, no storage engine and no product, and a build guard enforces that portability.
+
+## Where the paid line falls
+
+Everything that runs against your checked-out tree is free and works offline — code intelligence, local indexing, memory, lineage, the decision graph, single-host orchestration. The paid tier begins where data crosses to another machine or another team member: hosted sync, shared team memory, fleet coordination.
+
+The boundary is architectural rather than a feature paywall. Your source never enters the sync path; only memory records do, and the index is rebuildable from the tree.
+
+## Status
+
+Early access. The product site and the documentation are live, and the distribution repository is public with the installers and the release-signing key already in place — the first signed binaries are the next thing to land. The source stays private under BSL 1.1, converting to Apache-2.0 on 2030-08-01.
+
+Want it pointed at your codebase, or something like it built for your stack? That is what the [AI development](/services/ai-development) and [AI optimisation](/services/ai-optimisation) engagements are for.
+
+<div className="content-mdx-tags-row">
+  <PrimaryButton as="a" href="https://hilum.tools" target="_blank" rel="noopener noreferrer">
+    Visit hilum.tools
+  </PrimaryButton>
+  <SecondaryButton as="a" href="https://docs.hilum.tools" target="_blank" rel="noopener noreferrer">
+    <IconLink width={16} height={16} />
+    Read the docs
+  </SecondaryButton>
+  <SecondaryButton as="a" href="https://github.com/hilum-tools" target="_blank" rel="noopener noreferrer">
+    <IconGithub width={16} height={16} />
+    View on GitHub
+  </SecondaryButton>
+</div>
+
+---
+
 ## Blog (engineering field notes)
 
 ### Blockchain Market Overview 2026 — 2026-03-28
@@ -963,5 +1036,622 @@ When complete, our tracker will be the only solution offering: open-source MIT, 
 | Need implementation help         | [Our service](/services/ai-optimisation) ($8K–$15K)                   |
 
 — Aleksandr Ivannikov / [IVANNIKOV.PRO](https://ivannikov.pro)
+
+---
+
+### When Your Consumer Is an Agent: A Normative Model for Machine-Facing Services — 2026-08-01
+
+Source: https://ivannikov.pro/blog/agent-facing-services
+
+Here is a search endpoint returning an empty array. A human developer looks at it and immediately starts asking the right questions: is my query wrong, is the index empty, is the filter too narrow, did the service just come up? They open a second tab. They check a dashboard. They ask someone.
+
+An agent does none of that. It reads `[]`, concludes "there is nothing", and acts. If the array was empty because the index had not finished building, the agent has just been told a confident lie by a service that did nothing wrong by conventional standards.
+
+That gap is the whole subject of this post. Everything below follows from one premise, and it is worth stating plainly before the consequences:
+
+> An agent puts a question to a service and acts on the reply immediately, unsupervised, and cannot see what produced it. So the reply has to carry it: **an answer is a claim about its own reliability, and the service is accountable for that claim as much as for the content.**
+
+I wrote this premise up as a closed normative corpus of fifteen areas while building [Hilum Tools](/projects/hilum-tools), because I kept re-deriving the same rules in each subsystem and getting them subtly different each time. What follows is the part that transfers.
+
+---
+
+## Why the usual contracts are not enough
+
+REST, GraphQL and typed RPC all describe **shape**. They tell the caller that the response is an array of objects with these fields. They say nothing about whether the answer is complete, how old the underlying data is, whether the search actually ran, or how confident the service is that this is the right answer.
+
+For a human consumer that omission is survivable, because the human supplies the missing judgement. They know the deploy went out an hour ago. They notice the results look thin. They have context the protocol never carried.
+
+An agent has no such side channel. Whatever the response does not say, the agent will fill in with the most plausible assumption — and "most plausible" is exactly how confident wrongness is manufactured at scale. The protocol has to carry the judgement, because there is nobody left to supply it.
+
+## Five rules that fall out of the premise
+
+The full corpus is longer, but almost everything practical descends from these.
+
+### 1. Emptiness must be typed
+
+`[]` is the single most dangerous response in a machine-facing API, because at least four different situations produce it:
+
+- The search ran, the corpus is healthy, nothing matched. *Genuine absence.*
+- The search ran against an index that is empty or still building. *Unknown, not absence.*
+- The search was skipped — the backend was unavailable and the error was swallowed upstream. *Failure wearing absence as a costume.*
+- The filter excluded everything before the search happened. *Absence, but of your own making.*
+
+A human distinguishes these by intuition and investigation. An agent needs them distinguished in the payload. Every empty result should carry which of the four it is. This is a small change to a response type and it removes an entire class of confident error.
+
+### 2. Every answer states its coverage and its age
+
+Two fields, and they are the difference between an answer an agent can plan around and one it can only trust blindly.
+
+**Coverage** — what fraction of the intended universe was actually consulted. "I searched the whole tree" and "I searched the eleven files that were indexed before the crash" are wildly different answers with identical shapes.
+
+**Age** — how stale the material behind the answer is. Not the response timestamp, the *data* timestamp. An index that stopped updating forty minutes ago answering with total assurance is worse than one that says so, because the second one lets the caller decide whether forty minutes matters for this question.
+
+### 3. "No" and "I do not know" are different answers
+
+Conflating them is the most common failure in this category and the one with the worst consequences, because the two demand opposite responses from the caller. "No" means stop looking here. "I do not know" means look somewhere else, or ask again later, or escalate.
+
+Give them separate representations. Then make the "I do not know" path cheap to produce and cheap to read — if a service has to work hard to admit uncertainty, it will quietly stop admitting it under load, which is exactly when you need it most.
+
+### 4. Every answer states what it cost and what it left out
+
+An agent works against a budget it cannot see from inside your service. If a response is a selection — truncated to a limit, capped by a token ceiling, sampled — the response must say so, and say roughly what fell outside.
+
+"Three more matched but did not fit" is a fact the agent can act on: it can raise the budget, narrow the question, or note the incompleteness in its own output. Silent truncation reads as completeness, and an agent that believes it has the whole picture will stop looking.
+
+### 5. Refusals must be actionable
+
+When a service declines — rate limit, permission, malformed input, unsupported operation — the reply needs to say what would make it succeed. Not an error taxonomy for a human to look up in documentation the agent will not read: the corrective action, in the payload.
+
+A human hits a 403 and asks a colleague. An agent hits a 403 and either retries the same call, gives up on a task that was achievable, or invents a workaround. All three are worse than being told "this needs the `write:memory` scope, which this token does not have".
+
+---
+
+## Why the model names no technology
+
+The corpus I wrote deliberately mentions no language, no storage engine, no framework and no product. Fifteen areas — the answer contract, the cost of an answer, provenance, observability, verdicts, access, coordination, federation, distribution and the rest — each stated as what must hold, never as how to build it.
+
+That constraint is not stylistic. It is what makes the model liftable into a project built out of entirely different machinery. A rule that says "return a `RetrievalEnvelope` with a `coverage` field" is advice about one codebase. A rule that says "an answer states what fraction of the intended universe it consulted" is a rule you can carry into a Python service, a Go gateway, or an API you did not write.
+
+Portability like that decays the moment nobody is checking, so it is enforced mechanically: a build guard scans the corpus for technology nouns and fails when one appears. The discipline is not a habit anyone has to remember.
+
+## How to adopt this without writing fifteen documents
+
+Start with the premise, not the corpus. One paragraph, written down, about what your consumer can and cannot do with your answers. Then work forward:
+
+1. **Audit your empty and error responses.** For each one, ask what an unsupervised caller would conclude and whether that conclusion is warranted. This alone usually surfaces several real bugs.
+2. **Add coverage and age to your most-consumed endpoint.** One endpoint, two fields. Measure whether downstream behaviour improves before rolling it out further.
+3. **Split "no" from "unknown"** everywhere the distinction exists in reality.
+4. **Write down the premise and the rules it produces**, in your own words, naming no technology. Keep it short enough that people read it.
+5. **Enforce mechanically what you can** — a schema check, a lint rule, a test that a response envelope carries its metadata.
+
+The point is not to produce documentation. It is that once the premise is written down, arguments about individual endpoints stop being matters of taste. Somebody proposes returning a bare array, someone else points at the premise, and the conversation is thirty seconds long instead of a design review.
+
+---
+
+## Takeaways
+
+- The consumer's inability to look behind the answer is the design constraint, not a detail.
+- Shape contracts describe the payload; machine-facing services also need to describe the answer's reliability.
+- Type your emptiness. Four different situations produce `[]` and they demand different responses.
+- Every answer carries coverage and data age, not just a timestamp.
+- "No" and "I do not know" are different answers with opposite implications for the caller.
+- State what was omitted and what the answer cost — silent truncation reads as completeness.
+- Refusals carry the corrective action, not just a code.
+- Write the rules naming no technology, and enforce that mechanically, or they stop being portable within a quarter.
+
+The concrete version of this — retrieval that reports its own budget and index age — is [token-budgeted retrieval](/blog/token-budgeted-retrieval). The version that applies to your own architecture record is [the decision graph](/blog/decision-graph). If you want a second opinion on how your services will behave once agents are the consumers, that is what [a consultation](/services/consultation) is for.
+
+---
+
+### The Decision Graph: Architecture Records an Agent Can Actually Walk — 2026-08-03
+
+Source: https://ivannikov.pro/blog/decision-graph
+
+Ask your coding agent why the retry wrapper exists and watch what happens. It reads the code, infers a plausible reason, and states it with total confidence. The plausible reason is wrong — the wrapper exists because a specific provider returns 200 with an error body, which is not visible from the wrapper at all.
+
+The real reason was written down. It is in an architecture decision record, in a folder, that nobody has opened since it was merged. The agent did not read it because nothing told it the record existed or that it was relevant to the file being edited.
+
+That is the failure mode this post is about, and the fix is not "write more ADRs". It is turning the records you already have into something an agent can traverse.
+
+---
+
+## Why prose ADRs do not work for machines
+
+The standard ADR is a markdown file with a context, a decision and consequences. It is a good format for humans and a poor one for programs, for three specific reasons.
+
+**No edges.** Decision 0084 supersedes 0061 and rests on 0012. In prose that relationship is a sentence — sometimes a link, often just a number in a paragraph, occasionally only implied. There is nothing to traverse, so "what does this decision depend on" is a reading-comprehension task rather than a query.
+
+**No stable identity.** Records get renamed when the title is improved, renumbered when someone reorders the folder, moved when the directory is reorganised. Every reference to them silently rots. Six months in, half the cross-references point at nothing, and nobody notices because nothing checks.
+
+**No validation.** A broken link between two documents is invisible. Compare that to code: a reference to a symbol that does not exist fails the build immediately, which is precisely why code stays more internally consistent than documentation does.
+
+Fix those three and the ADR folder stops being a shelf and becomes an index.
+
+## Making it a graph
+
+### Mint the identifier once, never move it
+
+Give every record an identifier assigned at creation and never changed — not the title, not the folder position, not the sequence number in a list somebody might reorder. Everything else about the record can change freely: the title, the directory, the wording, the status. References point at the identifier, so they survive all of it.
+
+This is the single highest-leverage change, and it is worth doing even if you adopt nothing else here. The cost is one line of frontmatter. The benefit is that a reference written today is still valid after two reorganisations.
+
+### One edge kind, not seven
+
+The temptation is a rich vocabulary: *supersedes*, *refines*, *conflicts with*, *implements*, *relates to*. Resist it. Rich edge taxonomies get applied inconsistently by the third contributor, and an inconsistently-typed edge is worse than an untyped one because queries now silently miss things.
+
+One edge kind carries almost all the value: **rests on**. Decision B rests on decision A when A being wrong would put B in question. That single relation gives you dependency traversal, impact analysis, and a topological reading order. Status (`accepted`, `superseded`, `rejected`) lives on the node, not the edge, which keeps supersession from needing its own relation.
+
+### A dangling edge fails the build
+
+This is the rule that makes the rest survive contact with a real team. A reference to an identifier that does not exist is not a warning printed into a log nobody reads — it fails validation, and validation runs in CI alongside the tests.
+
+The same check enforces acyclicity. A cycle in "rests on" means the reasoning is circular, and it is far easier to catch at the moment it is introduced than six months later when someone is trying to understand the chain.
+
+Once validation is a gate rather than a report, the graph stays true without anyone maintaining it as a chore. That is the whole trick: the discipline is enforced by a machine, so it does not depend on anyone remembering.
+
+### Connect the graph to the code
+
+A validated graph of documents is still a separate world from the source. The bridge is a marker: a short annotated comment at the definition it applies to, naming the decision identifier.
+
+```ts
+// @decision ADR-0084 — retry wrapper: this provider returns 200 with an error body
+export async function callProvider(req: Request): Promise<Result> {
+```
+
+Cheap to write, and it changes what is possible on both sides. From the code, an agent editing this function can ask what was decided here. From the graph, a decision can enumerate the code that implements it. And a marker pointing at a decision that does not exist fails the same validation as a dangling edge, so the bridge cannot silently rot either.
+
+## What the agent gets to ask
+
+With the graph in place, three questions become single calls rather than archaeology:
+
+| Question | What it returns |
+| --- | --- |
+| **Why is this the way it is?** | The decisions attached to this file or symbol, plus what they rest on — the reasoning chain, not a search result. |
+| **What does this change put at risk?** | Everything that rests on the decision being touched, transitively. The review checklist, derived rather than remembered. |
+| **In what order should I read this?** | A topological walk from foundations upward, so an agent onboarding to an area reads causes before effects. |
+
+The second one is the one that pays for the whole exercise. "What else does this affect" is the question that regressions are made of, and it is exactly the question that a human answers from memory and an agent cannot answer at all — unless the dependencies are written down as edges.
+
+## Provenance: the other half
+
+A decision graph explains *why*. It does not explain *how this symbol came to be the way it is* — which is a different question with a different answer.
+
+Derive that from what actually happened rather than storing it by hand. A symbol gets renamed, moved to another module, split into two, and later merged back. Every one of those events is recoverable from history, and chained together they answer "where did this come from" long after the original name is gone.
+
+The important design decision is what to do when the chain breaks — when a rename is ambiguous, or a file was rewritten wholesale. The wrong answer is to guess and present the guess as history. The right one is to report the break: "the chain is continuous to this commit, and before that it cannot be established." An agent can work with a bounded history. It cannot work with a fabricated one.
+
+## Is this worth it for a normal team?
+
+Honest answer: the identifier rule and the validation gate are worth it at almost any size, because they cost close to nothing and they prevent the slow rot that makes documentation untrustworthy. I run 191 decision records this way and the maintenance overhead is close to zero, precisely because it is enforced rather than remembered.
+
+The markers and the provenance layer earn their keep when you have agents editing code you did not personally write, or a team large enough that the reasoning has left the room. Below that threshold, the graph without the code bridge is still a large improvement over a folder.
+
+The one thing not worth doing is adopting the ceremony without the enforcement. An ADR folder with a rich edge vocabulary and no validation is more expensive than no folder at all — it looks authoritative and it drifts.
+
+---
+
+## Takeaways
+
+- Prose ADRs fail machines on three counts: no traversable edges, no stable identity, no validation.
+- Mint the identifier at creation and never change it. Highest return, lowest cost.
+- One edge kind — *rests on*. Status lives on the node. Rich taxonomies get applied inconsistently.
+- A dangling reference fails the build. Enforcement is what keeps the graph true without anyone maintaining it.
+- Markers in code connect the graph to the source in both directions, and validate the same way.
+- Derive provenance from what happened; when the chain breaks, report the break instead of guessing.
+- Adopt the enforcement or do not adopt the ceremony — an unvalidated graph drifts while looking authoritative.
+
+The decision graph answers *why*; [persistent memory](/blog/persistent-agent-memory) answers *what we already learned the hard way*; and the general rule behind both — that an answer must state its own reliability — is [the normative model for agent-facing services](/blog/agent-facing-services). If you want this built into your repository, that is the [AI development](/services/ai-development) engagement.
+
+---
+
+### Token-Budgeted Retrieval: Return Enough Context, Not the Whole Corpus — 2026-08-05
+
+Source: https://ivannikov.pro/blog/token-budgeted-retrieval
+
+Every RAG tutorial ends the same way: embed the corpus, embed the question, return the top ten chunks, stuff them into the prompt. It demos beautifully. Then it meets production, and the bill arrives.
+
+The problem is not the model and usually not the embeddings. It is the contract. `top_k = 10` answers the question *"which ten chunks are most similar?"* — and nobody actually wants to know that. What a caller wants is: **give me exactly enough material to answer this, and do not spend more than N tokens doing it.** Those are different questions, and the second one is the one that has a budget attached.
+
+This post is about building for the second contract. It comes out of the retrieval layer I built for [Hilum Tools](/projects/hilum-tools), where the corpus is a multi-repository codebase and the caller is an autonomous agent that cannot look at what came back and say "hmm, that is not it".
+
+---
+
+## Why top-k overpays
+
+Three failures compound, and all three are invisible in a demo.
+
+**Similarity is not sufficiency.** Ten chunks that each score 0.82 can be ten near-copies of the same paragraph. You have paid for ten and learned one thing. Meanwhile the one chunk that actually completes the answer sits at rank fourteen because it phrases the concept differently.
+
+**Chunk weight is unbounded.** A "chunk" is a retrieval unit, not a cost unit. Ten chunks might be 800 tokens or 14,000 depending on how the splitter felt that day. The caller asked for ten of something and received an unpredictable invoice.
+
+**Rank ten is a guess about the future.** `k` is chosen once, at build time, for all questions. "Where is `AuthService` defined?" needs one precise hit. "How does billing reconcile a failed webhook?" needs six files and a decision record. Serving both with the same `k` means overpaying for the first and starving the second.
+
+## The contract that fixes it
+
+> Return the smallest set of material sufficient to answer X, and stay under N tokens. If you cannot get there, say so.
+
+Three parts, and the third is the one people skip.
+
+The **budget** turns retrieval into a selection problem with a constraint, which means it can be optimised instead of tuned by feel. The **sufficiency goal** replaces similarity ranking with coverage: distinct facets of the question, not ten variations of the strongest one. The **admission of failure** matters more than it looks: an agent acting unsupervised cannot distinguish "nothing matched" from "nothing was searched" unless the answer tells it. Silence reads as absence, and absence reads as licence to invent.
+
+## Building it
+
+### 1. Split where meaning changes, not at byte offsets
+
+Fixed-size windows are the single largest source of retrieval noise. A 512-token window cuts a function in half, separates a code sample from the sentence explaining it, and orphans a table header from its rows. Every one of those becomes a chunk that is individually retrievable and individually useless.
+
+Split on structure instead: function and class boundaries for code, heading boundaries for documentation, complete rows for tables. Then apply a size floor — a three-line chunk carries almost no signal and pollutes the index with noise that scores well on short queries. Where a natural unit exceeds the ceiling, split it and carry a header of parent context into each piece so a fragment still knows what it belongs to.
+
+### 2. Score with more than one head
+
+Pure semantic search has a specific, predictable blind spot: it is good at concepts and bad at strings. Identifiers, error codes, version numbers, config keys, and CLI flags are exactly the tokens a developer question hinges on, and they are exactly what an embedding smooths away. Ask a vector index for `E_CONFLICT_1042` and it will happily return a paragraph about conflict resolution.
+
+So run at least two heads and fuse them:
+
+- **Dense** — an approximate-nearest-neighbour index (HNSW is the sane default) over embeddings, for conceptual matches and paraphrase.
+- **Sparse / lexical** — BM25 or a learned sparse head, for exact identifiers and rare terms.
+
+Fuse with reciprocal-rank fusion before you reach for anything cleverer. It needs no score calibration between heads, it is three lines of code, and it is very hard to beat with hand-tuned weights. Add a multi-vector head later if your material has several natural aspects — a symbol's signature, its documentation, and its call sites are three different things to be similar to.
+
+### 3. Select against the budget, do not just rank
+
+Ranking gives you an ordered list. Selection is what turns that list into a prompt, and it is a knapsack problem: maximise expected coverage of the question, subject to the token ceiling.
+
+A greedy pass gets you most of the benefit. Walk the fused ranking and admit a candidate only if it adds a facet the current set does not already cover; charge its real token cost against the remaining budget; stop when the next admission would not repay its weight. Cheap and effective refinements on top:
+
+- **Deduplicate before charging.** Two chunks with high mutual similarity should not both be admitted; keep the better-scoring one and spend the saved tokens elsewhere.
+- **Reserve a slice for the expensive-but-necessary.** A decision record or an interface definition can be large and still be the thing that makes the answer correct. A pure value-per-token greedy will starve it. Reserve ~20% of the budget for at most one such admission.
+- **Prefer whole units at the margin.** Half a function costs tokens and delivers a misunderstanding. If it does not fit whole, drop it and tell the caller.
+
+### 4. Make the answer describe itself
+
+This is the part that separates a retriever an agent can trust from one it cannot. Every response should carry, alongside the material:
+
+- **What it is** — a selection under a budget, not the complete set. Say so explicitly.
+- **What it cost** — tokens spent against tokens allowed.
+- **What was left out** — how many candidates cleared the relevance bar but lost to the budget. "Three more files matched but did not fit" is actionable; silence is not.
+- **How fresh the index is** — the age of the index and its coverage of the tree. A retriever answering confidently from an index that stopped updating two days ago is worse than one that admits it.
+
+A human reader glances at the results and senses when something is off. An agent has no such sense. If the answer does not state its own reliability, the agent will treat a thin, stale, truncated result exactly like a complete one.
+
+---
+
+## Measuring whether it worked
+
+Relevance is a feeling until it is a number. Build an evaluation set from real questions — twenty to thirty is enough to be useful, and they must come from your actual users or your actual agent transcripts, not from your imagination. For each question, record which material a competent human considers necessary to answer it.
+
+Then track four things:
+
+| Metric | What it tells you |
+| --- | --- |
+| **Recall at budget** | Of the material a human deemed necessary, what fraction came back within N tokens? This is the headline number. |
+| **Tokens per answered question** | The cost side. Falling tokens with flat recall is the whole point of the exercise. |
+| **Wasted-context ratio** | Tokens delivered that the final answer never used. High values mean the selector is padding. |
+| **Unfounded-answer rate** | How often the model answers confidently from material that did not contain the answer. This is what "I do not know" paths and self-describing responses are supposed to drive down. |
+
+Run the baseline — plain `top_k` with your current chunker — on the same set, and keep it in the harness forever. Every change to chunking, scoring or selection gets measured against it. Without a baseline in the loop, retrieval work degenerates into vibes and every refactor feels like an improvement.
+
+## What this looks like in practice
+
+On a code corpus the pattern that has held up for me: structure-aware chunking with a floor, a dense head plus a lexical head fused by rank, greedy selection against an explicit token ceiling with dedup and one reserved slot, and a response envelope that always states budget, spend, omissions and index age.
+
+The gain is rarely a dramatic jump in recall. It is that recall stays flat while the token spend per question falls by a large factor — and that the failures become visible. A retriever that says "I found two of the four things you probably need, and the index is nine minutes stale" is one an agent can plan around. A retriever that silently returns two chunks and a confident tone is one that produces plausible, wrong work at scale.
+
+---
+
+## Takeaways
+
+- `top_k` answers the wrong question. Retrieval should be given a budget and asked for sufficiency.
+- Chunk where meaning changes; apply a size floor; carry parent context into fragments.
+- Never run a single scoring head — identifiers and error codes are exactly what embeddings lose.
+- Selection is a knapsack, not a slice of a ranking. Dedup, reserve for the large-and-necessary, prefer whole units.
+- Every response states what it is, what it cost, what it omitted, and how fresh the index is.
+- Build the evaluation set before the optimisation, and keep the baseline in the harness forever.
+
+If you are building retrieval over your own documentation, wiki or codebase and want it evaluated rather than vibed, that is the [AI development](/services/ai-development) engagement — and the related read is [persistent agent memory](/blog/persistent-agent-memory), which handles the material that should never have needed retrieving in the first place.
+
+---
+
+### Persistent Agent Memory: Designing for How Memory Actually Fails — 2026-08-07
+
+Source: https://ivannikov.pro/blog/persistent-agent-memory
+
+Give a coding agent a good model and good tools and it will still ask you, for the fourth time this week, why the retry wrapper exists. It is not being slow. It genuinely does not know, because nothing in its world survived the end of the last session.
+
+The obvious fix is a notes file, and the obvious fix rots in about three weeks. This post is about why it rots, and what to build instead. It comes out of the memory layer in [Hilum Tools](/projects/hilum-tools), which I run daily against a multi-repository workspace — including the one this site lives in.
+
+---
+
+## The failure mode is not what you think
+
+When people design a memory store they optimise for recall: *will the agent find the note?* That is the wrong worry. Retrieval failure is loud — the agent asks a question you already answered, you notice, you re-answer, life continues. Annoying, bounded, self-correcting.
+
+The failure that actually hurts is silent. The agent finds a note, the note is wrong or stale or one of five near-copies that disagree, and the agent proceeds with total confidence. You do not get a question. You get a pull request built on a convention that was abandoned two months ago, and you find out in review — or you do not.
+
+Two mechanisms produce almost all of it:
+
+**Near-duplicates fragment retrieval.** Five slightly different notes about the same convention split the signal. Each individually looks authoritative and each carries a different detail. Whichever one wins the ranking becomes the truth for that session, and it is a coin flip which one that is.
+
+**Stale entries outrank current ones.** A note written when the decision was fresh is detailed, well-phrased and rich in the exact vocabulary of the question. Its replacement is terse, because by then everybody knew. The old one wins on every similarity metric you can name. Recency is the one signal that would save you, and it is the one most stores weight lowest.
+
+Both failures are created at **write** time and merely revealed at read time. That single observation dictates the whole design.
+
+## Rule one: the rules run at write time
+
+If you enforce hygiene when reading, you are trying to repair a corpus you already corrupted, on the hot path, with a latency budget. It does not work, and it is expensive to attempt.
+
+Enforce at write instead, where you have time, the full corpus, and the author still in the loop:
+
+- **Detect the near-duplicate as it is written, and say so.** Not silently merge — report. "This is 0.91 similar to a record from June; update that one instead?" The author is right there and knows which is true. A merge decided by cosine similarity is a guess made by the component least qualified to make it.
+- **Archive, never delete.** A superseded record still answers "why did we do it the old way", which is exactly the question that comes up when someone proposes doing it the old way again. Archived records leave the default retrieval path and stay reachable on request.
+- **Require a type.** An untyped bag of text cannot be reasoned about. Four types cover almost everything in practice, and each has different lifetime and different retrieval weight.
+
+| Type | Holds | Lifetime |
+| --- | --- | --- |
+| **Decision** | A choice made, the alternatives, and why. The *why* is the payload — a decision without it is just a fact. | Long. Superseded, not deleted. |
+| **Pitfall** | A trap already paid for, and the symptom that identifies it. | Long. The most valuable class per byte. |
+| **Convention** | How things are done here, where the code does not make it obvious. | Medium. Drifts; needs review. |
+| **State** | What is in flight, what is last-green, what is blocked. | Short. Must expire or it becomes a lie. |
+
+The State type is the one people get wrong. A "current status" record with no expiry becomes actively harmful within days — it is a confident, specific, wrong description of the world, and it is the sort of thing an agent will act on without hesitation. Either it carries an expiry, or it is derived from ground truth (git, CI, the tracker) rather than stored.
+
+## Rule two: reading is automatic, writing is deliberate
+
+Asymmetry is the point.
+
+**Reading must cost nothing.** If the agent has to decide whether to consult memory, it will skip it exactly when it is under pressure, which is exactly when memory would have helped. The briefing arrives at session start whether it was asked for or not: conventions in force, decisions recently made, known pitfalls in the area being touched, current state. One call, one budgeted response.
+
+**Writing must be a decision.** An agent that writes a note after every task produces a corpus made mostly of restated task descriptions, and that corpus is worse than no corpus — it dilutes the signal and inflates every retrieval. The write bar is a single question: *would a competent engineer joining tomorrow be wrong without this?* Answer no, do not write.
+
+Which produces a short list of things never to store, and this list does more for quality than any ranking improvement:
+
+- Anything the repository already records. Code structure, file layout, the dependency list, what a function does. That is what code intelligence is for; memory duplicating it guarantees the copy goes stale while the original does not.
+- Anything git already records. Who changed what, when, and the message they left.
+- Session narrative. "Tried X, it failed, tried Y" is context for the current conversation, not knowledge. It dies with the session, correctly.
+- Anything already in a rule file or an ADR. Point at it; do not restate it. A restated fact is a second source of truth, and a second source of truth is a future contradiction.
+
+## Rule three: scope is part of the record
+
+A note about "our commit-message convention" is true in one repository and false next door. A note about "how I like reviews structured" is true across every repository this person touches. Storing both in the same undifferentiated pile means one of them will leak into the wrong context and be wrong there with full confidence.
+
+Three scopes are enough:
+
+- **Repository** — travels with the repo, shared with whoever clones it.
+- **Host-global** — this machine, this operator, every project. Preferences, environment quirks, personal workflow.
+- **Team / organisation** — shared across members and repositories, and the only scope that needs access control.
+
+Get this wrong and you get the two classic complaints about agent memory: "it keeps applying another project's rules here", and "I have to teach it the same thing in every repository".
+
+## Rule four: the store reports its own health
+
+Memory is the one subsystem where being trusted is the whole product. So it has to be inspectable, and the inspection has to be cheap enough that it actually happens.
+
+Track and surface: total records by type and scope; the near-duplicate cluster count; the archived-to-active ratio; the age distribution, specifically what fraction of State records are past their expiry; and the contradiction count — pairs of active records that assert opposite things about the same subject.
+
+That last one is the alarm. A store with contradictions is not a store with a small quality problem; it is a store whose every answer is now a coin flip, and it will keep serving those answers with the same confident tone as before.
+
+---
+
+## What to measure
+
+The honest metrics for a memory layer are behavioural, not internal:
+
+- **Repeated-question rate.** How often the agent asks something the corpus already answers. Falls fast when memory starts working; the easiest win to demonstrate.
+- **Repeat-mistake rate.** How often a pitfall already recorded gets stepped in again. Slower to move, worth far more.
+- **Cold-start tokens.** Tokens spent between session start and first useful edit. A briefing should collapse this dramatically — that is the whole economic argument.
+- **Contradiction count.** Should be zero, and any non-zero value should be visible without anyone going looking.
+
+## The short version
+
+- Design against confident wrongness, not against not-found. Retrieval failure is loud and self-correcting; stale confidence is silent and compounds.
+- Enforce hygiene at write time, with the author present. Read time is too late and too expensive.
+- Report near-duplicates rather than merging them. Archive rather than delete.
+- Type every record. Give State an expiry or derive it from ground truth.
+- Read automatically, write deliberately. Never store what the repository or git already records.
+- Scope every record: repo, host, team.
+- Make the store report its own health, and treat contradictions as an alarm.
+
+Memory handles what should never have needed searching. The material that genuinely does need searching is the subject of [token-budgeted retrieval](/blog/token-budgeted-retrieval); running several agents against one repository without them tripping over each other is [the next problem along](/blog/many-agents-one-repository). If you want this layer built into your own stack, that is the [AI development](/services/ai-development) engagement.
+
+---
+
+### Many Agents, One Repository: Coordination Without a Supervisor — 2026-08-09
+
+Source: https://ivannikov.pro/blog/many-agents-one-repository
+
+The first time you run two coding agents at once it feels like free throughput. The second time, one of them commits a file the other was halfway through rewriting, and you spend the evening reconstructing what happened from a git reflog.
+
+That is the whole lesson, and it arrives early: **one agent is a tooling problem, several agents on one repository is a distributed-systems problem.** Everything you already know about concurrency applies — mutual exclusion, liveness, failure detection, orphan cleanup — except the workers are non-deterministic, can hang for reasons that never repeat, and will confidently report success for work they did not do.
+
+What follows is the set of failures I actually hit running a fleet against a multi-repository workspace, and the coordination model in [Hilum Tools](/projects/hilum-tools) that removes them. None of it needs a supervisor process. All of it can be built into an existing setup incrementally.
+
+---
+
+## Failure 1 — two workers claim the same slice
+
+The naive dispatcher hands out a task list and trusts everyone to stay in their lane. This works until two tasks touch one file, or until a worker finishes early, looks for more work, and picks up something already in progress.
+
+The fix is not politeness, it is arbitration at the point of hand-out. There is exactly one place work becomes owned — a `claim_next` operation that atomically selects an unclaimed item, marks it owned by a worker id, and returns it. Never "here is the list, pick one". A worker that wants work asks for work and is told what it got.
+
+Two properties matter beyond the atomicity:
+
+- **A claim carries a lease, not a lock.** A worker that dies holding a permanent lock stalls the queue forever. A lease expires, the item returns to the pool, and someone else picks it up. The worker that comes back from the dead finds its claim gone and stops — which is the correct behaviour, not a bug to be worked around.
+- **The claim states the blast radius.** Which paths, which repository, which package. That is what makes the next failure preventable rather than merely detectable.
+
+## Failure 2 — parallel edits corrupt each other
+
+Two agents editing one working tree is not concurrency, it is data loss with extra steps. The failure modes are specific and all of them are ugly: one worker's `git add -A` sweeps up another's half-written file; a formatter hook runs across a module that is mid-rewrite and fails, blocking a commit that had nothing to do with it; a build that one agent needs green is red because another agent is three files into a refactor.
+
+Isolation is the only real answer, and the cheapest form of it is already in git: **give each worker its own worktree.** Same repository, same object store, separate checkout and separate index. Parallel edits cannot see each other, hooks run against a coherent tree, and the merge happens once, deliberately, at the end.
+
+It is not free — a few hundred milliseconds and some disk per worker — so it is worth being precise about when you need it. Overlapping paths, shared build artifacts, or anything that runs commit hooks: isolate. Genuinely disjoint work in separate repositories: do not bother.
+
+And regardless of isolation, one rule earns its place in every agent instruction file I maintain: **never `git add -A` while another worker is live in the same tree.** Stage explicit paths. This single line has prevented more incidents than any amount of clever tooling.
+
+## Failure 3 — output dies with the process
+
+A worker finishes, writes its result to stdout, and exits. The parent was busy, or restarted, or the pipe buffer filled. The work happened; the record of it did not. You now have a repository in a state nobody can explain and no artifact describing why.
+
+Treat worker output as durable state, not as a stream. Write it to a location that outlives the process — a file, a queue, a table — as it is produced, not at the end. The reader then polls that location and is free to be absent, slow, or restarted without losing anything.
+
+The same applies to handoff. When agent A's work becomes agent B's input, that transfer should not be "A tells B" — a message in flight when either side dies is a message lost. It should be "A writes to a durable mailbox, B reads from it when it is ready". B picks up exactly where A stopped, with no re-briefing, and neither one needs the other to be alive at the same moment.
+
+## Failure 4 — the silent hang
+
+This is the expensive one, because it costs wall-clock rather than correctness, and because you often do not notice for hours.
+
+An agent waits on a container that will never start, a prompt that will never be answered, a network call with no timeout. It is not crashed — crashed is easy, crashed produces an exit code. It is alive, idle, and producing nothing, and every naive liveness check says it is fine.
+
+Two mechanisms, in this order:
+
+**Event-driven completion is primary.** When a worker finishes, it says so, and that notification wakes the orchestrator. This is the normal path and it should carry essentially all of the traffic.
+
+**A watchdog is the backstop.** A timer set when work is dispatched, long — tens of minutes, not seconds — whose only job is to ask "is this still alive?" if no completion event has arrived. Long intervals matter for a reason people underestimate: a short polling loop is not merely wasteful, it also fails to detect the hang. Polling tells you the process exists. It does not tell you the process is doing anything.
+
+For "doing anything", check ground truth instead of process state: is the working tree changing, is a compiler running, has a commit landed since the last check? A worker that has produced no filesystem movement and no child-process activity for N minutes is hung, regardless of what its status field says.
+
+Then, having detected it: **kill the process group, not the process.** A stopped parent with running children is the worst of all states — the orchestrator believes the slot is free, dispatches into it, and now two workers really are in the same tree. And after the kill, recover rather than discard: hung agents have usually staged real, verified work that just needs committing.
+
+---
+
+## The minimal protocol
+
+Everything above collapses to five rules that can be added to an existing setup one at a time, roughly in order of return:
+
+1. **One place work becomes owned.** Atomic claim with a lease and a stated blast radius. No "pick from the list".
+2. **Isolate anything with overlapping paths.** A worktree per worker; stage explicit paths, never `-A`.
+3. **Durable output and durable handoff.** Results and messages survive the process that produced them.
+4. **Event-driven completion, long-interval watchdog.** Liveness checked against ground truth — tree movement, child processes, commits — not against a status field.
+5. **Verify independently before believing.** A worker reporting success is a claim, not evidence. Re-run the check yourself.
+
+That last one is not a distributed-systems rule, it is an agent rule, and it is the one that catches the most. Self-reported success is the single least reliable signal in the system — not because the agent is lying, but because "I ran the tests" and "the tests passed" are different statements that language models conflate under pressure. Anything load-bearing gets re-verified by whoever is going to act on it.
+
+## What not to parallelise
+
+Throughput is not the only axis, and some work is simply cheaper serially:
+
+- **Anything touching the same module.** Merge conflict resolution between two agents costs more than the sequential run saved.
+- **Anything writing to a shared index or lockfile.** Two `pnpm install` runs against one store, two indexers writing one database — the contention costs more than the concurrency wins.
+- **The first pass of unfamiliar work.** Run one agent, see how it fails, encode the lesson, then parallelise. Fanning out before you know the failure mode multiplies the failure rather than the output.
+
+---
+
+## Takeaways
+
+- One agent is tooling; several on one repository is distributed systems. Treat it that way from the first parallel run.
+- Ownership is arbitrated where work is handed out, with a lease — never by convention.
+- Isolate overlapping work in separate worktrees; stage explicit paths.
+- Output and handoff must outlive the processes that created them.
+- Completion is event-driven; the watchdog is a long-interval backstop; liveness is measured against ground truth.
+- Kill the process group, then recover the staged work rather than discarding it.
+- Never act on a self-report you have not independently verified.
+
+The other half of making a fleet cheap is making each agent stop re-learning the repository: [persistent memory](/blog/persistent-agent-memory) for what it should already know, and [token-budgeted retrieval](/blog/token-budgeted-retrieval) for what it has to look up. If you want an orchestration layer designed for your own stack, that is the [AI development](/services/ai-development) engagement.
+
+---
+
+### The Cold-Start Tax: Why Your Coding Agent Re-Reads the Repo Every Session — 2026-08-11
+
+Source: https://ivannikov.pro/blog/agent-cold-start-tax
+
+Open a fresh session in Claude Code or Cursor on a repository you have worked in for months, and watch what the agent does before it writes a single line.
+
+It lists directories. It greps for a symbol and gets forty hits. It opens six files whole to find out which of the forty matter. It follows an import chain by hand. It reads a config to work out how the thing is wired. Somewhere in there it asks you a question you answered on Tuesday.
+
+None of that is the task. All of it is billed. And tomorrow it happens again, identically, because nothing the agent worked out today survived the end of the session.
+
+I call this the cold-start tax, and once you start measuring it rather than feeling it, it turns out to be the largest single line item in most agent workflows — larger than the actual editing, often by a wide margin.
+
+---
+
+## Where the tokens actually go
+
+Strip a few dozen agent transcripts down to what was being *investigated* rather than *changed*, and the same four questions come back in nearly every session:
+
+1. **What is the shape of this thing?** Directory layout, module boundaries, what lives where. Re-derived by listing and opening.
+2. **Where is X defined, and who calls it?** Answered by grep, which returns every string match including comments, tests, and the unrelated variable with a similar name. The agent then opens files to disambiguate.
+3. **What does this library actually do in this version?** Answered from training data, which is frequently a major version behind, then corrected the hard way when the call signature is wrong.
+4. **What was decided here, and why?** Usually not answered at all. The agent proposes something that was tried and rejected six months ago, and either you catch it in review or you do not. Making that answerable is [the decision graph](/blog/decision-graph).
+
+Each of those is cheap once. The problem is that none of them are *once*. They are per session, per agent, and — if you run several agents in parallel — per worker. Five agents on one repository pay the cold-start tax five times, in parallel, for identical information.
+
+## Why a bigger context window does not fix it
+
+The intuitive response is to throw the whole repository at a large-context model and stop worrying. It does not work, for three separate reasons.
+
+**Cost scales with what you send, not with what you needed.** Loading 400,000 tokens of repository to answer a question that needed 3,000 is not thoroughness, it is a bill. Multiply by every session and every worker.
+
+**Attention degrades before the window does.** A model with a very large window is not uniformly good across it. Material in the middle of an enormous context gets attended to less reliably than material near the edges — so the answer arrives less accurate *and* more expensive, which is the worst of both directions.
+
+**It is stale by construction.** A repository dump is a snapshot. The moment another worker commits, or you switch branches, the context describes a tree that no longer exists — and nothing in the prompt tells the model that. Confident answers about code that changed are worse than no answers.
+
+The fix is not more context. It is *the right context, resolved, at the moment it is needed* — and, for the things that do not change per task, not re-deriving them at all.
+
+## Three layers that actually remove it
+
+### Layer 1 — the instruction layer (cheapest, do this first)
+
+Most repositories tell an agent nothing about how to work in them. Everything the team knows — where things live, what the conventions are, which directories are load-bearing and which are archived — lives in people's heads and in review comments.
+
+Writing it down is unglamorous and has the best return of anything on this list, because it is pure text a model reads once per session at negligible cost:
+
+- **An `AGENTS.md` / `CLAUDE.md` at the root** with the rules that actually matter: commit conventions, what must never be edited, which commands verify a change, the language and formatting policy.
+- **Navigation indexes** — one per directory of any size, saying what lives there. This replaces the "list and open six files" reflex with a single read.
+- **Per-directory rules** where a subtree has its own conventions, with a clear precedence rule (nearest ancestor wins).
+- **A reading manifest** for common task types: "before touching billing, read these four documents."
+
+A useful discipline here: keep genres separate. A file that says *what lives here* is not the file that says *how to work here*, and neither is the human-facing README. Mixing them produces a document nobody maintains and the agent half-reads.
+
+### Layer 2 — the retrieval layer
+
+Grep is a string matcher pretending to be a code-intelligence tool. It cannot distinguish a definition from a mention in a comment, it does not know that a method is an implementation of an interface, and it returns forty results when one is correct.
+
+Replace the common investigations with structural operations: go-to-definition, find-references, call hierarchy, project structure. These are resolved answers rather than string matches, and they return in tens of tokens what a grep-and-open cycle spends thousands on.
+
+For the fuzzy questions where you do not know the exact string, the retrieval layer needs a budget rather than a `top_k`. That is a topic of its own — see [token-budgeted retrieval](/blog/token-budgeted-retrieval) for how selection under a token ceiling is built and measured.
+
+### Layer 3 — the memory layer
+
+Layers 1 and 2 make investigation cheap. Layer 3 removes it, for everything that does not change per task: decisions and their reasoning, pitfalls already paid for, conventions the code does not make obvious, and the current state of what is in flight.
+
+The trap is that a naive notes file rots within weeks — near-duplicates fragment retrieval, and stale entries outrank current ones because they are wordier. The rules have to run at write time rather than read time. [Persistent agent memory](/blog/persistent-agent-memory) covers the design in full.
+
+And if you are running more than one agent, the coordination failures are their own category — double claims, silent hangs, output lost with the process. That is [many agents, one repository](/blog/many-agents-one-repository).
+
+---
+
+## Measure it before you fix it
+
+The argument for any of this collapses without numbers, and the numbers are easy to collect. Take ten representative tasks and record, per task:
+
+| Metric | How to read it |
+| --- | --- |
+| **Tokens to first useful edit** | The cold-start tax itself. The gap between session start and the first line of real work. |
+| **Total tokens per completed task** | The headline cost. Should fall alongside the first metric, and by more. |
+| **Wrong-file edits** | How often the agent modified something it should not have. A structure problem, not a model problem. |
+| **Repeated questions** | Questions the agent asks that it asked before. Directly measures whether memory is working. |
+| **Wall-clock to first review-ready diff** | What you actually feel. Includes the investigation the token count hides. |
+
+Then apply Layer 1 only — a day of writing, no tooling — and re-run the same ten tasks. In my experience the first two metrics move immediately and substantially, which is usually enough to justify Layers 2 and 3 to whoever controls the budget.
+
+## The order that works
+
+1. **Write the instruction layer.** A day. No new dependencies. Largest return per hour spent.
+2. **Measure.** Ten tasks, before and after. You need the baseline to argue for anything further.
+3. **Add structural code intelligence.** Definition, references, call hierarchy over MCP, so the agent stops grepping.
+4. **Add memory.** Decisions, pitfalls, conventions, state — read automatically, written deliberately.
+5. **Only then parallelise.** Fanning out before the cold-start tax is fixed multiplies the tax by the number of workers.
+
+That order is not arbitrary. Every step makes the next one cheaper, and skipping to step five — which is what most teams do, because parallel agents look like the exciting part — buys you five agents each paying full price for the same rediscovery.
+
+---
+
+## Where this comes from
+
+The three layers above are the shape of [Hilum Tools](/projects/hilum-tools), the MCP platform I build and run daily against a multi-repository workspace: nine tool domains over a single server, giving agents resolved structure, budgeted retrieval, durable memory, decision provenance and coordination — instead of grep and a guess.
+
+Underneath all three layers sits one rule worth reading on its own: when the consumer of a service is an agent rather than a human, [an answer has to state its own reliability](/blog/agent-facing-services). Everything above is a consequence of taking that seriously.
+
+If you would rather have this done to your codebase than build it yourself, that is the [AI development](/services/ai-development) engagement — an audit of how agents currently fail on your repository, the instruction layer written, the tooling wired, and a written handover of what changed and why.
 
 ---
