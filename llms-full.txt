@@ -438,7 +438,7 @@ Standard AI coding assistants (Cursor, Copilot, Windsurf) are powerful, but they
 
 ## The Solution
 
-AI Agent Kit is an open-source CLI toolkit that installs a curated, battle-tested collection of specialized skills, workflows, and MCP configs directly into your project's \`.agents/\` directory. With one simple command, your AI instantly learns how to work inside your repository.
+AI Agent Kit is an open-source CLI toolkit that installs a curated, battle-tested collection of specialized skills, workflows, and MCP configs directly into your project's `.agents/` directory. With one simple command, your AI instantly learns how to work inside your repository.
 
 ## The Outcome
 
@@ -596,8 +596,6 @@ Want it pointed at your codebase, or something like it built for your stack? Tha
 
 Source: https://ivannikov.pro/blog/blockchain-market-overview
 
-# Blockchain Market Overview
-
 The blockchain landscape has evolved significantly over the past few years. We are now seeing mature DeFi protocols, robust L2 infrastructure, and massive adoption of specific use cases like Telegram Mini Apps.
 
 ## Key Trends
@@ -616,8 +614,6 @@ The infrastructure phase is largely behind us. The market now rewards actual end
 
 Source: https://ivannikov.pro/blog/future-of-web3
 
-# The Future of Web3
-
 Content coming soon.
 
 ---
@@ -625,8 +621,6 @@ Content coming soon.
 ### Smart Contracts Security Checklist — 2026-03-26
 
 Source: https://ivannikov.pro/blog/smart-contracts-security
-
-# Smart Contracts Security
 
 Content coming soon.
 
@@ -636,8 +630,6 @@ Content coming soon.
 
 Source: https://ivannikov.pro/blog/telegram-mini-apps-guide
 
-# Telegram Mini Apps
-
 Content coming soon.
 
 ---
@@ -646,8 +638,6 @@ Content coming soon.
 
 Source: https://ivannikov.pro/blog/defi-protocols-comparison
 
-# DeFi Protocols Comparison
-
 Content coming soon.
 
 ---
@@ -655,8 +645,6 @@ Content coming soon.
 ### 26 Criteria for AI-Readiness: How I Audited My Own Site (and Beat Three B2B SaaS Giants) — 2026-05-16
 
 Source: https://ivannikov.pro/blog/ai-readiness-self-audit
-
-# 26 Criteria for AI-Readiness: How I Audited My Own Site (and Beat Three B2B SaaS Giants)
 
 In May 2026 I ran a structured 26-criterion AI-readiness audit on my own site `ivannikov.pro`. Starting score: ~42/100. One day of fixes later: **80/100**. Then I ran the same audit on Stripe, Twilio, and Linear. **Twilio and Linear failed the E1 pre-condition gate** — their public sites cannot be parsed by LLM crawlers without JavaScript. Stripe scored **55/100**, missing fundamentals like `llms-full.txt` and explicit AI-policy in `robots.txt`.
 
@@ -844,8 +832,6 @@ If you found this useful: [follow me on X](https://x.com/ivannikov_pro), [Telegr
 ### Best GEO Tools 2026: Comparison of 10 AI Visibility Platforms — 2026-05-16
 
 Source: https://ivannikov.pro/blog/best-geo-tools-2026
-
-# Best GEO Tools 2026: Comparison of 10 AI Visibility Platforms
 
 The Generative Engine Optimization (GEO) tooling market matured fast in 2025–2026. Profound hit $1B valuation. Semrush and Ahrefs added AI Visibility modules. Dozens of startups occupy tiers from $29/mo budget monitoring to $5K/mo enterprise tracking.
 

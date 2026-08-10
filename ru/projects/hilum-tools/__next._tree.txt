@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/17u6iq~lfvm9r.css","style"]
-:HL["/_next/static/chunks/0fobo_aju2nuo.css","style"]
+:HL["/_next/static/chunks/0yssw3y12858m.css","style"]
+:HL["/_next/static/chunks/07fl1h2yzbi1b.css","style"]
 :HC["/",""]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"hilum-tools","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"OBlF7ip744YvUSP2BQqI8"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"projects","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"hilum-tools","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"DifrmAEC1j-pkPCnIHC9z"}
